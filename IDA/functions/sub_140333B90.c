@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140333B90) ----------------------------------------------------
 signed int __fastcall sub_140333B90(IPAddr DestinationAddress, DWORD Timeout, _DWORD* a3)
 {

@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001403DAB40) ----------------------------------------------------
 void __fastcall sub_1403DAB40(__int64 a1, __int64 a2, __int64 a3, int a4, int a5, unsigned int a6, int a7)
 {

@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140884CC0) ----------------------------------------------------
 __int64 __fastcall sub_140884CC0(_DWORD* lpParameter, __int64 a2, int a3)
 {

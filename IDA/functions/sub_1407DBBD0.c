@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407DBBD0) ----------------------------------------------------
 void __fastcall __noreturn sub_1407DBBD0(int a1)
 {

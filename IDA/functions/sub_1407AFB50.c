@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407AFB50) ----------------------------------------------------
 __int64 __fastcall sub_1407AFB50(volatile signed __int32* a1)
 {

@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001404EF920) ----------------------------------------------------
 __int64 __fastcall sub_1404EF920(__int64 a1, FILETIME a2, unsigned __int16* a3, unsigned __int16* a4)
 {

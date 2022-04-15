@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001403EC440) ----------------------------------------------------
 LRESULT __fastcall sub_1403EC440(__int64 a1, HWND a2, UINT a3, WPARAM a4, LPARAM lParam)
 {

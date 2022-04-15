@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001400F2730) ----------------------------------------------------
 __int64 __fastcall sub_1400F2730(__int64 a1, int a2, int a3, int a4, LARGE_INTEGER PerformanceCount, __int64 a6)
 {

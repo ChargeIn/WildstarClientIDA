@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001401C3FB0) ----------------------------------------------------
 void __fastcall fnInternetCallback(
 	HINTERNET hInternet,

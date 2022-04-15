@@ -1,3 +1,7 @@
+#include "../winhttp.h"
+
+#include "../winhttp.h"
+
 //----- (000000014019F950) ----------------------------------------------------
 __int64 __fastcall StartAddress(_DWORD* lpThreadParameter)
 {

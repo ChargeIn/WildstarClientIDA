@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001408FEBE0) ----------------------------------------------------
 double __fastcall sub_1408FEBE0(double result)
 {

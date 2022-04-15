@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140190F70) ----------------------------------------------------
 BOOL __fastcall sub_140190F70(__int64 a1, void* a2, void* a3, struct _tagSTACKFRAME64* a4, void* a5, __int64 a6)
 {

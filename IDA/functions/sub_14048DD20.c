@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014048DD20) ----------------------------------------------------
 __int64 __usercall sub_14048DD20@<xmm0>(__int64 a1@<rcx>, unsigned int a2@<edx>, char a3@<r8b>)
 {

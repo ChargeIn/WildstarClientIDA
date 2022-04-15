@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014048BF80) ----------------------------------------------------
 FILETIME* __fastcall sub_14048BF80(FILETIME* a1, FILETIME* a2)
 {

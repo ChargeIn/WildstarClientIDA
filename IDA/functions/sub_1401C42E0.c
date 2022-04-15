@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001401C42E0) ----------------------------------------------------
 BOOL __fastcall sub_1401C42E0(HINTERNET hInternet, __int64 a2, int a3)
 {

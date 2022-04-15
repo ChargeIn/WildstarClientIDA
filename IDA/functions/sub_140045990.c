@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140045990) ----------------------------------------------------
 LRESULT __fastcall sub_140045990(__int64 a1, HWND a2, __int64 a3, __int64 a4, unsigned __int64 a5)
 {

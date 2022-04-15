@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407E2CAC) ----------------------------------------------------
 LPVOID __fastcall sub_1407E2CAC(LPVOID lpMem, SIZE_T dwBytes)
 {

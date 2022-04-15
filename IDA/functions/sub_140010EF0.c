@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140010EF0) ----------------------------------------------------
 __int64 __fastcall sub_140010EF0(__m128i* lpApplicationName, __int64 a2, unsigned __int64 a3)
 {

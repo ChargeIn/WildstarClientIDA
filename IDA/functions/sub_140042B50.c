@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140042B50) ----------------------------------------------------
 __int64 __fastcall sub_140042B50(__int64 a1, HWND a2, UINT a3, WPARAM a4, LPARAM lParam)
 {

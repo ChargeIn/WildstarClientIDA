@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407DD8D8) ----------------------------------------------------
 const __m128i* __fastcall sub_1407DD8D8(const __m128i* a1, unsigned __int16 a2)
 {

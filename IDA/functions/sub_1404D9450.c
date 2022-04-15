@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001404D9450) ----------------------------------------------------
 void __fastcall sub_1404D9450(__m128* a1, unsigned int a2, double a3, double a4, __int64 a5)
 {

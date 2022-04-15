@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001402DC9A0) ----------------------------------------------------
 __int64 __fastcall sub_1402DC9A0(volatile signed __int32* a1, _DWORD* a2, __int64* a3)
 {

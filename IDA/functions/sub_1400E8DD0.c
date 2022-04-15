@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001400E8DD0) ----------------------------------------------------
 _BYTE* __fastcall sub_1400E8DD0(unsigned int a1)
 {

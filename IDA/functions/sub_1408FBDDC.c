@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001408FBDDC) ----------------------------------------------------
 _WORD* __fastcall sub_1408FBDDC(_WORD* a1, _WORD* a2)
 {

@@ -1,4 +1,11 @@
+#include "../winhttp.h"
+
 //----- (00000001404F2860) ----------------------------------------------------
+#include "../winhttp.h"
+#include "sub_1400580E0.c"
+#include "sub_140057020.c"
+#include "sub_140062650.c"
+
 __int64 __fastcall sub_1404F2860(_QWORD* a1)
 {
 	__int64 v2; // rax

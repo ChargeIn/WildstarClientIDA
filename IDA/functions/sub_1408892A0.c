@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001408892A0) ----------------------------------------------------
 __int64 __fastcall sub_1408892A0(LPVOID lpParameter, int* a2)
 {

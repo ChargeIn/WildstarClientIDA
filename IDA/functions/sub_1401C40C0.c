@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001401C40C0) ----------------------------------------------------
 void __fastcall sub_1401C40C0(
 	HINTERNET hInternet,

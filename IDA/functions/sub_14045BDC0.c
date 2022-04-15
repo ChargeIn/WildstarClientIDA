@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014045BDC0) ----------------------------------------------------
 _DWORD* __fastcall sub_14045BDC0(__int64 a1, int a2, int a3, double a4)
 {

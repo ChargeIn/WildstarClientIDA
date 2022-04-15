@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140527540) ----------------------------------------------------
 unsigned __int64 __fastcall sub_140527540(struct _FILETIME a1)
 {

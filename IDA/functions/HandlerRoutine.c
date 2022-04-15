@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407E09A8) ----------------------------------------------------
 __int64 __fastcall HandlerRoutine(DWORD CtrlType)
 {

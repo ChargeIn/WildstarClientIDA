@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001400EC7D0) ----------------------------------------------------
 bool __fastcall sub_1400EC7D0(__int64 a1, const char* a2)
 {

@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014083EDE0) ----------------------------------------------------
 __int64 __fastcall sub_14083EDE0(LPCRITICAL_SECTION lpCriticalSection, unsigned int a2)
 {

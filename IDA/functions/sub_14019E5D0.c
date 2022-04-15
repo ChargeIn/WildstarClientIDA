@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014019E5D0) ----------------------------------------------------
 PVOID* __fastcall sub_14019E5D0(PVOID* BackTrace, __int64 a2, int a3)
 {

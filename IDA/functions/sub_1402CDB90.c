@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001402CDB90) ----------------------------------------------------
 unsigned __int64 __fastcall sub_1402CDB90(_QWORD* a1, int a2)
 {

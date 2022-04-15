@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014034C240) ----------------------------------------------------
 __int64 __fastcall sub_14034C240(LPCWSTR lpValue, __int64 lpNumberStr, unsigned __int64 a3, __int64 a4)
 {

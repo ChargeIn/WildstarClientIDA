@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140191280) ----------------------------------------------------
 BOOL __fastcall sub_140191280(void* a1, DWORD64 a2, unsigned __int64* a3, struct _SYMBOL_INFO* a4)
 {

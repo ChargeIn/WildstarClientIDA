@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001401B3450) ----------------------------------------------------
 char* __fastcall sub_1401B3450(char* lpBuffer, __int64 nSize, DWORD a3)
 {

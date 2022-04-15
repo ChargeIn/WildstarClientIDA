@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407E7A28) ----------------------------------------------------
 __int64 __fastcall LocaleEnumProc(LPWSTR a1)
 {

@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407F1094) ----------------------------------------------------
 LARGE_INTEGER __fastcall sub_1407F1094(int a1, LARGE_INTEGER a2, DWORD a3)
 {

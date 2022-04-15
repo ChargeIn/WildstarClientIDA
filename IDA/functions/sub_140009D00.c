@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140009D00) ----------------------------------------------------
 __int64 __fastcall sub_140009D00(HWND hWnd, UINT Msg, WPARAM wParam, _DWORD* lParam)
 {

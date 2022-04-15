@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140334CF0) ----------------------------------------------------
 struct sockaddr* __fastcall sub_140334CF0(struct sockaddr* name, SOCKET s)
 {

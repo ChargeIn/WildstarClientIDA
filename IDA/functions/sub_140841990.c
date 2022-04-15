@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140841990) ----------------------------------------------------
 __int64 __fastcall sub_140841990(struct _RTL_CRITICAL_SECTION* a1, _QWORD* a2)
 {

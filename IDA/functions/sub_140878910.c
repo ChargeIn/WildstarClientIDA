@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140878910) ----------------------------------------------------
 HRESULT __fastcall sub_140878910(LPVOID* a1, unsigned int a2, unsigned int a3)
 {

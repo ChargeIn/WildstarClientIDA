@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140824800) ----------------------------------------------------
 HMODULE __fastcall sub_140824800(const char* a1, DWORD a2, int a3)
 {

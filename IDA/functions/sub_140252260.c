@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140252260) ----------------------------------------------------
 struct tagPOINT __fastcall sub_140252260(struct tagPOINT a1, int a2)
 {

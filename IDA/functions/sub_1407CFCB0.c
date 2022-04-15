@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407CFCB0) ----------------------------------------------------
 const void**** __fastcall sub_1407CFCB0(__int64 a1, __int64 a2, __int64 a3, __int64 a4)
 {

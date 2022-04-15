@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014033BDE0) ----------------------------------------------------
 __int64 __fastcall sub_14033BDE0(__int64 a1, _QWORD* a2, struct sockaddr* a3)
 {

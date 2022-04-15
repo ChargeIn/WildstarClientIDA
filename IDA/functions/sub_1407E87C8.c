@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407E87C8) ----------------------------------------------------
 int __fastcall sub_1407E87C8(__int64 a1, __int64 a2, const WCHAR* a3, __int64 a4, WCHAR* lpDestStr, int cchDest)
 {

@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014077FD20) ----------------------------------------------------
 void __fastcall sub_14077FD20(_DWORD* a1, unsigned int a2)
 {

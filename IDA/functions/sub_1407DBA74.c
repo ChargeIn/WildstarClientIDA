@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407DBA74) ----------------------------------------------------
 __int64 __fastcall sub_1407DBA74(LPCCH lpMultiByteStr, LPVOID* a2)
 {

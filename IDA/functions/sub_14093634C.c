@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014093634C) ----------------------------------------------------
 // local variable allocation has failed, the output may be wrong!
 double __fastcall sub_14093634C(double result)

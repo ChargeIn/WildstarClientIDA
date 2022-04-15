@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407F3AFC) ----------------------------------------------------
 unsigned __int64 __fastcall sub_1407F3AFC(
 	LPSTR lpMultiByteStr,

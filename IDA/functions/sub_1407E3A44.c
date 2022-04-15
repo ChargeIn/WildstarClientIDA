@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407E3A44) ----------------------------------------------------
 __int64 __fastcall sub_1407E3A44(struct _EXCEPTION_POINTERS* ExceptionInfo)
 {

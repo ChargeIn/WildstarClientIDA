@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407E25B0) ----------------------------------------------------
 struct _IMAGE_RUNTIME_FUNCTION_ENTRY* __fastcall sub_1407E25B0(PCONTEXT ContextRecord)
 {

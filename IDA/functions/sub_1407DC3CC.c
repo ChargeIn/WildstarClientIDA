@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407DC3CC) ----------------------------------------------------
 PVOID __fastcall sub_1407DC3CC(PVOID Ptr)
 {

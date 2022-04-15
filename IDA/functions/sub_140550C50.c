@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140550C50) ----------------------------------------------------
 int* __fastcall sub_140550C50(__int64 a1, __int64 a2, unsigned int a3, _DWORD* a4)
 {

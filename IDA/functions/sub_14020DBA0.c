@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014020DBA0) ----------------------------------------------------
 __int64 sub_14020DBA0(void(__fastcall*** a1)(_QWORD), __int64* a2, unsigned __int16* a3, ...)
 {

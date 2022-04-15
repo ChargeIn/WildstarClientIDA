@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407F05F8) ----------------------------------------------------
 char* __fastcall sub_1407F05F8(LPVOID lpMem, unsigned __int64 a2, unsigned __int64 a3)
 {

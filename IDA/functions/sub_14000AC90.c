@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014000AC90) ----------------------------------------------------
 signed int __fastcall sub_14000AC90(__int64 a1, HINSTANCE a2, int a3)
 {

@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014083E180) ----------------------------------------------------
 __int64 __fastcall sub_14083E180(HANDLE* lpThreadParameter)
 {

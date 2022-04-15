@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001403EAA20) ----------------------------------------------------
 void __fastcall sub_1403EAA20(const void** a1, const void**** a2)
 {

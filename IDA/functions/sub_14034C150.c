@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014034C150) ----------------------------------------------------
 signed int __fastcall sub_14034C150(SYSTEMTIME* lpTime, int** a2)
 {

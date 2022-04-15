@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001401D4E40) ----------------------------------------------------
 signed int __fastcall sub_1401D4E40(__int64 a1, const void* a2, DWORD a3, struct _OVERLAPPED* a4)
 {

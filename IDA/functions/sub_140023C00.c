@@ -1,4 +1,17 @@
+#include "../winhttp.h"
+
 //----- (0000000140023C00) ----------------------------------------------------
+#include "../winhttp.h"
+#include "sub_140057020.c"
+#include "sub_140058710.c"
+#include "sub_14005E2C0.c"
+#include "sub_14005C1B0.c"
+#include "sub_1400F06F0.c"
+#include "sub_1404F2860.c"
+#include "sub_14005EA50.c"
+#include "sub_1400580E0.c"
+#include "sub_1404E7F60.c"
+
 __int64 __fastcall sub_140023C00(__int64 a1)
 {
 	_QWORD* v1; // rdi

@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014062C9B0) ----------------------------------------------------
 __int64 __fastcall sub_14062C9B0(struct tagPOINT a1, __int64 a2, _OWORD* a3)
 {

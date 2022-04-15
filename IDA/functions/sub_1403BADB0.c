@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001403BADB0) ----------------------------------------------------
 void __fastcall sub_1403BADB0(__int64 a1, unsigned int a2, unsigned __int8 a3)
 {

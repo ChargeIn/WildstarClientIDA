@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (0000000140774BF0) ----------------------------------------------------
 __int64 sub_140774BF0(__m128* a1, _QWORD* a2, unsigned int* a3, float a4, __int64 a5, int a6, int a7, int a8, ...)
 {

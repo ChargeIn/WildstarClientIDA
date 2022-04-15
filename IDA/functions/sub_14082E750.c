@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (000000014082E750) ----------------------------------------------------
 __int64 __fastcall sub_14082E750(LPCRITICAL_SECTION lpCriticalSection)
 {

@@ -1,3 +1,7 @@
+#include "../winhttp.h"
+
+#include "../winhttp.h"
+
 //----- (00000001400A75D0) ----------------------------------------------------
 __int64 __fastcall sub_1400A75D0(_WORD* a1, struct _FILETIME* a2)
 {

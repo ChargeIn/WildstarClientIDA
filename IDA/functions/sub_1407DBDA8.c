@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407DBDA8) ----------------------------------------------------
 void __fastcall sub_1407DBDA8(UINT uExitCode, int a2, int a3)
 {

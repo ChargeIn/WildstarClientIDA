@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407F00F0) ----------------------------------------------------
 __int64 __fastcall sub_1407F00F0(LPCWSTR lpOutputString, __int64 a2, unsigned int a3)
 {

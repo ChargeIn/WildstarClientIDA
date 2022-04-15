@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001407E2C30) ----------------------------------------------------
 LPVOID __fastcall sub_1407E2C30(SIZE_T dwBytes)
 {

@@ -1,3 +1,5 @@
+#include "../winhttp.h"
+
 //----- (00000001408311F0) ----------------------------------------------------
 void __fastcall sub_1408311F0(LPCRITICAL_SECTION lpCriticalSection)
 {
