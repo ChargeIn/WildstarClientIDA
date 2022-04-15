@@ -1,0 +1,265 @@
+//----- (000000014018DF60) ----------------------------------------------------
+__int64 __fastcall sub_14018DF60(unsigned __int16 a1)
+{
+	unsigned __int64 v3; // rcx
+	unsigned __int64 v4; // rdx
+	__int64 v5; // rax
+	unsigned __int16 v6; // r9
+
+	switch (a1)
+	{
+	case 0xC0u:
+	case 0xC1u:
+	case 0xC2u:
+	case 0xC3u:
+	case 0xC4u:
+	case 0xC5u:
+	case 0xC6u:
+	case 0xE0u:
+	case 0xE1u:
+	case 0xE2u:
+	case 0xE3u:
+	case 0xE4u:
+	case 0xE5u:
+	case 0xE6u:
+	case 0x100u:
+	case 0x101u:
+	case 0x102u:
+	case 0x103u:
+	case 0x104u:
+	case 0x105u:
+	case 0x1CDu:
+	case 0x1CEu:
+	case 0x1FAu:
+	case 0x1FBu:
+		return 97i64;
+	case 0xC7u:
+	case 0xE7u:
+	case 0x106u:
+	case 0x107u:
+	case 0x108u:
+	case 0x109u:
+	case 0x10Au:
+	case 0x10Bu:
+	case 0x10Cu:
+	case 0x10Du:
+		return 99i64;
+	case 0xC8u:
+	case 0xC9u:
+	case 0xCAu:
+	case 0xCBu:
+	case 0xE8u:
+	case 0xE9u:
+	case 0xEAu:
+	case 0xEBu:
+	case 0x112u:
+	case 0x113u:
+	case 0x114u:
+	case 0x115u:
+	case 0x116u:
+	case 0x117u:
+	case 0x118u:
+	case 0x119u:
+	case 0x11Au:
+	case 0x11Bu:
+		return 101i64;
+	case 0xCCu:
+	case 0xCDu:
+	case 0xCEu:
+	case 0xCFu:
+	case 0xECu:
+	case 0xEDu:
+	case 0xEEu:
+	case 0xEFu:
+	case 0x128u:
+	case 0x129u:
+	case 0x12Au:
+	case 0x12Bu:
+	case 0x12Cu:
+	case 0x12Du:
+	case 0x12Eu:
+	case 0x12Fu:
+	case 0x130u:
+	case 0x131u:
+	case 0x1CFu:
+	case 0x1D0u:
+		return 105i64;
+	case 0xD0u:
+	case 0xF0u:
+	case 0x10Eu:
+	case 0x10Fu:
+	case 0x110u:
+	case 0x111u:
+		return 100i64;
+	case 0xD1u:
+	case 0xF1u:
+	case 0x143u:
+	case 0x144u:
+	case 0x145u:
+	case 0x146u:
+	case 0x147u:
+	case 0x148u:
+	case 0x149u:
+	case 0x14Au:
+	case 0x14Bu:
+		return 110i64;
+	case 0xD2u:
+	case 0xD3u:
+	case 0xD4u:
+	case 0xD5u:
+	case 0xD6u:
+	case 0xD8u:
+	case 0xF2u:
+	case 0xF3u:
+	case 0xF4u:
+	case 0xF5u:
+	case 0xF6u:
+	case 0xF8u:
+	case 0x14Cu:
+	case 0x14Du:
+	case 0x14Eu:
+	case 0x14Fu:
+	case 0x150u:
+	case 0x151u:
+	case 0x1A0u:
+	case 0x1A1u:
+	case 0x1D1u:
+	case 0x1D2u:
+	case 0x1FEu:
+	case 0x1FFu:
+		return 111i64;
+	case 0xD7u:
+		return 120i64;
+	case 0xD9u:
+	case 0xDAu:
+	case 0xDBu:
+	case 0xDCu:
+	case 0xF9u:
+	case 0xFAu:
+	case 0xFBu:
+	case 0xFCu:
+	case 0x168u:
+	case 0x169u:
+	case 0x16Au:
+	case 0x16Bu:
+	case 0x16Cu:
+	case 0x16Du:
+	case 0x16Eu:
+	case 0x16Fu:
+	case 0x170u:
+	case 0x171u:
+	case 0x172u:
+	case 0x173u:
+	case 0x1AFu:
+	case 0x1B0u:
+	case 0x1D3u:
+	case 0x1D4u:
+	case 0x1D5u:
+	case 0x1D6u:
+	case 0x1D7u:
+	case 0x1D8u:
+	case 0x1D9u:
+	case 0x1DAu:
+	case 0x1DBu:
+	case 0x1DCu:
+		return 117i64;
+	case 0xDDu:
+	case 0xFDu:
+	case 0xFFu:
+	case 0x176u:
+	case 0x177u:
+	case 0x178u:
+		return 121i64;
+	case 0x11Cu:
+	case 0x11Du:
+	case 0x11Eu:
+	case 0x11Fu:
+	case 0x120u:
+	case 0x121u:
+	case 0x122u:
+	case 0x123u:
+		return 103i64;
+	case 0x124u:
+	case 0x125u:
+	case 0x126u:
+	case 0x127u:
+		return 104i64;
+	case 0x134u:
+	case 0x135u:
+		return 106i64;
+	case 0x136u:
+	case 0x137u:
+	case 0x138u:
+		return 107i64;
+	case 0x139u:
+	case 0x13Au:
+	case 0x13Bu:
+	case 0x13Cu:
+	case 0x13Du:
+	case 0x13Eu:
+	case 0x13Fu:
+	case 0x140u:
+	case 0x141u:
+	case 0x142u:
+		return 108i64;
+	case 0x154u:
+	case 0x155u:
+	case 0x156u:
+	case 0x157u:
+	case 0x158u:
+	case 0x159u:
+		return 114i64;
+	case 0x15Au:
+	case 0x15Bu:
+	case 0x15Cu:
+	case 0x15Du:
+	case 0x15Eu:
+	case 0x15Fu:
+	case 0x160u:
+	case 0x161u:
+		return 115i64;
+	case 0x162u:
+	case 0x163u:
+	case 0x164u:
+	case 0x165u:
+	case 0x166u:
+	case 0x167u:
+		return 116i64;
+	case 0x174u:
+	case 0x175u:
+		return 119i64;
+	case 0x179u:
+	case 0x17Au:
+	case 0x17Bu:
+	case 0x17Cu:
+	case 0x17Du:
+	case 0x17Eu:
+		return 122i64;
+	case 0x192u:
+		return 102i64;
+	default:
+		v3 = 0i64;
+		v4 = 977i64;
+		break;
+	}
+	while (1)
+	{
+		v5 = v3 + ((v4 - v3) >> 1);
+		v6 = word_140A41A80[v5];
+		if (a1 >= v6)
+			break;
+		v4 = v3 + ((v4 - v3) >> 1);
+	LABEL_28:
+		if (v3 >= v4)
+			return a1;
+	}
+	if (a1 > v6)
+	{
+		v3 = v5 + 1;
+		goto LABEL_28;
+	}
+	return (unsigned __int16)word_140A40AF0[v5];
+}
+// 140A40AF0: using guessed type __int16 word_140A40AF0[986];
+// 140A41A80: using guessed type __int16 word_140A41A80[992];
+

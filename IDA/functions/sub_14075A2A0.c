@@ -1,0 +1,123 @@
+//----- (000000014075A2A0) ----------------------------------------------------
+int** __fastcall sub_14075A2A0(__int64 a1, int** a2, __int64* a3, int* a4)
+{
+	__int64 v4; // rax
+	__int64 v5; // r8
+	int** result; // rax
+	int* v10; // r8
+	int* v11; // rcx
+	__int64 v12; // rbp
+	int* v13; // rsi
+	__int64 v14; // rax
+	__int64 v15; // rax
+	int* v16; // rcx
+	__int64 v17; // r9
+	__int64 i; // rax
+	__int64 v19; // rax
+	int* v20; // [rsp+20h] [rbp-28h]
+	char v21[24]; // [rsp+30h] [rbp-18h] BYREF
+
+	v4 = *(_QWORD*)(a1 + 8);
+	v5 = *a3;
+	if (v5 == *(_QWORD*)(v4 + 16))
+	{
+		if (*(_QWORD*)(a1 + 16) && (unsigned int)*a4 < *(_DWORD*)(v5 + 32))
+		{
+			v20 = a4;
+		LABEL_5:
+			sub_14075A770(a1, a2, v5, v5, v20);
+			return a2;
+		}
+		v10 = a4;
+		goto LABEL_7;
+	}
+	if (v5 == v4)
+	{
+		v12 = *(_QWORD*)(v4 + 24);
+		if (*(_DWORD*)(v12 + 32) >= (unsigned int)*a4)
+		{
+			v16 = *(int**)sub_14075A860(a1, (__int64)v21, a4);
+			result = a2;
+			*a2 = v16;
+		}
+		else
+		{
+			if (v12 == v4 || (unsigned int)*a4 < *(_DWORD*)(v12 + 32))
+			{
+				v13 = sub_14018B280(184i64, 0);
+				sub_14075AE40(v13 + 8, a4);
+				*(_QWORD*)(v12 + 16) = v13;
+				v15 = *(_QWORD*)(a1 + 8);
+				if (v12 == v15)
+				{
+					*(_QWORD*)(v15 + 8) = v13;
+					*(_QWORD*)(*(_QWORD*)(a1 + 8) + 24i64) = v13;
+				}
+				else if (v12 == *(_QWORD*)(v15 + 16))
+				{
+					*(_QWORD*)(v15 + 16) = v13;
+				}
+			}
+			else
+			{
+				v13 = sub_14018B280(184i64, 0);
+				sub_14075AE40(v13 + 8, a4);
+				*(_QWORD*)(v12 + 24) = v13;
+				v14 = *(_QWORD*)(a1 + 8);
+				if (v12 == *(_QWORD*)(v14 + 24))
+					*(_QWORD*)(v14 + 24) = v13;
+			}
+			*((_QWORD*)v13 + 1) = v12;
+			*((_QWORD*)v13 + 2) = 0i64;
+			*((_QWORD*)v13 + 3) = 0i64;
+			sub_1400081C0((__int64)v13, (_QWORD*)(*(_QWORD*)(a1 + 8) + 8i64));
+			++* (_QWORD*)(a1 + 16);
+			*a2 = v13;
+			return a2;
+		}
+	}
+	else
+	{
+		if (*(_BYTE*)v5 || *(_QWORD*)(*(_QWORD*)(v5 + 8) + 8i64) != v5)
+		{
+			v17 = *(_QWORD*)(v5 + 16);
+			if (v17)
+			{
+				for (i = *(_QWORD*)(v17 + 24); i; i = *(_QWORD*)(i + 24))
+					v17 = i;
+			}
+			else
+			{
+				v17 = *(_QWORD*)(v5 + 8);
+				if (v5 == *(_QWORD*)(v17 + 16))
+				{
+					do
+					{
+						v19 = v17;
+						v17 = *(_QWORD*)(v17 + 8);
+					} while (v19 == *(_QWORD*)(v17 + 16));
+				}
+			}
+		}
+		else
+		{
+			v17 = *(_QWORD*)(v5 + 24);
+		}
+		if (*(_DWORD*)(v17 + 32) >= (unsigned int)*a4 || (unsigned int)*a4 >= *(_DWORD*)(v5 + 32))
+		{
+			v10 = a4;
+		LABEL_7:
+			v11 = *(int**)sub_14075A860(a1, (__int64)v21, v10);
+			result = a2;
+			*a2 = v11;
+			return result;
+		}
+		v20 = a4;
+		if (*(_QWORD*)(v17 + 24))
+			goto LABEL_5;
+		sub_14075A770(a1, a2, 0i64, v17, a4);
+		return a2;
+	}
+	return result;
+}
+

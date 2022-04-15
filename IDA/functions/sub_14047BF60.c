@@ -1,0 +1,31 @@
+//----- (000000014047BF60) ----------------------------------------------------
+_BOOL8 __fastcall sub_14047BF60(__int64 a1)
+{
+	__int64 v1; // rax
+	__int64 v2; // rbx
+	__int64 v3; // rcx
+	int v4; // edx
+	_BOOL8 result; // rax
+
+	v1 = sub_1403D90D0(qword_140C65898, *(_DWORD*)(a1 + 192));
+	v2 = v1;
+	result = 0;
+	if (v1)
+	{
+		if ((*(unsigned int(__fastcall**)(__int64))(*(_QWORD*)v1 + 32i64))(v1))
+		{
+			v3 = *(_QWORD*)(v2 + 184);
+			if (v3)
+			{
+				v4 = *(_DWORD*)(v3 + 4);
+				if (((v4 - 4) & 0xFFFFFFFC) == 0 && v4 != 5)
+					return 1;
+				if ((*(_DWORD*)(v3 + 96) & 0x80000) != 0)
+					return 1;
+			}
+		}
+	}
+	return result;
+}
+// 140C65898: using guessed type __int64 qword_140C65898;
+

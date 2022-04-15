@@ -1,0 +1,30 @@
+//----- (00000001405C5E20) ----------------------------------------------------
+_QWORD* __fastcall sub_1405C5E20(__int64 a1, __int64 a2, _QWORD* a3)
+{
+	_QWORD* v3; // rdi
+	char* v5; // rsi
+	__int64 v6; // rbx
+
+	v3 = a3;
+	if (a1 != a2)
+	{
+		v5 = (char*)a3 - a1;
+		v6 = a1 + 8;
+		do
+		{
+			if (v3)
+			{
+				*(_QWORD*)&v5[v6] = 0i64;
+				*(_QWORD*)&v5[v6 + 8] = 0i64;
+				*(_QWORD*)&v5[v6 + 16] = 0i64;
+				sub_14001C1B0(v3, *(int**)v6, *(_QWORD*)(v6 + 8));
+				*(_DWORD*)&v5[v6 + 24] = *(_DWORD*)(v6 + 24);
+				*(_DWORD*)&v5[v6 + 28] = *(_DWORD*)(v6 + 28);
+			}
+			v6 += 40i64;
+			v3 += 5;
+		} while (v6 - 8 != a2);
+	}
+	return v3;
+}
+
