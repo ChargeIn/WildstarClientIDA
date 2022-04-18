@@ -107,7 +107,7 @@ LABEL_17:
 				v19 = *(_QWORD*)(v19 + 176);
 			} while (v19);
 		}
-		sub_1400EA3E0(*(_QWORD*)(v19 + 72), "AccountItemUpdate", &unk_1409D014E);
+		Apollo_LUAEvent(*(_QWORD*)(v19 + 72), "AccountItemUpdate", &unk_1409D014E);
 	}
 	return 0i64;
 }
