@@ -15,7 +15,7 @@ __int64 __fastcall sub_1400225E0(__int64 a1, __int64 a2)
 	v2 = *(_DWORD*)(a2 + 4);
 	*(_DWORD*)(a1 + 540) = v2;
 	if (v2)
-		sub_1400EA3E0(*(_QWORD*)(a1 + 72), "SubscriptionExpired", &unk_1409D0181);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "SubscriptionExpired", &unk_1409D0181);
 	v5 = *(float*)(a2 + 8);
 	GetSystemTimeAsFileTime(&SystemTimeAsFileTime);
 	v6 = 0i64;
@@ -29,10 +29,10 @@ __int64 __fastcall sub_1400225E0(__int64 a1, __int64 a2)
 	v8 = v6 + (unsigned int)(int)v7;
 	v9 = *(_QWORD*)(a1 + 72);
 	*(_QWORD*)(a1 + 544) = *(_QWORD*)&SystemTimeAsFileTime + v8;
-	sub_1400EA3E0(v9, "GameTimeHoursRemaining", &unk_1409D0182);
+	Apollo_LUAEvent(v9, "GameTimeHoursRemaining", &unk_1409D0182);
 	v10 = *(_QWORD*)(a1 + 72);
 	*(_DWORD*)(a1 + 532) = *(_DWORD*)a2;
-	sub_1400EA3E0(v10, "RealmTransferFlags", byte_1409D0183);
+	Apollo_LUAEvent(v10, "RealmTransferFlags", byte_1409D0183);
 	return 0i64;
 }
 // 1409D0183: using guessed type _BYTE byte_1409D0183[3];

@@ -289,7 +289,7 @@ __int64 __fastcall sub_1403C8760(__int64 a1, _DWORD* a2)
 					v2 = a2;
 					v51 = v9;
 					v25 = a1;
-					sub_1400EA3E0(
+					Apollo_LUAEvent(
 						*(_QWORD*)(a1 + 29504),
 						"ExperienceGained",
 						"iUSii",
@@ -403,7 +403,7 @@ __int64 __fastcall sub_1403C8760(__int64 a1, _DWORD* a2)
 				LODWORD(v50) = a2[1];
 				LODWORD(v49) = 0;
 				LODWORD(v48) = a2[4];
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(v25 + 29504),
 					"ExperienceGained",
 					"iUSii",

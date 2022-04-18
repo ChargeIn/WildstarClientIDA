@@ -103,7 +103,7 @@ __int64 __fastcall sub_140046340(__int64 a1)
 			}
 			v19 = *(_QWORD*)(a1 + 72);
 			if (v19)
-				sub_1400EA3E0(v19, "NetworkStatus", &unk_1409D01F2);
+				Apollo_LUAEvent(v19, "NetworkStatus", &unk_1409D01F2);
 		}
 		if (v17)
 			(*v17)[1](v17);

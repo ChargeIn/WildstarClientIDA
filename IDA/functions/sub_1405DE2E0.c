@@ -20,7 +20,7 @@ void __fastcall sub_1405DE2E0(__int64 a1, __int64 a2, __int64 a3)
 	if (a2 && !(unsigned int)sub_1403E1170(*(_WORD**)(a2 + 8), 7u)
 		|| a3 && !(unsigned int)sub_1403E1170(*(_WORD**)(a3 + 8), 7u))
 	{
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, 37);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, 37);
 	}
 	else
 	{

@@ -13,7 +13,7 @@ __int64 __fastcall sub_140602CA0(__int64 a1, __int64 a2)
 		v4 = qword_140C65898;
 		*(_DWORD*)(qword_140C65898 + 28568) = 1;
 		*(_DWORD*)(*(_QWORD*)(a1 + 64) + 8i64) = *(_DWORD*)(a2 + 16);
-		sub_1400EA3E0(*(_QWORD*)(v4 + 29504), "Group_FlagsChanged", &unk_1409D0E6E);
+		Apollo_LUAEvent(*(_QWORD*)(v4 + 29504), "Group_FlagsChanged", &unk_1409D0E6E);
 		return 0i64;
 	}
 	else

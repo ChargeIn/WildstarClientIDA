@@ -349,7 +349,7 @@ __int64 __fastcall sub_140582FA0(__int64 a1, unsigned int* a2)
 			v54 += 32i64;
 		} while (v48);
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentGuildsUpdated", &unk_1409D0ED3);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentGuildsUpdated", &unk_1409D0ED3);
 	return 0i64;
 }
 // 140583337: conditional instruction was optimized away because r10.8!=0

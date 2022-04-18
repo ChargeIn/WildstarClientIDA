@@ -329,10 +329,10 @@ void __fastcall sub_1404D7A10(__m128* a1, _DWORD* a2, __int64 a3, unsigned int a
 			v13 = "ToggleFramerate";
 			goto LABEL_227;
 		case 114:
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ToggleZoneMap", &unk_1409D0CCB);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ToggleZoneMap", &unk_1409D0CCB);
 			break;
 		case 115:
-			sub_1400EA3E0(a1[1844].m128_i64[0], "ToggleAbilitiesWindow", byte_1409E9D34, 0i64);
+			Apollo_LUAEvent(a1[1844].m128_i64[0], "ToggleAbilitiesWindow", byte_1409E9D34, 0i64);
 			break;
 		case 118:
 			if (a1[1843].m128_i32[2])
@@ -525,7 +525,7 @@ void __fastcall sub_1404D7A10(__m128* a1, _DWORD* a2, __int64 a3, unsigned int a
 			sub_1404DA610((__int64)a1, v11 - 190, v43);
 			break;
 		case 196:
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ToggleGhostModeMap", &unk_1409D0CEA);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ToggleGhostModeMap", &unk_1409D0CEA);
 			break;
 		case 197:
 			v53 = *(_DWORD*)(a3 + 24) && a4;
@@ -575,7 +575,7 @@ void __fastcall sub_1404D7A10(__m128* a1, _DWORD* a2, __int64 a3, unsigned int a
 			v12 = &unk_1409D10AB;
 			v13 = "ToggleCREDDExchangeWindow";
 		LABEL_227:
-			sub_1400EA3E0(a1[1844].m128_i64[0], v13, v12);
+			Apollo_LUAEvent(a1[1844].m128_i64[0], v13, v12);
 			break;
 		case 209:
 			v12 = &unk_1409D0ADF;

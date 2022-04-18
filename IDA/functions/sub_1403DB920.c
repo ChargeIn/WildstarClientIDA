@@ -17,7 +17,7 @@ __int64 __fastcall sub_1403DB920(__int64 a1, unsigned int* a2)
 			{
 				v8 = a2[1];
 				v7 = *(_DWORD*)(*(_QWORD*)(a1 + 120) + 8i64);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "UnitEvaded", "UUiS", *a2, v7, v8, v5);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "UnitEvaded", "UUiS", *a2, v7, v8, v5);
 			}
 		}
 	}

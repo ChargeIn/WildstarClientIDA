@@ -160,7 +160,7 @@ __int64 __fastcall sub_140602320(_QWORD* a1, __int64 a2)
 		{
 			sub_140607310((__int64)a1, a2 + 88);
 			sub_140605020((__int64)a1, 0);
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Group_Join", byte_1409D0E2F);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Group_Join", byte_1409D0E2F);
 		}
 		*(_DWORD*)(qword_140C65898 + 28568) = 1;
 		return 0i64;

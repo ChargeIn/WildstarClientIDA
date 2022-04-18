@@ -31,7 +31,7 @@ void __fastcall sub_1405DCEE0(unsigned int* a1, int a2, __int64 a3, __int64 a4, 
 		v13 = qword_140C65898;
 		v14 = *a1;
 		a1[16] = 3;
-		sub_1400EA3E0(*(_QWORD*)(v13 + 29504), "FriendshipAccountDataUpdate", byte_1409EACD4, v14, a5, a6, a7);
+		Apollo_LUAEvent(*(_QWORD*)(v13 + 29504), "FriendshipAccountDataUpdate", byte_1409EACD4, v14, a5, a6, a7);
 	}
 }
 // 1409EACD4: using guessed type _BYTE byte_1409EACD4[24];

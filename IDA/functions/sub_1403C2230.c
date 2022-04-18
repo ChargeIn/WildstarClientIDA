@@ -34,7 +34,7 @@ void __fastcall sub_1403C2230(__int64 a1)
 		{
 			LODWORD(v8) = 0;
 			LODWORD(v7) = 0;
-			sub_1400EA3E0(v6, "ShowActionBarShortcut", byte_1409E98AC, v3, v7, v8);
+			Apollo_LUAEvent(v6, "ShowActionBarShortcut", byte_1409E98AC, v3, v7, v8);
 		}
 		++v3;
 		++v2;

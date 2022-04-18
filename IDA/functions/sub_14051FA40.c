@@ -20,7 +20,7 @@ void __fastcall sub_14051FA40(__int64 a1)
 		if (v6)
 		{
 			v7 = v5;
-			sub_1400EA3E0(v4, "CostumeForgetResult", "oi", v6, v7);
+			Apollo_LUAEvent(v4, "CostumeForgetResult", "oi", v6, v7);
 		}
 	}
 }

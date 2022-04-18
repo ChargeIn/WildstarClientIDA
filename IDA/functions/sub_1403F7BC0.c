@@ -18,7 +18,7 @@ void __fastcall sub_1403F7BC0(__int64 a1, char a2)
 		if (qword_140C63620)
 		{
 			if (*(_QWORD*)(qword_140C63620 + 24))
-				sub_1400EA3E0(*(_QWORD*)(qword_140C63620 + 88), "OpenOptions", &unk_1409D0202);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C63620 + 88), "OpenOptions", &unk_1409D0202);
 		}
 	}
 }

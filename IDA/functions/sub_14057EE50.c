@@ -23,7 +23,7 @@ void __fastcall sub_14057EE50(__int64 a1, unsigned int a2)
 	{
 		v7 = qword_140C65898;
 		*(_DWORD*)(a1 + 640) = a2;
-		sub_1400EA3E0(*(_QWORD*)(v7 + 29504), "GuildBankTab", byte_1409EA5CC);
+		Apollo_LUAEvent(*(_QWORD*)(v7 + 29504), "GuildBankTab", byte_1409EA5CC);
 	}
 	else
 	{

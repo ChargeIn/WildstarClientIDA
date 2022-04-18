@@ -54,7 +54,7 @@ __int64 __fastcall sub_1405E2C10(__int64 a1, int a2, __int16* a3, int a4)
 		result = 0i64;
 		*v15 = 0;
 		if (*(_DWORD*)(v14 + 256))
-			return sub_1400EA3E0(
+			return Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"FriendshipUpdate",
 				byte_1409EAC3C,
@@ -85,7 +85,7 @@ __int64 __fastcall sub_1405E2C10(__int64 a1, int a2, __int16* a3, int a4)
 			{
 				v20 = *v19;
 				sub_1405DCFC0((__int64)v20, a2, (int*)a3);
-				return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountDataUpdate", byte_1409EACD4, *v20);
+				return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountDataUpdate", byte_1409EACD4, *v20);
 			}
 		}
 	}

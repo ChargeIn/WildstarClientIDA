@@ -11,7 +11,7 @@ __int64 sub_1404A89E0()
 	{
 		v1 = *(_QWORD*)(qword_140C65898 + 29504);
 		if (v1)
-			return sub_1400EA3E0(v1, "DatacubePlaybackEnded", &unk_1409D0C8F);
+			return Apollo_LUAEvent(v1, "DatacubePlaybackEnded", &unk_1409D0C8F);
 	}
 	return result;
 }

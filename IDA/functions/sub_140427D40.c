@@ -91,7 +91,7 @@ void __fastcall sub_140427D40(__int64 a1, unsigned int a2, int a3)
 		sub_1400FB540((__int64)&v22);
 		v3[2] -= 16i64;
 	}
-	sub_1400EA3E0(a1, "LootTakenBy", byte_1409EACB4, v11, v21, v22, v23, v24, v25);
+	Apollo_LUAEvent(a1, "LootTakenBy", byte_1409EACB4, v11, v21, v22, v23, v24, v25);
 	if (v27[0])
 	{
 		(*(void(__fastcall**)(__int64))(*(_QWORD*)v27[0] + 8i64))(v27[0]);

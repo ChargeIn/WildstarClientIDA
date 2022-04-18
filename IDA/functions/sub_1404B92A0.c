@@ -67,7 +67,7 @@ __m128* __fastcall sub_1404B92A0(__int64 a1, unsigned int a2, int a3, int a4)
 					v14 = (_QWORD*)sub_1405B1510(*(_QWORD**)(qword_140C659F0 + 824));
 					if (v14)
 						sub_1405AFE10(v14);
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingMyResidenceDecorChanged", byte_1409EBF4C, a2);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingMyResidenceDecorChanged", byte_1409EBF4C, a2);
 					return 0i64;
 				}
 			}

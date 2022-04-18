@@ -281,7 +281,7 @@ __int64 __fastcall sub_140021540(__int64 a1, __int64* a2)
 		sub_1400F06F0(v15, v58, L"nCharacterIndex", dwLowDateTime);
 		*(_QWORD*)(v15 + 16) -= 16i64;
 	}
-	sub_1400EA3E0(
+	Apollo_LUAEvent(
 		*(_QWORD*)(a1 + 72),
 		"CharacterList",
 		"iTTi",

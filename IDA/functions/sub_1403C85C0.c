@@ -41,7 +41,7 @@ __int64 __fastcall sub_1403C85C0(
 	v15 = 0i64;
 	v14 = sub_1403C8690;
 	sub_140195960(a1 + 26472, v10, (__int64)&v12, 4);
-	return sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "PendingWorldRemovalWarning", byte_1409E9E1C, *a2, a5, a6, a7);
+	return Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "PendingWorldRemovalWarning", byte_1409E9E1C, *a2, a5, a6, a7);
 }
 // 1409E9E1C: using guessed type _BYTE byte_1409E9E1C[72];
 // 140DC2300: using guessed type int dword_140DC2300;

@@ -16,7 +16,7 @@ void __fastcall sub_1404B4AE0(__int64 a1)
 	{
 		v2 = *(_QWORD*)(qword_140C65898 + 29504);
 		if (v2)
-			sub_1400EA3E0(v2, "HousingPanelControlClose", byte_1409D0F4F);
+			Apollo_LUAEvent(v2, "HousingPanelControlClose", byte_1409D0F4F);
 	}
 	sub_1404B4800(qword_140C659F0 + 272);
 	sub_1404B4890(qword_140C659F0 + 240);

@@ -145,7 +145,7 @@ void __fastcall sub_1404315C0(__int64 a1, __int64 a2)
 						v14 = v36;
 						v3 = a1;
 					}
-					sub_1400EA3E0(v3, "GenericMapShow", "iT", (unsigned int)v7[1], v14);
+					Apollo_LUAEvent(v3, "GenericMapShow", "iT", (unsigned int)v7[1], v14);
 					if (v2)
 						sub_1400579E0((__int64)v2, v33, v14);
 				}

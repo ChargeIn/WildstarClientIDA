@@ -60,7 +60,7 @@ void __fastcall sub_14060F600(int* a1)
 	v2[2] -= 16i64;
 	if (v16)
 		sub_14018B900(v16, 0);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogInterrupted", "T", v6);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogInterrupted", "T", v6);
 	sub_1400579E0((__int64)v2, v14, v6);
 }
 // 14060F6F7: variable 'v9' is possibly undefined

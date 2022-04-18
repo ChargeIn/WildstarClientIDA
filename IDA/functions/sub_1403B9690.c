@@ -21,7 +21,7 @@ __int64 __fastcall sub_1403B9690(__int64 a1, __int64 a2)
 		if (!v6)
 			v6 = *(_QWORD*)(v3 + 64) + 8i64;
 		v9 = sub_1403B5360(qword_140C65898, *(_QWORD*)(v3 + 64), v6, v5);
-		sub_1400EA3E0(v7, "ItemDurabilityUpdate", byte_1409EAD0C, v4, v9);
+		Apollo_LUAEvent(v7, "ItemDurabilityUpdate", byte_1409EAD0C, v4, v9);
 	}
 	return 0i64;
 }

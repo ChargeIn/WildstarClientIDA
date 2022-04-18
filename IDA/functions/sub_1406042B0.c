@@ -408,7 +408,7 @@ __int64 __fastcall sub_1406042B0(__int64 a1, __int64 a2)
 		goto LABEL_60;
 	}
 LABEL_94:
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "RaidInfoResponse", byte_1409EA36C, v8, v70);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "RaidInfoResponse", byte_1409EA36C, v8, v70);
 	if (v3)
 		sub_1400579E0(v3, v68, v8);
 	return 0i64;

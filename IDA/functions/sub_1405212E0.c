@@ -311,7 +311,7 @@ void __fastcall sub_1405212E0(__int64 a1)
 		(*(void(__fastcall**)(__int64*, __int64, int*))(v45 + 80))(v3, 1i64, v71);
 		if (v41)
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "KeyBindingKeyChanged", byte_1409EC1D4, v72);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "KeyBindingKeyChanged", byte_1409EC1D4, v72);
 			v8 = 1;
 			v53 = 1;
 		}

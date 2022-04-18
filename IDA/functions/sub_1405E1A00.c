@@ -61,7 +61,7 @@ __int64 __fastcall sub_1405E1A00(__int64 a1, __int64 a2)
 				if (v14 && *(_DWORD*)(v14 + 36) != v12)
 				{
 					*(_DWORD*)(v14 + 36) = v12;
-					sub_1400EA3E0(
+					Apollo_LUAEvent(
 						*(_QWORD*)(qword_140C65898 + 29504),
 						"FriendshipAccountCharacterLevelUpdate",
 						byte_1409EACF4,

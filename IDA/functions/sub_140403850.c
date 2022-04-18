@@ -22,7 +22,7 @@ __int64 __fastcall sub_140403850(__int64 a1, __int64 a2)
 		if (*v6 == *(_DWORD*)a2 && *(_QWORD*)(v5 + 16) == *(_QWORD*)(a2 + 8) && v5)
 		{
 			if ((v6[13] & 0x100) == 0)
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v5, *(_DWORD*)(a2 + 16));
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v5, *(_DWORD*)(a2 + 16));
 			if (v2[26] && **(_DWORD**)(v5 + 8) == 19)
 			{
 				v7 = *(_DWORD*)(a2 + 16);

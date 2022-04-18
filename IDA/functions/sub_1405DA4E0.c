@@ -14,7 +14,7 @@ __int64 __fastcall sub_1405DA4E0(__int64 a1, char a2)
 	{
 		*(_DWORD*)(v5 + 5636) = 0;
 		v7 = 0;
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"ShieldsOverloaded",
 			byte_1409EB71C,

@@ -24,7 +24,7 @@ void __fastcall sub_140757AC0(__int64 a1)
 					|| (v7 = *(_DWORD*)(v2 + 8)) == 0
 					|| (v3 = (unsigned int)(dword_140C636A8 - *(_DWORD*)(a1 + 24)), (unsigned int)v3 <= v7))
 				{
-					sub_1400EA3E0(v6, "Communicator_ShowQueuedMsg", byte_1409E90A4, v5);
+					Apollo_LUAEvent(v6, "Communicator_ShowQueuedMsg", byte_1409E90A4, v5);
 				}
 			}
 			sub_1400579E0(*(_QWORD*)(v6 + 400), v3, v5);

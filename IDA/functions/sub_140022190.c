@@ -44,7 +44,7 @@ __int64 __fastcall sub_140022190(__int64 a1, unsigned int* a2)
 		}
 	}
 LABEL_13:
-	sub_1400EA3E0(*(_QWORD*)(a1 + 72), "CharacterRename", byte_1409D0ABC, *a2, *((_QWORD*)a2 + 2));
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "CharacterRename", byte_1409D0ABC, *a2, *((_QWORD*)a2 + 2));
 	return 0i64;
 }
 // 14002222A: conditional instruction was optimized away because rdx.8!=0

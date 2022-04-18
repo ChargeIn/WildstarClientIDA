@@ -291,7 +291,7 @@ LABEL_11:
 				v41 = &word_140B7B704;
 				if (*(_QWORD*)(v5 + 16))
 					v41 = *(__int16**)(v5 + 16);
-				return sub_1400EA3E0(
+				return Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"UnitNameChanged",
 					"US",

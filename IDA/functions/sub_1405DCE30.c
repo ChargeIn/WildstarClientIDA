@@ -25,7 +25,7 @@ void __fastcall sub_1405DCE30(unsigned int* a1, __int64 a2, int a3)
 			if (*(_DWORD*)(v6 + 40) != a3)
 			{
 				*(_DWORD*)(v6 + 40) = a3;
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountDataUpdate", byte_1409EACD4, *a1);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountDataUpdate", byte_1409EACD4, *a1);
 			}
 		}
 	}

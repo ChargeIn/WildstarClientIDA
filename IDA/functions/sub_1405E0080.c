@@ -30,7 +30,7 @@ __int64 __fastcall sub_1405E0080(__int64 a1, __int64 a2)
 			v7 = qword_140C65898;
 			v8 = *v6;
 			*(_DWORD*)(v8 + 208) = *(_DWORD*)(a2 + 8);
-			sub_1400EA3E0(*(_QWORD*)(v7 + 29504), "FriendshipUpdate", byte_1409EAC3C, *(unsigned int*)(v8 + 8));
+			Apollo_LUAEvent(*(_QWORD*)(v7 + 29504), "FriendshipUpdate", byte_1409EAC3C, *(unsigned int*)(v8 + 8));
 			v9 = *(unsigned int*)(v8 + 208);
 			v10 = 0;
 			v11 = 1;

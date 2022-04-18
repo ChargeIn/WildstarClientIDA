@@ -15,7 +15,7 @@ __int64 __fastcall sub_1404D7090(__int64 a1, __int64 a2)
 			0i64,
 			0i64);
 		sub_1404D7330(a1, *(_QWORD*)(a2 + 16), 0, 0);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "KeyBindingUpdated", &byte_140B7B700);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "KeyBindingUpdated", &byte_140B7B700);
 	}
 	return 0i64;
 }

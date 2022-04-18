@@ -74,7 +74,7 @@ __int64 __fastcall sub_1404BA930(__int64 a1, __int64 a2)
 	LABEL_21:
 		sub_1405B0F50(*(_QWORD*)(v2 + 824), v7 + *(_QWORD*)(a2 + 8));
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingPropertiesRecieved", byte_1409D0F77);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingPropertiesRecieved", byte_1409D0F77);
 	return 0i64;
 }
 // 1409D0F77: using guessed type _BYTE byte_1409D0F77[13];

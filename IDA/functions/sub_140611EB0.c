@@ -18,7 +18,7 @@ __int64 __fastcall sub_140611EB0(__int64 a1, unsigned int* a2)
 			}
 		}
 	}
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "SettlerHubUpdated", byte_1409D1147);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "SettlerHubUpdated", byte_1409D1147);
 	return 0i64;
 }
 // 1409D1147: using guessed type _BYTE byte_1409D1147[22];

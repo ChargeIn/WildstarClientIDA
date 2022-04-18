@@ -136,7 +136,7 @@ void __fastcall sub_1405BBC70(__int64 a1, unsigned int a2, __int64 a3)
 				LABEL_44:
 					sub_1405BC680((__int64)&v28, *(_QWORD*)(v18 + 400), a3);
 					v25 = v29;
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "BuffAdded", byte_1409EB8FC, a2, v29);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "BuffAdded", byte_1409EB8FC, a2, v29);
 					if (v30)
 						sub_1400579E0(v30, v26, v25);
 				}

@@ -14,7 +14,7 @@ __int64 __fastcall sub_140779F10(__int64 a1)
 		if (v3)
 		{
 			v4 = 0;
-			return sub_1400EA3E0(
+			return Apollo_LUAEvent(
 				v3,
 				"ProgressClickWindowCompletionLevel",
 				byte_1409EC294,

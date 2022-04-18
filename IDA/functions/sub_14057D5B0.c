@@ -58,7 +58,7 @@ __int64 __fastcall sub_14057D5B0(__int64 a1, __int64 a2)
 		}
 		++v3;
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildBankTabRename", byte_1409EA804, a1);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildBankTabRename", byte_1409EA804, a1);
 	return 0i64;
 }
 // 14057D5D7: conditional instruction was optimized away because ebp.4<Au

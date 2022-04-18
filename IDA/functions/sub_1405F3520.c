@@ -40,7 +40,7 @@ __int64 __fastcall sub_1405F3520(__int64 a1, unsigned int* a2)
 		{
 			v7 = *(_QWORD*)(qword_140C65898 + 29504);
 			v8 = (*(__int64(__fastcall**)(__int64))(*(_QWORD*)v4 + 320i64))(v4);
-			sub_1400EA3E0(v7, "PublicEventObjectiveUpdate", byte_1409ED1AC, v8);
+			Apollo_LUAEvent(v7, "PublicEventObjectiveUpdate", byte_1409ED1AC, v8);
 		}
 		v9 = (_QWORD*)qword_140C65BA8;
 		*(_DWORD*)(qword_140C65898 + 28568) = 1;

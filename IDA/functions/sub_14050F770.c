@@ -13,7 +13,7 @@ __int64 sub_14050F770()
 	HIDWORD(qword_140C7DC74) = 0;
 	LODWORD(qword_140C7DC60) = 0;
 	sub_140557C30((__int64)&qword_140C7DC60);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
 	sub_140554EA0((__int64)&qword_140C7DC60, 1);
 	sub_14034BDD0(v0, 0);
 	qword_140C7DC98 = 0i64;

@@ -59,7 +59,7 @@ __int64 __fastcall sub_1405E0360(__int64 a1, __int64 a2)
 	}
 	if (v9)
 		(*(void(__fastcall**)(__int64))(*(_QWORD*)(v9 - 16) + 8i64))(v9 - 16);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipUpdate", byte_1409EAC3C, *(unsigned int*)(v7 + 8));
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipUpdate", byte_1409EAC3C, *(unsigned int*)(v7 + 8));
 	return 0i64;
 }
 // 1409EAC3C: using guessed type _BYTE byte_1409EAC3C[32];

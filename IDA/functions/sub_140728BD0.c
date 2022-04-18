@@ -22,7 +22,7 @@ __int64 __fastcall sub_140728BD0(__int64 a1, __int64 a2, unsigned int a3, __int6
 	case 0x100u:
 		if (a4 != 27)
 			break;
-		sub_1400EA3E0(*(_QWORD*)(a1 + 1424), "EscapeKeyPressed_Gacha", byte_1409D1577);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 1424), "EscapeKeyPressed_Gacha", byte_1409D1577);
 		sub_140729730(a1);
 		return 0i64;
 	case 0x200u:

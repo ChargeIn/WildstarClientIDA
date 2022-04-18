@@ -168,7 +168,7 @@ void __fastcall sub_1404762C0(__int64 a1)
 					sub_140476A20,
 					sub_140476BC0,
 					v4);
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"UnitTextBubblesDestroyed",
 					byte_1409EDCF4,
@@ -309,7 +309,7 @@ LABEL_34:
 							{
 								v76 = *(_QWORD*)(v75 + 29504);
 								if (v76)
-									sub_1400EA3E0(v76, "MessageFinished", byte_1409EB834, v72 + 2);
+									Apollo_LUAEvent(v76, "MessageFinished", byte_1409EB834, v72 + 2);
 							}
 							v77 = v72[9];
 							if (v77)
@@ -402,7 +402,7 @@ LABEL_34:
 					{
 						v58 = *(_QWORD*)(v57 + 29504);
 						if (v58)
-							sub_1400EA3E0(v58, "MessageFinished", byte_1409EB834, v54 + 2);
+							Apollo_LUAEvent(v58, "MessageFinished", byte_1409EB834, v54 + 2);
 					}
 					v59 = v54[9];
 					if (v59)

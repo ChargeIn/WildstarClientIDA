@@ -92,7 +92,7 @@ __int64 __fastcall sub_1404C5930(__int64 a1)
 				sub_1404C7FF0(*(_QWORD*)(a1 + 296), *v4, a1);
 			}
 			(*(void(__fastcall**)(__int64))(*(_QWORD*)v6 + 8i64))(v6);
-			return sub_1400EA3E0(
+			return Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"HousingFreePlaceDecorMoving",
 				byte_1409EBF24,

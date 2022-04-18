@@ -65,7 +65,7 @@ __int64 __fastcall sub_1404B59B0(int* a1, int a2, __int64 a3, __int64 a4, __int6
 			sub_1403F4900(qword_140C65898, 0x53Cu, (__int64)&v16);
 		}
 	}
-	return sub_1400EA3E0(
+	return Apollo_LUAEvent(
 		*(_QWORD*)(qword_140C65898 + 29504),
 		"HousingEditModeChanged",
 		byte_1409EC214,

@@ -35,7 +35,7 @@ __int64 __fastcall sub_140529E90(__int64 a1, unsigned int a2, unsigned int a3, f
 		*(_DWORD*)(a1 + 1332) = result;
 		LOBYTE(v10) = !v13;
 		if (v10)
-			return sub_1400EA3E0(
+			return Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"ZoneMapPlayerIndicatorUpdated",
 				L"b",

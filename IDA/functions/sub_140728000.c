@@ -207,7 +207,7 @@ __int64 __fastcall sub_140728000(__int64 a1, double a2, float a3)
 	{
 		if (*(_DWORD*)(**(_QWORD**)(a1 + 1496) + 16i64) > v3)
 			break;
-		sub_1400EA3E0(*(_QWORD*)(a1 + 1424), "TickClaimCount", byte_1409D15BF);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 1424), "TickClaimCount", byte_1409D15BF);
 		v27 = **(__int64***)(a1 + 1496);
 		v28 = *v27;
 		v29 = (__int64*)v27[1];
@@ -447,7 +447,7 @@ __int64 __fastcall sub_140728000(__int64 a1, double a2, float a3)
 					sub_1407898E0(*(_QWORD*)(a1 + 1368));
 					v78 = *(_QWORD*)(a1 + 1424);
 					*(_DWORD*)(a1 + 20) = 13;
-					sub_1400EA3E0(v78, "HideGachaUI", byte_1409D15F3);
+					Apollo_LUAEvent(v78, "HideGachaUI", byte_1409D15F3);
 					sub_14072B120(v79);
 				}
 			}

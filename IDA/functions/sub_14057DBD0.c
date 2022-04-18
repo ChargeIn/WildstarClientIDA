@@ -309,7 +309,7 @@ __int64 __fastcall sub_14057DBD0(__int64 a1, __int64 a2, int a3)
 		}
 	LABEL_40:
 		if (!v8[18])
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildBankLog", byte_1409EA9FC, v4, v15);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildBankLog", byte_1409EA9FC, v4, v15);
 		if (v9)
 			sub_1400579E0(v9, v14, v15);
 	}
@@ -341,7 +341,7 @@ __int64 __fastcall sub_14057DBD0(__int64 a1, __int64 a2, int a3)
 				} while (v7 < *(_DWORD*)(a2 + 20));
 			}
 		}
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildEventLogChange", byte_1409EA76C, v4);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildEventLogChange", byte_1409EA76C, v4);
 	}
 	(*(void(__fastcall**)(_QWORD*))(*v8 + 8i64))(v8);
 	return 0i64;

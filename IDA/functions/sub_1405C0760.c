@@ -167,13 +167,13 @@ __int64 __fastcall sub_1405C0760(__int64 a1, int a2, _DWORD* a3, int a4, signed 
 			*(_DWORD*)(v22 + 272) = 16;
 			v24 = qword_140C65898;
 			*(_DWORD*)(qword_140C65898 + 1368) = 1;
-			sub_1400EA3E0(*(_QWORD*)(v24 + 29504), "MatchLeft", &unk_1409D12A2);
+			Apollo_LUAEvent(*(_QWORD*)(v24 + 29504), "MatchLeft", &unk_1409D12A2);
 		}
 		if (*(_DWORD*)(v8 + 164))
 		{
 			*(_DWORD*)(v8 + 164) = 0;
 		LABEL_32:
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MatchingRoleCheckCanceled", &unk_1409D1276);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MatchingRoleCheckCanceled", &unk_1409D1276);
 		}
 		break;
 	}

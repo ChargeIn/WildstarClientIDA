@@ -3,7 +3,7 @@
 //----- (000000014078A520) ----------------------------------------------------
 __int64 __fastcall sub_14078A520(__int64 a1)
 {
-	return sub_1400EA3E0(
+	return Apollo_LUAEvent(
 		*(_QWORD*)(*(_QWORD*)(a1 + 24) + 1424i64),
 		"FlippedCardMouseLeave",
 		L"i",

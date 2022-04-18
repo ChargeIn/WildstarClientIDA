@@ -62,13 +62,13 @@ void __fastcall sub_140496B10(__int64 a1, int* a2)
 			{
 				sub_1400293C0(v14, (__int64)v15, a2);
 				if (v9)
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventStart", byte_1409ECF5C, v8);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventStart", byte_1409ECF5C, v8);
 			}
 			else
 			{
 				sub_1400EE810(v14, a2);
 				if (v9)
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventCleared", byte_1409ED1CC, v8);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventCleared", byte_1409ED1CC, v8);
 			}
 			if (v10 || ((v8[8] - v8[7]) & 0xFFFFFFFFFFFFFFF8ui64) != 0 || ((v8[12] - v8[11]) & 0xFFFFFFFFFFFFFFF8ui64) != 0)
 				sub_1400A8020(*(_QWORD*)(qword_140C65898 + 29504) + 5760i64);

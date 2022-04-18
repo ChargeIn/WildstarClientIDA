@@ -44,7 +44,7 @@ __int64 __fastcall sub_1405C1950(__int64* a1, int** a2)
 		++a2;
 		--v6;
 	} while (v6);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PVPMatchTeamInfoUpdated", byte_1409D128F);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PVPMatchTeamInfoUpdated", byte_1409D128F);
 	return 0i64;
 }
 // 1409D128F: using guessed type _BYTE byte_1409D128F[18];

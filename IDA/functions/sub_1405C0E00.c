@@ -33,7 +33,7 @@ __int64 __fastcall sub_1405C0E00(__int64 a1, int* a2)
 		v6 = *(_DWORD*)(v8 + 60) == 0;
 		*(_DWORD*)(v8 + 72) = a2[1];
 		if (v6)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MatchingAverageWaitTimeUpdated", &unk_1409D1255);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MatchingAverageWaitTimeUpdated", &unk_1409D1255);
 	}
 	return 0i64;
 }

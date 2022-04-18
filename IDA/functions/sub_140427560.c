@@ -77,7 +77,7 @@ void __fastcall sub_140427560(__int64 a1, __int64 a2)
 		v11 = v22;
 	}
 	v20 = v11;
-	sub_1400EA3E0(a1, "GuildRoster", byte_1409EA3F4, a2, v20);
+	Apollo_LUAEvent(a1, "GuildRoster", byte_1409EA3F4, a2, v20);
 	if (v2)
 		sub_1400579E0(v2, v19, v11);
 }

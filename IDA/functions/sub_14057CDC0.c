@@ -130,12 +130,12 @@ __int64 __fastcall sub_14057CDC0(__int64 a1, __int64 a2)
 		v24 = *(_QWORD*)(v22 + 29504);
 		if (v23)
 			v4 = 100;
-		sub_1400EA3E0(v24, "GuildBankTab", byte_1409EA5CC, v3, *(_DWORD*)(v2 + 16) - v4 + 1);
+		Apollo_LUAEvent(v24, "GuildBankTab", byte_1409EA5CC, v3, *(_DWORD*)(v2 + 16) - v4 + 1);
 		return 0i64;
 	}
 	else
 	{
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildResult", "ZSii", a1, 0i64, 0, 64);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildResult", "ZSii", a1, 0i64, 0, 64);
 		return 0i64;
 	}
 }

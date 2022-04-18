@@ -24,7 +24,7 @@ void __fastcall sub_1403B8060(__int64 a1, __int64 a2, int a3, int a4)
 	int v26; // [rsp+A28h] [rbp+928h]
 
 	if (*(_DWORD*)(a2 + 1184) && *(_QWORD*)(a2 + 8) && *(_QWORD*)a2)
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "ItemAdded", "oiiO");
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "ItemAdded", "oiiO");
 	switch (a4)
 	{
 	case 4:

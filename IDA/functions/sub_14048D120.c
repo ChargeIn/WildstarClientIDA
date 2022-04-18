@@ -29,7 +29,7 @@ _QWORD* __fastcall sub_14048D120(__int64 a1, unsigned int a2)
 	v7 = v9;
 	if (v9 != v3)
 	{
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeAbandon", byte_1409E9514, a2, &unk_1409F0584);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeAbandon", byte_1409E9514, a2, &unk_1409F0584);
 		sub_14048D7A0(a1, a2);
 		sub_14018B900(*(_QWORD*)(v7 + 40), 0);
 		v9 = v7;

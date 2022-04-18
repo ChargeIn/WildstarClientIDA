@@ -58,7 +58,7 @@ void __fastcall sub_140584360(__int64 a1, int a2, _WORD* a3, __int64 a4, __int64
 			goto LABEL_12;
 		}
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildResult", "ZSii", 0i64, a3, 0, 3);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildResult", "ZSii", 0i64, a3, 0, 3);
 }
 // 140C65898: using guessed type __int64 qword_140C65898;
 

@@ -48,7 +48,7 @@ void __fastcall sub_140406CA0(__int64 a1)
 		v6 = sub_140401220((__int64*)qword_140C658A0, 1u, 0i64);
 		v10 = 1;
 	LABEL_7:
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v6, v10);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v6, v10);
 		goto LABEL_8;
 	}
 	if (!(unsigned int)sub_1403E1170(v2, 0))

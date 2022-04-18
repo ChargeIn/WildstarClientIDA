@@ -13,7 +13,7 @@ __int64 __fastcall sub_14048A460(__int64 a1, _DWORD* a2)
 	v3 = a2[2];
 	*(_DWORD*)(v2 + 296) = v3;
 	v5 = v3;
-	sub_1400EA3E0(
+	Apollo_LUAEvent(
 		*(_QWORD*)(qword_140C65898 + 29504),
 		"ContractGoodQualityChanged",
 		byte_1409E9234,

@@ -34,7 +34,7 @@ __int64 __fastcall sub_1403DA0B0(__int64 a1, int* a2)
 				if (v7)
 				{
 					v20 = (*(__int64(__fastcall**)(__int64))(*(_QWORD*)v7 + 72i64))(v7);
-					sub_1400EA3E0(v8, "UI_HealthChanged", byte_1409EBC44, v6, v20);
+					Apollo_LUAEvent(v8, "UI_HealthChanged", byte_1409EBC44, v6, v20);
 				}
 				v9 = (*(__int64(__fastcall**)(_DWORD*))(*(_QWORD*)v4 + 64i64))(v4);
 				(*(void(__fastcall**)(_DWORD*, _QWORD))(*(_QWORD*)v4 + 80i64))(v4, (unsigned int)a2[1]);
@@ -47,7 +47,7 @@ __int64 __fastcall sub_1403DA0B0(__int64 a1, int* a2)
 					v14 = 1;
 					if (v12 > 1)
 						v14 = v12;
-					sub_1400EA3E0(v11, "Breath_FlashEvent", byte_1409EBCCC, (float)((float)v13 / (float)v14));
+					Apollo_LUAEvent(v11, "Breath_FlashEvent", byte_1409EBCCC, (float)((float)v13 / (float)v14));
 				}
 				v15 = a2[2];
 				if ((v15 & 0x40) != 0 || (v15 & 0x200) != 0)
@@ -59,7 +59,7 @@ __int64 __fastcall sub_1403DA0B0(__int64 a1, int* a2)
 						if ((v15 & 0x200) != 0)
 							v17 = 7;
 						LODWORD(v19) = v4[2];
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(a1 + 29504),
 							"DamageOrHealingDone",
 							"UUiiibS",
@@ -72,7 +72,7 @@ __int64 __fastcall sub_1403DA0B0(__int64 a1, int* a2)
 							&unk_1409E7E04);
 					}
 				}
-				sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "RefreshHealthShieldBar", byte_1409D08BB);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "RefreshHealthShieldBar", byte_1409D08BB);
 			}
 		}
 	}

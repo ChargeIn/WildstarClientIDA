@@ -9,7 +9,7 @@ __int64 __fastcall sub_140582850(__int64 a1, __int64 a2)
 	if (v3)
 	{
 		*(_DWORD*)(v3 + 876) = *(_DWORD*)(a2 + 16);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentMinLevel", byte_1409EAA34, v3);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentMinLevel", byte_1409EAA34, v3);
 	}
 	return 0i64;
 }

@@ -182,7 +182,7 @@ void __fastcall sub_140429DA0(__int64 a1, __int64 a2)
 		v2 = v36;
 		v9 = v35;
 	}
-	sub_1400EA3E0(a1, "HousingCommunityPlacedResidencesListRecieved", byte_1409EC02C, v9, v34);
+	Apollo_LUAEvent(a1, "HousingCommunityPlacedResidencesListRecieved", byte_1409EC02C, v9, v34);
 	if (v2)
 		sub_1400579E0(v2, v33, v9);
 }

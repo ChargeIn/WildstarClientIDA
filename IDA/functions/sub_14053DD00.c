@@ -97,7 +97,7 @@ __int64 __fastcall sub_14053DD00(__int64 a1)
 		v18 = sub_1403982A0(qword_140C65898, 1);
 		v19 = qword_140C65898;
 		if (*(_DWORD*)(a1 + 304) == v18)
-			return sub_1400EA3E0(*(_QWORD*)(v19 + 29504), "SprintStateUpdated", "b", 1i64, v20, v21, v22, v23);
+			return Apollo_LUAEvent(*(_QWORD*)(v19 + 29504), "SprintStateUpdated", "b", 1i64, v20, v21, v22, v23);
 		result = sub_1403982A0(qword_140C65898, 0);
 		if (*(_DWORD*)(a1 + 304) == (_DWORD)result)
 		{
@@ -108,7 +108,7 @@ __int64 __fastcall sub_14053DD00(__int64 a1)
 			if (dword_140C45DF0[(int)result] == 1)
 			{
 				v19 = qword_140C65898;
-				return sub_1400EA3E0(*(_QWORD*)(v19 + 29504), "SprintStateUpdated", "b", 1i64, v20, v21, v22, v23);
+				return Apollo_LUAEvent(*(_QWORD*)(v19 + 29504), "SprintStateUpdated", "b", 1i64, v20, v21, v22, v23);
 			}
 		}
 	}

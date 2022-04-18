@@ -36,8 +36,8 @@ __int64 __fastcall sub_14077A3A0(__int64 a1, _DWORD* a2, _QWORD* a3)
 			v11 = *(_QWORD*)(qword_140C65898 + 29504);
 			if (v11)
 			{
-				sub_1400EA3E0(v11, "ProgressClickWindowDisplay", byte_1409EC1B4, 1i64);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SetProgressClickTimes", "iiii");
+				Apollo_LUAEvent(v11, "ProgressClickWindowDisplay", byte_1409EC1B4, 1i64);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SetProgressClickTimes", "iiii");
 			}
 		}
 		return 0i64;

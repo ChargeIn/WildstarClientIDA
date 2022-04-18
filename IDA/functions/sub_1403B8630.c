@@ -54,7 +54,7 @@ __int64 __fastcall sub_1403B8630(__int64 a1, __int64 a2)
 	else
 	{
 	LABEL_4:
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "BuybackItemsUpdated", byte_1409D0D87);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "BuybackItemsUpdated", byte_1409D0D87);
 		return 0i64;
 	}
 	return result;

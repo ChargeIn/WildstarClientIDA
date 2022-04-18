@@ -94,7 +94,7 @@ __int64 __fastcall sub_1403B92A0(__int64 a1, __int64 a2)
 			*(_DWORD*)(v16 + 4) = sub_1407A1440(v17, v7, v17);
 		}
 	}
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "AbilityBookChange", &unk_1409D10C6);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "AbilityBookChange", &unk_1409D10C6);
 	return 0i64;
 }
 

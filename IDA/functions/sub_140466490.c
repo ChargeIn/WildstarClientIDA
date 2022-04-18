@@ -14,7 +14,7 @@ __int64 __fastcall sub_140466490(__int64 a1, float a2)
 	{
 		v3 = *(_QWORD*)(qword_140C65898 + 29504);
 		v4 = (*(float(__fastcall**)(_QWORD))(**(_QWORD**)(qword_140C65898 + 120) + 96i64))(*(_QWORD*)(qword_140C65898 + 120));
-		return sub_1400EA3E0(v3, "BreathChanged", byte_1409EBCF4, (unsigned int)(int)a2, v4, 0i64, 0i64);
+		return Apollo_LUAEvent(v3, "BreathChanged", byte_1409EBCF4, (unsigned int)(int)a2, v4, 0i64, 0i64);
 	}
 	return result;
 }

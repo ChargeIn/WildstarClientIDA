@@ -36,7 +36,7 @@ __int64 __fastcall sub_1406BFA00(__int64 a1, signed int a2, int* a3, unsigned __
 		*(_QWORD*)&v18 = v15;
 		DWORD2(v18) = DWORD2(v15);
 		sub_1403F4900(qword_140C65898, 0x459u, (__int64)&v16);
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"ZoneMapPing",
 			byte_1409E9DC4,

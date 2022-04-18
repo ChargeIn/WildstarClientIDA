@@ -27,7 +27,7 @@ void __fastcall sub_1405DEE20(__int64 a1, int a2, _WORD* a3)
 						0))
 				{
 					LODWORD(v8) = 31;
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v8);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v8);
 				}
 				else
 				{
@@ -44,7 +44,7 @@ void __fastcall sub_1405DEE20(__int64 a1, int a2, _WORD* a3)
 			else
 			{
 				v7 = 10;
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v7);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v7);
 			}
 		}
 	}

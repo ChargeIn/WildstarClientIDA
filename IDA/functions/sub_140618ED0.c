@@ -180,7 +180,7 @@ __int64 __fastcall sub_140618ED0(__int64 a1, int* a2)
 	}
 	v42 = qword_140C65898;
 	*(_DWORD*)(v3 + 104) = 0;
-	sub_1400EA3E0(*(_QWORD*)(v42 + 29504), "InvokeScientistExperimentation", byte_1409ED034, *(_QWORD*)(v10 + 48), v43);
+	Apollo_LUAEvent(*(_QWORD*)(v42 + 29504), "InvokeScientistExperimentation", byte_1409ED034, *(_QWORD*)(v10 + 48), v43);
 	return 0i64;
 }
 // 140618ED0: could not find valid save-restore pair for xmm6

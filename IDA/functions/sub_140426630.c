@@ -77,7 +77,7 @@ void __fastcall sub_140426630(__int64 a1, unsigned int* a2)
 				sub_1400FA3C0((__int64)v26, v7, v21.m128_f32);
 				v19 = v27;
 				sub_1400FB2A0((__int64)&v22, (__int64)L"worldLoc", v27);
-				sub_1400EA3E0(a1, "ShowLocOnWorldMap", byte_1409E9BBC, v18);
+				Apollo_LUAEvent(a1, "ShowLocOnWorldMap", byte_1409E9BBC, v18);
 				if (v28)
 					sub_1400579E0(v28, v20, v19);
 				sub_1400579E0(v7, v20, v18);

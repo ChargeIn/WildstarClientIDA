@@ -170,7 +170,7 @@ void __fastcall sub_14045D440(__int64 a1, __int64* a2)
 							sub_14045DE60(v32, v16);
 						}
 						LODWORD(v34) = *(_DWORD*)(a1 + 8);
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"ApplyCCState",
 							byte_1409E9C14,

@@ -34,7 +34,7 @@ __int64 __fastcall sub_1403A6E60(__int64 a1, unsigned int* a2)
 	v4[2] = v6;
 	v8 = qword_140C65898;
 	*v4 = v7;
-	sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "P2PTradeInvite", "U", *a2);
+	Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "P2PTradeInvite", "U", *a2);
 	return 0i64;
 }
 // 140C65898: using guessed type __int64 qword_140C65898;

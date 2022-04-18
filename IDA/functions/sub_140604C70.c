@@ -52,7 +52,7 @@ void __fastcall sub_140604C70(__int64 a1, __int64 a2, __int64 a3)
 		v11 = sub_1403D9500(qword_140C65898, (int*)(a3 + 16));
 		v13 = sub_1403D9500(v12, (int*)(a2 + 16));
 		v15 = v11;
-		sub_1400EA3E0(*(_QWORD*)(v14 + 29504), "Group_MentorRelationship", byte_1409EA454, v13, v15);
+		Apollo_LUAEvent(*(_QWORD*)(v14 + 29504), "Group_MentorRelationship", byte_1409EA454, v13, v15);
 	}
 }
 // 140604D2A: conditional instruction was optimized away because rax.8!=0

@@ -41,7 +41,7 @@ __int64 __fastcall sub_1403C74D0(__int64 a1)
 		{
 			v8 = *(_QWORD*)(qword_140C65898 + 29504);
 			v9 = (**v7)(v7);
-			sub_1400EA3E0(v8, "ZoneCompletionUpdated", L"i", v9);
+			Apollo_LUAEvent(v8, "ZoneCompletionUpdated", L"i", v9);
 		}
 	}
 	v10 = *(_QWORD*)(a1 + 29080);
@@ -66,7 +66,7 @@ __int64 __fastcall sub_1403C74D0(__int64 a1)
 	v16 = 0i64;
 	sub_140195960(a1 + 25656, 1, (__int64)&v13, 4);
 LABEL_13:
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayerEnteredWorld", &unk_1409D091E);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayerEnteredWorld", &unk_1409D091E);
 	if (*(_QWORD*)(*(_QWORD*)(qword_140C635F0 + 5584) + 248i64))
 		sub_140437A10((_QWORD*)qword_140C658D8, 0x18Bu, 0, 0i64, 0, 0, 1);
 	return 0i64;

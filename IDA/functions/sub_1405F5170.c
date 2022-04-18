@@ -77,7 +77,7 @@ __int64 __fastcall sub_1405F5170(__int64 a1, int* a2)
 			*(_QWORD*)v18[1] = v19;
 			v18[1] = v19;
 			if (v17)
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventInitiateVote", &unk_1409D10FB);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventInitiateVote", &unk_1409D10FB);
 		}
 	}
 	else

@@ -73,7 +73,7 @@ void __fastcall sub_14042A1A0(__int64 a1, unsigned int* a2)
 		v2[2] -= 16i64;
 	}
 	v25 = v11;
-	sub_1400EA3E0(a1, "PetCustomizationFailed", byte_1409EC17C, *a2, v25);
+	Apollo_LUAEvent(a1, "PetCustomizationFailed", byte_1409EC17C, *a2, v25);
 	sub_1400579E0((__int64)v2, v24, v11);
 }
 // 14042A257: variable 'v14' is possibly undefined

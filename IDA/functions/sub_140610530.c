@@ -57,7 +57,7 @@ void __fastcall sub_140610530(__int64 a1)
 			}
 		}
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogElderPointsLimitReached", L"T", v8, v13, v14, v15, v16);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogElderPointsLimitReached", L"T", v8, v13, v14, v15, v16);
 	sub_1400579E0((__int64)v2, v12, v8);
 }
 // 14061065D: variable 'v12' is possibly undefined

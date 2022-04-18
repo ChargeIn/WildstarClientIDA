@@ -81,7 +81,7 @@ LABEL_20:
 	if (v15)
 	{
 		LOBYTE(v3) = dword_140C65C38 == v11;
-		sub_1400EA3E0(v14, "QuestHighlightChanged", byte_1409E925C, v15, v3);
+		Apollo_LUAEvent(v14, "QuestHighlightChanged", byte_1409E925C, v15, v3);
 	}
 	return 0i64;
 }

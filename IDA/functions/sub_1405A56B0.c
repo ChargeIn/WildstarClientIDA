@@ -33,7 +33,7 @@ __int64 __fastcall sub_1405A56B0(__int64 a1, __int64 a2)
 			if ((*(unsigned int(__fastcall**)(_DWORD*))(*(_QWORD*)v4 + 8i64))(v4) == dword_140DC3494
 				&& v4[85] == *(_DWORD*)(*(_QWORD*)(a1 + 120) + 8i64))
 			{
-				sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "CraftingInterrupted", byte_1409D135B);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "CraftingInterrupted", byte_1409D135B);
 			}
 		}
 		sub_14053DF40((__int64)v4, *(_DWORD*)(a2 + 4));

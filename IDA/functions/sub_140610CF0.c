@@ -69,7 +69,7 @@ void __fastcall sub_140610CF0(__int64 a1)
 	sub_1400F06F0((__int64)v2, v13, L"nNewSpecIndex", v14 + 1);
 	v15 = qword_140C65898;
 	v2[2] -= 16i64;
-	sub_1400EA3E0(*(_QWORD*)(v15 + 29504), "CombatLogBuildSwitch", byte_1409EB7E4, v8, v17, v18, v19, v20);
+	Apollo_LUAEvent(*(_QWORD*)(v15 + 29504), "CombatLogBuildSwitch", byte_1409EB7E4, v8, v17, v18, v19, v20);
 	sub_1400579E0((__int64)v2, v16, v8);
 }
 // 140610DFE: variable 'v14' is possibly undefined

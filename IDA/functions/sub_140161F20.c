@@ -170,7 +170,7 @@ __int64 __fastcall sub_140161F20(__int64 a1, signed int a2, int* a3, unsigned __
 								}
 								else
 								{
-									sub_1400EA3E0(*(_QWORD*)(v6 + 32), v49, byte_1409DC78C, v20, v29);
+									Apollo_LUAEvent(*(_QWORD*)(v6 + 32), v49, byte_1409DC78C, v20, v29);
 								}
 								for (i = *(_QWORD*)(v6 + 16); i; i = *(_QWORD*)(i + 16))
 								{

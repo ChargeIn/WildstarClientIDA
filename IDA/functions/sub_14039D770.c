@@ -55,7 +55,7 @@ __int64 __fastcall sub_14039D770(__int64 a1)
 			return 0i64;
 	}
 	sub_1404B6B30(v5, v5);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingPropertyUpkeepOpen", byte_1409EBFC4, (unsigned int)v8);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingPropertyUpkeepOpen", byte_1409EBFC4, (unsigned int)v8);
 	return 0i64;
 }
 // 1409EBFC4: using guessed type _BYTE byte_1409EBFC4[24];

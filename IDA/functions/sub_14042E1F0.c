@@ -57,7 +57,7 @@ __int64 __fastcall sub_14042E1F0(__int64 a1, int** a2)
 	v14 = v22[1];
 	v13 = v23[1];
 	v12 = v22[0];
-	return sub_1400EA3E0(
+	return Apollo_LUAEvent(
 		a1,
 		"TargetThreatListUpdated",
 		"UiUiUiUiUi",

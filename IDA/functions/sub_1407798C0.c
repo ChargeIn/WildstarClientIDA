@@ -22,7 +22,7 @@ __int64 __fastcall sub_1407798C0(__int64 a1, __int64 a2, _QWORD* a3)
 		{
 			v6 = *(_QWORD*)(qword_140C65898 + 29504);
 			if (v6)
-				sub_1400EA3E0(v6, "ProgressClickWindowCompletionLevel", byte_1409EC294, 0i64, 0);
+				Apollo_LUAEvent(v6, "ProgressClickWindowCompletionLevel", byte_1409EC294, 0i64, 0);
 		}
 		return 0i64;
 	}

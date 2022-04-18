@@ -50,7 +50,7 @@ void __fastcall sub_14042DB70(__int64 a1, __int64 a2)
 		v10 = v15;
 	}
 	v13 = v10;
-	sub_1400EA3E0(a1, "PlayerPathSoldierNewWhackAMoleBurrows", "fT", (float)((float)*(int*)a2 * 0.001), v13);
+	Apollo_LUAEvent(a1, "PlayerPathSoldierNewWhackAMoleBurrows", "fT", (float)((float)*(int*)a2 * 0.001), v13);
 	if (v2)
 		sub_1400579E0((__int64)v2, v12, v10);
 }

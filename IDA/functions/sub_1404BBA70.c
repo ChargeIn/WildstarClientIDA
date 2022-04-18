@@ -12,7 +12,7 @@ __int64 __fastcall sub_1404BBA70(__int64 a1, _QWORD* a2)
 	unsigned __int64 v9; // rbx
 
 	v3 = (_QWORD*)qword_140C659F0;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingNeighborInviteRecieved", byte_1409EC0C4, a2[2]);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingNeighborInviteRecieved", byte_1409EC0C4, a2[2]);
 	v3[43] = *a2;
 	v3[44] = a2[1];
 	v4 = (int*)a2[2];

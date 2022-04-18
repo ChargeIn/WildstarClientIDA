@@ -41,7 +41,7 @@ __int64 __fastcall sub_140020EA0(__int64 a1, int a2, unsigned int a3, unsigned i
 			v24 = a3 - 1815;
 			if (!v24)
 			{
-				sub_1400EA3E0(*(_QWORD*)(a1 + 72), "QueueStatus", byte_1409D0B3C, *a4, a4[1], a4[2]);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "QueueStatus", byte_1409D0B3C, *a4, a4[1], a4[2]);
 				return 0i64;
 			}
 			v25 = v24 - 74;
@@ -50,7 +50,7 @@ __int64 __fastcall sub_140020EA0(__int64 a1, int a2, unsigned int a3, unsigned i
 			v26 = v25 - 4;
 			if (!v26)
 			{
-				sub_1400EA3E0(*(_QWORD*)(a1 + 72), "RealmTransferResult", byte_1409D0B7C, *a4);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "RealmTransferResult", byte_1409D0B7C, *a4);
 				return 0i64;
 			}
 			if (v26 == 253)
@@ -59,7 +59,7 @@ __int64 __fastcall sub_140020EA0(__int64 a1, int a2, unsigned int a3, unsigned i
 		}
 		if (a3 == 1813)
 		{
-			sub_1400EA3E0(*(_QWORD*)(a1 + 72), "QueueFinished", &unk_1409D0167);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "QueueFinished", &unk_1409D0167);
 			return 0i64;
 		}
 		v21 = a3 - 874;
@@ -68,7 +68,7 @@ __int64 __fastcall sub_140020EA0(__int64 a1, int a2, unsigned int a3, unsigned i
 			v22 = v21 - 119;
 			if (!v22)
 			{
-				sub_1400EA3E0(*(_QWORD*)(a1 + 72), "RealmBroadcast", byte_1409D0BDC, *((_QWORD*)a4 + 1), *a4);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "RealmBroadcast", byte_1409D0BDC, *((_QWORD*)a4 + 1), *a4);
 				return 0i64;
 			}
 			v23 = v22 - 435;
@@ -76,7 +76,7 @@ __int64 __fastcall sub_140020EA0(__int64 a1, int a2, unsigned int a3, unsigned i
 				return 0i64;
 			if (v23 == 342)
 			{
-				sub_1400EA3E0(*(_QWORD*)(a1 + 72), "PTRCharacterCopyQueued", &unk_1409D0166);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "PTRCharacterCopyQueued", &unk_1409D0166);
 				return 0i64;
 			}
 			return 1i64;
@@ -116,7 +116,7 @@ __int64 __fastcall sub_140020EA0(__int64 a1, int a2, unsigned int a3, unsigned i
 				{
 					v20 = *(_QWORD*)(a1 + 72);
 					*(_DWORD*)(a1 + 368) = 0;
-					sub_1400EA3E0(v20, "CharacterSelectFail", byte_1409D0ADC, *a4);
+					Apollo_LUAEvent(v20, "CharacterSelectFail", byte_1409D0ADC, *a4);
 					return 0i64;
 				}
 				return 0i64;
@@ -130,7 +130,7 @@ __int64 __fastcall sub_140020EA0(__int64 a1, int a2, unsigned int a3, unsigned i
 			{
 				*(_DWORD*)(a1 + 364) = *a4;
 				sub_140021D40(a1);
-				sub_1400EA3E0(*(_QWORD*)(a1 + 72), "MaxCharacterLevelAchieved", byte_1409D09DC, *(unsigned int*)(a1 + 364));
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "MaxCharacterLevelAchieved", byte_1409D09DC, *(unsigned int*)(a1 + 364));
 				return 0i64;
 			}
 			v10 = v9 - 119;
@@ -153,7 +153,7 @@ __int64 __fastcall sub_140020EA0(__int64 a1, int a2, unsigned int a3, unsigned i
 						v13 = *(_QWORD*)(a1 + 72);
 						*(_QWORD*)(a1 + 504) = -1i64;
 						*(_DWORD*)(a1 + 368) = 0;
-						sub_1400EA3E0(v13, "CharacterDelete", byte_1409D0A9C, *a4, a4[1]);
+						Apollo_LUAEvent(v13, "CharacterDelete", byte_1409D0A9C, *a4, a4[1]);
 						return 0i64;
 					}
 				}
@@ -171,7 +171,7 @@ __int64 __fastcall sub_140020EA0(__int64 a1, int a2, unsigned int a3, unsigned i
 				if (*(_QWORD*)(*(_QWORD*)(a1 + 264) + v16) == *(_QWORD*)a4)
 				{
 					LODWORD(v27) = a4[2];
-					sub_1400EA3E0(*(_QWORD*)(a1 + 72), "CharacterDisabled", byte_1409D0BFC, v15 + 1, v27);
+					Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "CharacterDisabled", byte_1409D0BFC, v15 + 1, v27);
 					*(_DWORD*)(*(_QWORD*)(a1 + 264) + v16 + 708) = a4[2];
 				}
 				++v15;

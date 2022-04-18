@@ -60,7 +60,7 @@ LABEL_10:
 				{
 					v15 = 0;
 					v14 = 0;
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatLeave", "Hbb", v12, v14, v15);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatLeave", "Hbb", v12, v14, v15);
 				}
 				sub_140408580(v3, v12);
 				sub_140007270(v3, v8);

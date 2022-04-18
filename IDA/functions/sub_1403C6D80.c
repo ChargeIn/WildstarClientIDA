@@ -95,7 +95,7 @@ void __fastcall sub_1403C6D80(__int64 a1, __int64 a2)
 		*(_DWORD*)(a1 + 5764) = 0;
 		*(_DWORD*)(a1 + 5760) = -1;
 	LABEL_24:
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(a1 + 29504),
 			"UI_XPChanged",
 			"iiii",

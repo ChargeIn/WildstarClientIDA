@@ -190,7 +190,7 @@ void __fastcall sub_1400062C0(__int64 a1, unsigned int* a2, int a3)
 					break;
 			}
 			LODWORD(v64) = a3;
-			sub_1400EA3E0(*(_QWORD*)(i + 72), "AccountEntitlementUpdate", byte_1409D0204, v44, &unk_1409D01F4, v64);
+			Apollo_LUAEvent(*(_QWORD*)(i + 72), "AccountEntitlementUpdate", byte_1409D0204, v44, &unk_1409D01F4, v64);
 			sub_1400579E0(v41, v53, v44);
 		}
 	}

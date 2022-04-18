@@ -38,7 +38,7 @@ void __fastcall sub_140039220(__int64 a1)
 	sub_1400D42F0(v5, 0, 0, 4.0);
 	v9 = *(_QWORD*)(a1 + 72);
 	if (v9)
-		sub_1400EA3E0(v9, "NetworkStatus", &unk_1409D01F2);
+		Apollo_LUAEvent(v9, "NetworkStatus", &unk_1409D01F2);
 	*(_DWORD*)(a1 + 168) = 0;
 }
 // 140039267: variable 'a1' is possibly undefined

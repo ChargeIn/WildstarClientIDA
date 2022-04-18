@@ -576,7 +576,7 @@ __int64 __fastcall sub_1400226C0(__int64 a1, __int64 a2)
 		v2 = v96;
 		v9 = v95;
 	}
-	sub_1400EA3E0(*(_QWORD*)(a1 + 72), "TransferDestinationRealmList", byte_1409D0B5C, v9, v94);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "TransferDestinationRealmList", byte_1409D0B5C, v9, v94);
 	if (v2)
 		sub_1400579E0(v2, v92, v9);
 	return 0i64;

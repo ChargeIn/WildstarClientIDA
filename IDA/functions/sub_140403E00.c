@@ -13,7 +13,7 @@ __int64 __fastcall sub_140403E00(__int64 a1, __int64 a2)
 	{
 		v5 = *(_QWORD*)(*v2 + 8 * v4);
 		if (**(_DWORD**)(v5 + 8) == *(_DWORD*)a2 && *(_QWORD*)(v5 + 16) == *(_QWORD*)(a2 + 8) && v5)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatAction", "HiSS");
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatAction", "HiSS");
 	}
 	return 0i64;
 }

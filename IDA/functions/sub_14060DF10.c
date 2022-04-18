@@ -111,10 +111,10 @@ void __fastcall sub_14060DF10(int* a1)
 		sub_1400F06F0(v2, v28, L"eEffectType", v29);
 		v30 = qword_140C65898;
 		*(_QWORD*)(v2 + 16) -= 16i64;
-		sub_1400EA3E0(*(_QWORD*)(v30 + 29504), "CombatLogMultiHeal", L"T", v6, v32);
+		Apollo_LUAEvent(*(_QWORD*)(v30 + 29504), "CombatLogMultiHeal", L"T", v6, v32);
 		v31 = *(unsigned int*)(*(_QWORD*)(qword_140C65898 + 120) + 8i64);
 		if ((_DWORD)v31 == a1[2] || (_DWORD)v31 == a1[4])
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FloaterMultiHeal", L"T", v6);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FloaterMultiHeal", L"T", v6);
 		sub_1400579E0(v2, v31, v6);
 	}
 }

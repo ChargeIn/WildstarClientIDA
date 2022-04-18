@@ -10,7 +10,7 @@ __int64 sub_14044CF40()
 	v0 = qword_140C65898;
 	*(_DWORD*)qword_140C65908 = 1;
 	if (v0)
-		sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(v0 + 32736) + 96i64), "StoreCatalogUpdated", byte_1409D13FB);
+		Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(v0 + 32736) + 96i64), "StoreCatalogUpdated", byte_1409D13FB);
 	v1 = qword_140C66DA8;
 	result = qword_140C66DA8;
 	if (qword_140C66DA8)
@@ -30,7 +30,7 @@ __int64 sub_14044CF40()
 				v1 = *(_QWORD*)(v1 + 176);
 			} while (v1);
 		}
-		sub_1400EA3E0(*(_QWORD*)(v1 + 72), "StoreCatalogUpdated", byte_1409D13EF);
+		Apollo_LUAEvent(*(_QWORD*)(v1 + 72), "StoreCatalogUpdated", byte_1409D13EF);
 	}
 	return 0i64;
 }

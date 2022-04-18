@@ -19,7 +19,7 @@ _DWORD* __fastcall sub_1405725F0(__int64 a1, unsigned int* a2)
 			{
 				v4 = qword_140C65898;
 				result[9] = 1;
-				return (_DWORD*)sub_1400EA3E0(
+				return (_DWORD*)Apollo_LUAEvent(
 					*(_QWORD*)(v4 + 29504),
 					"PlayerPathExplorerPowerMapEntered",
 					byte_1409ED364,

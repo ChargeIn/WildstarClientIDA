@@ -48,8 +48,8 @@ __int64 __fastcall sub_1404A6560(__int64 a1, unsigned int* a2)
 					}
 					else
 					{
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HazardRemoved", byte_1409E9A5C, v5);
-						sub_1400EA3E0(
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HazardRemoved", byte_1409E9A5C, v5);
+						Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"HazardRemoveMinimapUnit",
 							byte_1409E99FC,
@@ -84,13 +84,13 @@ __int64 __fastcall sub_1404A6560(__int64 a1, unsigned int* a2)
 				else
 				{
 					v15 = sub_1404A6340(v2, v7);
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HazardEnabled", byte_1409E9964, v5, v15);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HazardEnabled", byte_1409E9964, v5, v15);
 					sub_140437A10((_QWORD*)qword_140C658D8, 0x6Au, 0, 0i64, 0, 0, 1);
 					if (*(_DWORD*)(v8 + 32) && (*(_DWORD*)(v6 + 20) & 8) != 0)
 					{
 						LODWORD(v17) = *(_DWORD*)(v6 + 20) & 0x10;
 						LODWORD(v16) = *(_DWORD*)(v8 + 24);
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HazardShowMinimapUnit", byte_1409E9A44, v5, v16, v17);
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HazardShowMinimapUnit", byte_1409E9A44, v5, v16, v17);
 					}
 				}
 				return 0i64;

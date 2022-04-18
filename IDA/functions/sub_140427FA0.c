@@ -103,7 +103,7 @@ void __fastcall sub_140427FA0(__int64 a1, unsigned int* a2)
 	{
 	LABEL_32:
 		v23 = v11;
-		sub_1400EA3E0(a1, "ChannelUpdate_Loot", byte_1409EAD54, *a2, v23);
+		Apollo_LUAEvent(a1, "ChannelUpdate_Loot", byte_1409EAD54, *a2, v23);
 		goto LABEL_33;
 	}
 	v14 = (__int64)(a2 + 2);

@@ -34,7 +34,7 @@ __int64 __fastcall sub_1405C3E40(__int64 a1, int* a2)
 			*(_DWORD*)(v2 + 268) = 16;
 			*(_DWORD*)(v2 + 272) = 16;
 			*(_DWORD*)(v7 + 1368) = 1;
-			sub_1400EA3E0(*(_QWORD*)(v7 + 29504), "MatchLeft", &unk_1409D12A2);
+			Apollo_LUAEvent(*(_QWORD*)(v7 + 29504), "MatchLeft", &unk_1409D12A2);
 		}
 		*(_DWORD*)(v2 + 268) = a2[1];
 		*(_DWORD*)(v2 + 272) = a2[2];

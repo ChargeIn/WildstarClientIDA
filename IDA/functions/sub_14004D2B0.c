@@ -35,7 +35,7 @@ __int64 __fastcall sub_14004D2B0(__int64 a1, __int64 a2, int a3, __int64 a4, int
 			if (v12 != v7)
 			{
 				v11 = a3 == 515;
-				sub_1400EA3E0(a6, "ActorClicked", byte_1409D11C4, *(_QWORD*)(v12 + 40), v11);
+				Apollo_LUAEvent(a6, "ActorClicked", byte_1409D11C4, *(_QWORD*)(v12 + 40), v11);
 			}
 		}
 	}

@@ -87,7 +87,7 @@ __int64 __fastcall sub_1405E16C0(__int64 a1, __int64 a2)
 	*(_DWORD*)(a1 + 656) = *(_DWORD*)(a2 + 16);
 	*(_DWORD*)(a1 + 752) = *(_DWORD*)(a2 + 16);
 	*(_DWORD*)(a1 + 680) = *(_DWORD*)(a2 + 20);
-	sub_1400EA3E0(*(_QWORD*)(v16 + 29504), "FriendshipAccountPersonalStatusUpdate", &unk_1409D0EFD);
+	Apollo_LUAEvent(*(_QWORD*)(v16 + 29504), "FriendshipAccountPersonalStatusUpdate", &unk_1409D0EFD);
 	return 0i64;
 }
 // 140B55060: using guessed type __int64 (__fastcall *off_140B55060[2])();

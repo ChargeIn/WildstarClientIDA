@@ -10,7 +10,7 @@ __int64 __fastcall sub_1405F5610(__int64 a1, unsigned int* a2)
 		*a2,
 		0i64);
 	if (v2 && *(_DWORD*)(*(_QWORD*)(*(_QWORD*)(v2 + 48) + 8i64) + 84i64))
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventObjectiveStartMessage", byte_1409ED3C4);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventObjectiveStartMessage", byte_1409ED3C4);
 	return 0i64;
 }
 // 1409ED3C4: using guessed type _BYTE byte_1409ED3C4[4];

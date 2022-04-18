@@ -299,7 +299,7 @@ void __fastcall sub_14042C760(__int64 a1, _QWORD* a2)
 			v3 = v69;
 			v8 = v68;
 		}
-		sub_1400EA3E0(a1, "CREDDOperationHistoryResults", byte_1409ECC8C, v8);
+		Apollo_LUAEvent(a1, "CREDDOperationHistoryResults", byte_1409ECC8C, v8);
 		if (v3)
 			sub_1400579E0((__int64)v3, v66, v8);
 	}

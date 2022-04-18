@@ -72,12 +72,12 @@ __int64 __fastcall sub_140003FB0(__int64 a1, __int64 a2, int a3, unsigned int* a
 		if (!qword_140C65898)
 			goto LABEL_5;
 		v14 = a4[1];
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "AccountOperationResults", byte_1409ECC34, *a4, v14);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "AccountOperationResults", byte_1409ECC34, *a4, v14);
 		v10 = *(_QWORD*)(qword_140C65898 + 32736);
 		if (!v10)
 			goto LABEL_5;
 		LODWORD(v15) = a4[1];
-		sub_1400EA3E0(*(_QWORD*)(v10 + 96), "AccountOperationResults", byte_1409EFD14, *a4, v15);
+		Apollo_LUAEvent(*(_QWORD*)(v10 + 96), "AccountOperationResults", byte_1409EFD14, *a4, v15);
 		result = 0i64;
 		break;
 	case 2417:
@@ -140,7 +140,7 @@ __int64 __fastcall sub_140003FB0(__int64 a1, __int64 a2, int a3, unsigned int* a
 			v7 = qword_140C65898;
 			*(_DWORD*)a1 = v6;
 			if (v7)
-				sub_1400EA3E0(*(_QWORD*)(v7 + 29504), "WalletUpdate", L"i");
+				Apollo_LUAEvent(*(_QWORD*)(v7 + 29504), "WalletUpdate", L"i");
 		}
 	LABEL_5:
 		result = 0i64;

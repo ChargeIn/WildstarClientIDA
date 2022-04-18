@@ -16,11 +16,11 @@ __int64 __fastcall sub_14042CEA0(__int64 a1)
 		if (v4)
 		{
 			v6 = *(_DWORD*)(v4 + 8);
-			return sub_1400EA3E0(a1, "DuelStateChanged", byte_1409ECC6C, *(unsigned int*)(qword_140C65898 + 28388), v6);
+			return Apollo_LUAEvent(a1, "DuelStateChanged", byte_1409ECC6C, *(unsigned int*)(qword_140C65898 + 28388), v6);
 		}
 		v1 = qword_140C65898;
 	}
-	return sub_1400EA3E0(a1, "DuelStateChanged", byte_1409ECAEC, *(unsigned int*)(v1 + 28388));
+	return Apollo_LUAEvent(a1, "DuelStateChanged", byte_1409ECAEC, *(unsigned int*)(v1 + 28388));
 }
 // 1409ECAEC: using guessed type _BYTE byte_1409ECAEC[4];
 // 1409ECC6C: using guessed type _BYTE byte_1409ECC6C[4];

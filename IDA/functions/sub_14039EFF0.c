@@ -216,11 +216,11 @@ LABEL_32:
 				v14 = 4;
 			}
 			sub_1403A12A0(a1, v14, v13, 0);
-			sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "DashCastFail", &unk_1409D0EFE);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "DashCastFail", &unk_1409D0EFE);
 			return;
 		}
 	LABEL_78:
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "DashCastSuccess", byte_1409D0EFF);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "DashCastSuccess", byte_1409D0EFF);
 		v29 = dword_140C636A8;
 		*(_QWORD*)(a1 + 30936) = 1i64;
 		*(_DWORD*)(a1 + 30944) = v29;

@@ -91,7 +91,7 @@ __int64 __fastcall sub_1406A3BA0(_QWORD* a1)
 		v24 = v23;
 	}
 	v12 = sub_1400B7660(&v21);
-	sub_1400EA3E0(
+	Apollo_LUAEvent(
 		*(_QWORD*)(qword_140C65898 + 29504),
 		"GenericFloater",
 		"US",

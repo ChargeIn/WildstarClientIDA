@@ -14,7 +14,7 @@ __int64 __fastcall sub_140661FA0(int a1, __int64 a2, unsigned int a3)
 		{
 			result = *(unsigned int*)(result + 416);
 			if (a1 == (_DWORD)result)
-				return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayerRealmName", byte_1409E9FCC, a3, a2);
+				return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayerRealmName", byte_1409E9FCC, a3, a2);
 		}
 	}
 	return result;

@@ -961,7 +961,7 @@ LABEL_148:
 				v7 = *(_DWORD*)(v137 + 264);
 			if (a1->m128_i32[2] == v7 || v136)
 				LABEL_225:
-			sub_1400EA3E0(*(_QWORD*)(v134 + 29504), "UnitCreated", L"U", a1->m128_u32[2]);
+			Apollo_LUAEvent(*(_QWORD*)(v134 + 29504), "UnitCreated", L"U", a1->m128_u32[2]);
 			if (a1[37].m128_i32[0])
 				sub_14045E740((__int64)a1, 1u, a3, a4);
 			return 0i64;

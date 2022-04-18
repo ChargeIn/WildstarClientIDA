@@ -94,7 +94,7 @@ __int64 __fastcall sub_1403BEA90(__int64* a1, unsigned int* a2)
 				v16 = *(_QWORD*)(v14 + 112);
 				v17 = *(_DWORD*)(v16 + 24);
 				if ((*(_BYTE*)(v16 + 268) & 0x40) == 0)
-					sub_1400EA3E0(a1[3688], "UpdateSpellThreshold", byte_1409E9C44, (unsigned int)v2, *(_DWORD*)v13 + 1);
+					Apollo_LUAEvent(a1[3688], "UpdateSpellThreshold", byte_1409E9C44, (unsigned int)v2, *(_DWORD*)v13 + 1);
 				v18 = sub_140564FB0(v16, v2);
 				if (*(_DWORD*)(*(_QWORD*)(v15 + 112) + 24i64) == 7)
 					--v18;
@@ -113,7 +113,7 @@ __int64 __fastcall sub_1403BEA90(__int64* a1, unsigned int* a2)
 						if ((*(_BYTE*)(*(_QWORD*)(v15 + 112) + 268i64) & 0x40) == 0)
 						{
 							LODWORD(v22) = v18;
-							sub_1400EA3E0(a1[3688], "StartSpellThreshold", byte_1409E98FC, (unsigned int)v2, v22, 7, v23[0]);
+							Apollo_LUAEvent(a1[3688], "StartSpellThreshold", byte_1409E98FC, (unsigned int)v2, v22, 7, v23[0]);
 						}
 					}
 				}

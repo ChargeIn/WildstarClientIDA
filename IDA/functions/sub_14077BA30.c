@@ -15,7 +15,7 @@ void __fastcall sub_14077BA30(__int64 a1)
 	if (v2 < *(_QWORD*)(a1 + 184))
 	{
 		*(_DWORD*)(a1 + 212) = v2 + 1;
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"HighlightProgressOption",
 			byte_1409EC38C,
@@ -27,7 +27,7 @@ void __fastcall sub_14077BA30(__int64 a1)
 	{
 		v3 = qword_140C65898;
 		*(_DWORD*)(a1 + 216) = 0;
-		sub_1400EA3E0(*(_QWORD*)(v3 + 29504), "AcceptProgressInput", byte_1409EC27C, 1i64);
+		Apollo_LUAEvent(*(_QWORD*)(v3 + 29504), "AcceptProgressInput", byte_1409EC27C, 1i64);
 		*(_DWORD*)(a1 + 296) = 1;
 		v7 = sub_14077BB20;
 		v4 = *(_DWORD*)(a1 + 208) * *(_DWORD*)(*(_QWORD*)(a1 + 144) + 12i64);

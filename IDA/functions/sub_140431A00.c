@@ -238,7 +238,7 @@ void __fastcall sub_140431A00(__int64 a1, __int64 a2, __int64 a3, const __m128i*
 			{
 				v40 = (*(__int64(__fastcall**)(_QWORD))(**(_QWORD**)(v105 + 64) + 48i64))(*(_QWORD*)(v105 + 64));
 				sub_14049AA10(v34, v40);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GalacticArchiveLinkClick", L"G", *(_QWORD*)(v39 + 64));
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GalacticArchiveLinkClick", L"G", *(_QWORD*)(v39 + 64));
 			}
 			if (v23)
 			{
@@ -463,7 +463,7 @@ void __fastcall sub_140431A00(__int64 a1, __int64 a2, __int64 a3, const __m128i*
 				if (v75)
 					sub_14018B900((__int64)v75, 0);
 				v101 = sub_1407DF510(v60);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "WorkOrderLocate", byte_1409E901C, v101);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "WorkOrderLocate", byte_1409E901C, v101);
 			}
 			if (v60)
 			{

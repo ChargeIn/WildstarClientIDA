@@ -58,7 +58,7 @@ void __fastcall sub_140607310(__int64 a1, __int64 a2)
 					if ((!v7 || v14 && *(_QWORD*)(v14 + 5864)) && v6 == *(_QWORD*)(qword_140C65898 + 27728))
 					{
 						LODWORD(v15) = v7;
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Group_SetMark", byte_1409EA434, v8, v15);
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Group_SetMark", byte_1409EA434, v8, v15);
 					}
 				}
 			}

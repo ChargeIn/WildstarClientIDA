@@ -28,7 +28,7 @@ void __fastcall sub_14060F530(int* a1)
 	LODWORD(v4) = sub_1400578C0(v2);
 	v8 = v4;
 	sub_14060B380(a1, (__int64)&v7);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogImmunity", "T", (unsigned int)v4, v7);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogImmunity", "T", (unsigned int)v4, v7);
 	sub_1400579E0(v2, v6, v4);
 }
 // 14060F5FA: variable 'v6' is possibly undefined

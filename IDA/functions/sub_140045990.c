@@ -9,7 +9,7 @@ LRESULT __fastcall sub_140045990(__int64 a1, HWND a2, __int64 a3, __int64 a4, un
 
 	if (!*(_DWORD*)(a1 + 168) && (_DWORD)a3 == 256 && a4 == 27)
 	{
-		sub_1400EA3E0(*(_QWORD*)(a1 + 72), "RealmBack", &unk_1409D0216);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "RealmBack", &unk_1409D0216);
 		return 0i64;
 	}
 	else

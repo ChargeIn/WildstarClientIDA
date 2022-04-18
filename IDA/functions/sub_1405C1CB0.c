@@ -32,7 +32,7 @@ __int64 __fastcall sub_1405C1CB0(__int64 a1, __int64 a2)
 		*(_QWORD*)(a1 + 56) = *(_QWORD*)(a2 + 24);
 		v5 = *(_QWORD*)(v2 + 29504);
 		v16 = *(_OWORD*)(a2 + 16);
-		sub_1400EA3E0(v5, "MatchVoteKickBegin", L"y", &v16);
+		Apollo_LUAEvent(v5, "MatchVoteKickBegin", L"y", &v16);
 		v2 = qword_140C65898;
 	}
 	v6 = *(_QWORD*)(v2 + 27728);

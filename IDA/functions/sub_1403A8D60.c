@@ -26,7 +26,7 @@ __int64 __fastcall sub_1403A8D60(__int64 a1, __int64 a2)
 		}
 	}
 	*v6 = 0;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PetCustomizationUpdated", byte_1409EC114, v3);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PetCustomizationUpdated", byte_1409EC114, v3);
 	return 0i64;
 }
 // 1403A8DCE: conditional instruction was optimized away because rdx.8!=0

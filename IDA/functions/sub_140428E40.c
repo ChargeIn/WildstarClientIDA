@@ -132,7 +132,7 @@ void __fastcall sub_140428E40(__int64 a1, unsigned __int16* a2, unsigned int a3,
 	v31 = v30[96];
 	if (v31)
 		sub_14018B900(v31, 0);
-	sub_1400EA3E0(a1, "LootRollWon", byte_1409EADDC, v17, v33, v34, v35, v36, v37);
+	Apollo_LUAEvent(a1, "LootRollWon", byte_1409EADDC, v17, v33, v34, v35, v36, v37);
 	sub_1400579E0((__int64)v12, v32, v17);
 	if (v41[0])
 	{

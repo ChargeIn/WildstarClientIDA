@@ -57,7 +57,7 @@ void __fastcall sub_14042FBC0(__int64 a1, float* a2, int a3)
 	sub_1400FA3C0((__int64)v24, v3, a2);
 	v18 = v25;
 	sub_1400FB2A0((__int64)&v20, (__int64)L"tPosition", v25);
-	sub_1400EA3E0(a1, "SetNavPointFailed", "T", v11, v20, v21, v22, v23);
+	Apollo_LUAEvent(a1, "SetNavPointFailed", "T", v11, v20, v21, v22, v23);
 	if (v26)
 		sub_1400579E0(v26, v19, v18);
 	sub_1400579E0(v3, v19, v11);

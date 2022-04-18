@@ -22,7 +22,7 @@ __int64 __fastcall sub_140590A90(__int64 a1, __int64 a2)
 		v3[115] = *(_DWORD*)(a2 + 52);
 		v3[116] = *(_DWORD*)(a2 + 56);
 		v3[117] = *(_DWORD*)(a2 + 60);
-		sub_1400EA3E0(*(_QWORD*)(v4 + 29504), "GuildStandard", byte_1409EA60C);
+		Apollo_LUAEvent(*(_QWORD*)(v4 + 29504), "GuildStandard", byte_1409EA60C);
 	}
 	return 0i64;
 }

@@ -9,7 +9,7 @@ __int64 __fastcall sub_140602240(_QWORD* a1, __int64 a2)
 
 	v6 = *(_DWORD*)(a2 + 20);
 	v5 = *(_DWORD*)(a2 + 16);
-	sub_1400EA3E0(
+	Apollo_LUAEvent(
 		*(_QWORD*)(qword_140C65898 + 29504),
 		"Group_Request_Result",
 		byte_1409EA21C,

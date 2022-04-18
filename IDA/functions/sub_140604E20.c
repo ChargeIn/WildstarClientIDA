@@ -37,7 +37,7 @@ void __fastcall sub_140604E20(__int64 a1, __int64 a2, int a3)
 					}
 				}
 				*(_WORD*)v7 = 0;
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Group_Operation_Result", byte_1409EA344, v11, a3);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Group_Operation_Result", byte_1409EA344, v11, a3);
 			}
 		}
 	}

@@ -20,7 +20,7 @@ __int64 __fastcall sub_140612610(__int64 a1, unsigned int* a2)
 		return 2147500037i64;
 	*(_DWORD*)(a1 + 28568) = 1;
 	sub_140570C10(v6, a2);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SoldierHoldoutNextWave", L"#", *(_QWORD*)(v7 + 152));
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SoldierHoldoutNextWave", L"#", *(_QWORD*)(v7 + 152));
 	v8 = *(_QWORD*)(v7 + 120);
 	v9 = *(_QWORD*)(v8 + 8);
 	v10 = v8;

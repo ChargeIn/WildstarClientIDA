@@ -56,7 +56,7 @@ __int64 __fastcall sub_14052E790(__int64 a1, int a2, int* a3, unsigned __int8 a4
 									sub_140529B60(a1, v12);
 									*(_DWORD*)(a1 + 1264) = 3;
 									*(_OWORD*)(a1 + 1248) = 0i64;
-									sub_1400EA3E0(
+									Apollo_LUAEvent(
 										*(_QWORD*)(qword_140C65898 + 29504),
 										"ZoneMapWindowModeChange",
 										"i",
@@ -78,9 +78,9 @@ __int64 __fastcall sub_14052E790(__int64 a1, int a2, int* a3, unsigned __int8 a4
 									v17 = (*(__int64(__fastcall**)(__int64))(*(_QWORD*)v13 + 24i64))(v13);
 									v18 = *(_QWORD*)(qword_140C65898 + 29504);
 									v19 = (*(__int64(__fastcall**)(__int64))(*(_QWORD*)v17 + 8i64))(v17);
-									sub_1400EA3E0(v18, "ZoneMapWindowChange", byte_1409F1A4C, v19, v16);
+									Apollo_LUAEvent(v18, "ZoneMapWindowChange", byte_1409F1A4C, v19, v16);
 									if (v14)
-										sub_1400EA3E0(
+										Apollo_LUAEvent(
 											*(_QWORD*)(qword_140C65898 + 29504),
 											"ZoneMapWindowModeChange",
 											L"i",

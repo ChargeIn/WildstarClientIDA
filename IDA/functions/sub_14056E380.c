@@ -51,7 +51,7 @@ void __fastcall sub_14056E380(__int64 a1)
 			sub_140575DD0();
 			v8 = qword_140C65898;
 		}
-		sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "PlayerPathRefresh", byte_1409D10FF);
+		Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "PlayerPathRefresh", byte_1409D10FF);
 	}
 }
 // 1409D10FF: using guessed type _BYTE byte_1409D10FF[67];

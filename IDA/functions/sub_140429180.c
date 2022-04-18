@@ -97,7 +97,7 @@ void __fastcall sub_140429180(__int64 a1, unsigned __int16* a2, unsigned int a3)
 	v23 = v22[96];
 	if (v23)
 		sub_14018B900(v23, 0);
-	sub_1400EA3E0(a1, "LootAssigned", byte_1409EADF4, v15, v25, v26, v27, v28, v29);
+	Apollo_LUAEvent(a1, "LootAssigned", byte_1409EADF4, v15, v25, v26, v27, v28, v29);
 	sub_1400579E0((__int64)v10, v24, v15);
 	if (v31[0])
 	{

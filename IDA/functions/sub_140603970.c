@@ -26,7 +26,7 @@ __int64 __fastcall sub_140603970(__int64 a1, __int64 a2)
 		v11 = sub_140603A30;
 		sub_140195960(a1 + 96, v6, (__int64)&v9, 4);
 		v7 = sub_140605420(a1, (int*)(a2 + 8));
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"Group_ReadyCheck",
 			byte_1409EA31C,

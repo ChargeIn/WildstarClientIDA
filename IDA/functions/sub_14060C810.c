@@ -149,7 +149,7 @@ void __fastcall sub_14060C810(int* a1)
 	sub_1400F06F0(v2, v44, L"eEffectType", v45);
 	v46 = qword_140C65898;
 	*(_QWORD*)(v2 + 16) -= 16i64;
-	sub_1400EA3E0(*(_QWORD*)(v46 + 29504), "CombatLogReflect", "T", v6, v48);
+	Apollo_LUAEvent(*(_QWORD*)(v46 + 29504), "CombatLogReflect", "T", v6, v48);
 	sub_1400579E0(v2, v47, v6);
 }
 // 14060C8E4: variable 'v9' is possibly undefined

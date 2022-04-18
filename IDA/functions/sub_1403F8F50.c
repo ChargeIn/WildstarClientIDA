@@ -58,7 +58,7 @@ void __fastcall sub_1403F8F50(__int64 a1)
 								{
 									v21 = *(_QWORD*)(v20 + 29504);
 									if (v21)
-										sub_1400EA3E0(v21, "MessageFinished", byte_1409EB834, v17 + 2);
+										Apollo_LUAEvent(v21, "MessageFinished", byte_1409EB834, v17 + 2);
 								}
 								v22 = v17[9];
 								if (v22)
@@ -101,7 +101,7 @@ void __fastcall sub_1403F8F50(__int64 a1)
 							{
 								v12 = *(_QWORD*)(v11 + 29504);
 								if (v12)
-									sub_1400EA3E0(v12, "MessageFinished", byte_1409EB834, v8 + 2);
+									Apollo_LUAEvent(v12, "MessageFinished", byte_1409EB834, v8 + 2);
 							}
 							v13 = v8[9];
 							if (v13)

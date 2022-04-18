@@ -37,7 +37,7 @@ __int64 __fastcall sub_1406031D0(__int64 a1, _QWORD* a2)
 			{
 				*(_DWORD*)(v8 + 304) = 1;
 				v9 = *((_DWORD*)a2 + 4) == *(_DWORD*)(a1 + 80) && a2[3] == *(_QWORD*)(a1 + 88);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Group_MemberPromoted", byte_1409EA094, v8 + 32, v9);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Group_MemberPromoted", byte_1409EA094, v8 + 32, v9);
 			}
 		}
 		return 0i64;

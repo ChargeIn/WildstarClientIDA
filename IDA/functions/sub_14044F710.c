@@ -47,8 +47,8 @@ __int64 __fastcall sub_14044F710(__int64* a1)
 	a1[50] = 0i64;
 	if (v9)
 	{
-		sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(v9 + 32736) + 96i64), "StoreBannersReady", byte_1409D140F);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "StoreBannersReady", &unk_1409D13AA);
+		Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(v9 + 32736) + 96i64), "StoreBannersReady", byte_1409D140F);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "StoreBannersReady", &unk_1409D13AA);
 	}
 	v10 = a1[52];
 	if (v10)

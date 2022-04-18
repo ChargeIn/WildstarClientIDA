@@ -161,7 +161,7 @@ __int64 __fastcall sub_1403B9FB0(_QWORD* a1, unsigned int* a2)
 				if (*(_QWORD*)(qword_140C65898 + 120) && qword_140C65898 && (v28 = sub_1405A5B90(qword_140C65898, v24)) != 0
 					|| (v28 = sub_1407A0FD0(qword_140C65B70, v24)) != 0)
 				{
-					sub_1400EA3E0(v25, "AddSpellShortcut", byte_1409E9864, v28, v27, v26);
+					Apollo_LUAEvent(v25, "AddSpellShortcut", byte_1409E9864, v28, v27, v26);
 				}
 			}
 			if (a2[1] - 1 <= 1)
@@ -240,7 +240,7 @@ LABEL_53:
 		if (*(_QWORD*)(qword_140C65898 + 120) && qword_140C65898 && (v43 = sub_1405A5B90(qword_140C65898, v39)) != 0
 			|| (v43 = sub_1407A0FD0(qword_140C65B70, v39)) != 0)
 		{
-			sub_1400EA3E0(v40, "RemoveSpellShortcut", byte_1409E994C, v43, v42, v41);
+			Apollo_LUAEvent(v40, "RemoveSpellShortcut", byte_1409E994C, v43, v42, v41);
 		}
 	}
 LABEL_64:
@@ -263,7 +263,7 @@ LABEL_64:
 			else
 			{
 				LODWORD(v58) = sub_1405FBC40(v48, v47);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ContractStateChanged", byte_1409E91D4, a2[2], v58);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ContractStateChanged", byte_1409E91D4, a2[2], v58);
 			}
 		}
 		break;
@@ -284,7 +284,7 @@ LABEL_64:
 				if ((v54[3] & 0x80000) != 0)
 				{
 					LODWORD(v58) = v8;
-					sub_1400EA3E0(v55, "ContractObjectiveUpdated", byte_1409E91BC, (unsigned int)*v54, v58);
+					Apollo_LUAEvent(v55, "ContractObjectiveUpdated", byte_1409E91BC, (unsigned int)*v54, v58);
 				}
 				else
 				{
@@ -295,7 +295,7 @@ LABEL_64:
 		break;
 	case 0u:
 		v56 = sub_140491C60(qword_140C65968, a2[2]);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathMissionUpdate", L"p", v56);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathMissionUpdate", L"p", v56);
 		break;
 	}
 	return 0i64;

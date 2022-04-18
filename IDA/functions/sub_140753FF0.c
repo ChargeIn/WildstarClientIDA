@@ -235,7 +235,7 @@ __int64 __fastcall sub_140753FF0(_QWORD* a1)
 		j = *(int**)j;
 	}
 	v50 = sub_1400578C0(v40);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MessageManager_DisplayStoryPanel", "iTf", v61, v50, v35);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MessageManager_DisplayStoryPanel", "iTf", v61, v50, v35);
 	sub_1400579E0(v40, v51, v50);
 	v52 = *(int**)v13;
 	while (v52 != v13)

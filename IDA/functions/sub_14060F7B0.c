@@ -79,7 +79,7 @@ void __fastcall sub_14060F7B0(__int64 a1)
 	sub_1400F06F0((__int64)v2, v17, L"nStreakAmount", v18);
 	v19 = qword_140C65898;
 	v2[2] -= 16i64;
-	sub_1400EA3E0(*(_QWORD*)(v19 + 29504), "CombatLogKillStreak", "T", v8, v21, v22, v23, v24);
+	Apollo_LUAEvent(*(_QWORD*)(v19 + 29504), "CombatLogKillStreak", "T", v8, v21, v22, v23, v24);
 	sub_1400579E0((__int64)v2, v20, v8);
 }
 // 14060F8DC: variable 'v14' is possibly undefined

@@ -19,7 +19,7 @@ __int64 __fastcall sub_1403D9590(__int64 a1, __int64 a2, double a3, double a4)
 		return 0i64;
 	v6 = *(_QWORD*)(a1 + 29504);
 	v16 = *(_DWORD*)(a2 + 8);
-	sub_1400EA3E0(v6, "UnitDestroyed", L"U");
+	Apollo_LUAEvent(v6, "UnitDestroyed", L"U");
 	v7 = (_QWORD*)qword_140C65B88;
 	if (!qword_140C65B88)
 	{

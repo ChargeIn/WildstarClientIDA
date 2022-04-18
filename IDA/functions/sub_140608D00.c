@@ -44,7 +44,7 @@ __int64 __fastcall sub_140608D00(_DWORD* a1)
 	v1 = a1[50] == 0;
 	a1[49] = v10;
 	a1[50] = v1;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "QuestCalloutToggle", &unk_1409D0B5B);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "QuestCalloutToggle", &unk_1409D0B5B);
 	return 0i64;
 }
 // 140C65898: using guessed type __int64 qword_140C65898;

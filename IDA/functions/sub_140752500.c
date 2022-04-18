@@ -44,7 +44,7 @@ __int64 __fastcall sub_140752500(_QWORD* a1)
 			LODWORD(v15) = v3;
 			LODWORD(v14) = v2;
 			LODWORD(v13) = *(_DWORD*)(v10 + 8);
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"DamageOrHealingDone",
 				"UUiiibS",

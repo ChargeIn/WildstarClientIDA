@@ -12,7 +12,7 @@ __int64 __fastcall sub_1403CD9E0(__int64 a1, _DWORD* a2)
 	sub_140008410(a1 + 5208);
 	*(_DWORD*)(a1 + 28124) = -1;
 	*(_QWORD*)(a1 + 28344) = 0i64;
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "AbilityBookChange", &unk_1409D10C6);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "AbilityBookChange", &unk_1409D10C6);
 	if (*a2)
 	{
 		v4 = *(_DWORD*)(*(_QWORD*)(a1 + 120) + 8i64);

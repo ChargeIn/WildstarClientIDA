@@ -185,7 +185,7 @@ __int64 __fastcall sub_140583CA0(__int64 a1, __int64 a2)
 		}
 	}
 	dword_140C7DE28 = 0;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildChange", &unk_1409D0EB3);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildChange", &unk_1409D0EB3);
 	v20 = (__int64)v47;
 	v21 = (int*)*((_QWORD*)v47 + 2);
 	if (v21 != v47)
@@ -237,7 +237,7 @@ __int64 __fastcall sub_140583CA0(__int64 a1, __int64 a2)
 								while (v31[v32]);
 								if (v32)
 								{
-									sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildMessageOfTheDay", byte_1409EA7B4, v30);
+									Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildMessageOfTheDay", byte_1409EA7B4, v30);
 									v22 = qword_140C7DE20;
 									v23 = qword_140C7DE18;
 								}

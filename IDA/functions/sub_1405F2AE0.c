@@ -56,7 +56,7 @@ __int64 __fastcall sub_1405F2AE0(_DWORD* a1, __int64 a2)
 			goto LABEL_30;
 		v17 = *(_QWORD*)(qword_140C65898 + 29504);
 		v18 = (*(__int64(__fastcall**)(_DWORD*))(*(_QWORD*)a1 + 24i64))(a1);
-		sub_1400EA3E0(v17, "PublicEventStart", byte_1409ECF5C, v18);
+		Apollo_LUAEvent(v17, "PublicEventStart", byte_1409ECF5C, v18);
 		if (!v9)
 			goto LABEL_30;
 		v19 = a1[119];
@@ -98,7 +98,7 @@ __int64 __fastcall sub_1405F2AE0(_DWORD* a1, __int64 a2)
 		}
 		v22 = *(_QWORD*)(qword_140C65898 + 29504);
 		v23 = (*(__int64(__fastcall**)(__int64))(*(_QWORD*)v9 + 320i64))(v9);
-		sub_1400EA3E0(v22, "PublicEventObjectiveJoinedMessage", "n", v23);
+		Apollo_LUAEvent(v22, "PublicEventObjectiveJoinedMessage", "n", v23);
 		goto LABEL_30;
 	}
 	while (1)

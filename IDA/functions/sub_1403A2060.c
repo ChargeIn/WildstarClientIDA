@@ -47,7 +47,7 @@ __int64 __fastcall sub_1403A2060(__int64 a1)
 	{
 		v4 = *(_QWORD*)(a1 + 29504);
 		if (v4)
-			sub_1400EA3E0(v4, "MouseOverUnitChanged", L"U", *(unsigned int*)(qword_140C65898 + 25796));
+			Apollo_LUAEvent(v4, "MouseOverUnitChanged", L"U", *(unsigned int*)(qword_140C65898 + 25796));
 		sub_1403971C0(a1);
 	}
 	result = *(unsigned int*)(a1 + 25796);

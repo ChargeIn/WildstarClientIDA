@@ -10,7 +10,7 @@ void __fastcall sub_1400E2D20(__int64 a1)
 	__int64(__fastcall * v6)(); // [rsp+30h] [rbp-18h]
 	__int64 v7; // [rsp+38h] [rbp-10h]
 
-	sub_1400EA3E0(*(_QWORD*)a1, *(_BYTE**)(a1 + 48), &unk_1409D0307);
+	Apollo_LUAEvent(*(_QWORD*)a1, *(_BYTE**)(a1 + 48), &unk_1409D0307);
 	if (*(_BYTE*)(a1 + 76))
 	{
 		if (qword_140C63728)

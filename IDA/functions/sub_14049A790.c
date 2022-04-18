@@ -38,7 +38,7 @@ __int64 sub_14049A790()
 		} while (v2 != *(_QWORD**)(v0 + 16));
 	}
 	sub_140008410(v0 + 8);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GalacticArchiveRefresh", &unk_1409D11E3);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GalacticArchiveRefresh", &unk_1409D11E3);
 	return 0i64;
 }
 // 140C65898: using guessed type __int64 qword_140C65898;

@@ -32,7 +32,7 @@ __int64 __fastcall sub_140572360(__int64 a1, unsigned int* a2)
 						{
 							v7 = (_QWORD*)v7[4];
 							if (!v7)
-								return sub_1400EA3E0(
+								return Apollo_LUAEvent(
 									*(_QWORD*)(qword_140C65898 + 29504),
 									"PlayerPathExplorerPowerMapStarted",
 									byte_1409ED2CC,
@@ -42,7 +42,7 @@ __int64 __fastcall sub_140572360(__int64 a1, unsigned int* a2)
 						(*(void(__fastcall**)(_QWORD*))(*v7 + 8i64))(v7);
 					}
 				}
-				return sub_1400EA3E0(
+				return Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"PlayerPathExplorerPowerMapStarted",
 					byte_1409ED2CC,

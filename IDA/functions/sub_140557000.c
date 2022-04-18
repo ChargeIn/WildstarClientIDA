@@ -134,7 +134,7 @@ __int64 __fastcall sub_140557000(__int64 a1, int a2, int a3)
 	v32 = sub_14034BDD0(v13, *(_DWORD*)(v23 + 4));
 	v34 = sub_14034BDD0(v33, 60109);
 	v35 = sub_14018D540(&v41, (__int64)v34, v32);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GenericError", "iS", 1i64, *v35);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GenericError", "iS", 1i64, *v35);
 	if (v41)
 		(*(void(__fastcall**)(__int64))(*(_QWORD*)(v41 - 16) + 8i64))(v41 - 16);
 LABEL_26:

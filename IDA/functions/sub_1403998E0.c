@@ -105,7 +105,7 @@ __int64 __fastcall sub_1403998E0(__int64 a1, int* a2, int a3, int* a4)
 		if (v20
 			&& (v22 = sub_14034BDD0(v21, v20), (unsigned int)sub_14018E2C0((__int64)&unk_1409E7964, (unsigned __int16*)v22)))
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PrereqFailureMessage", byte_1409E958C, v22);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PrereqFailureMessage", byte_1409E958C, v22);
 			return 17i64;
 		}
 		else
@@ -126,7 +126,7 @@ __int64 __fastcall sub_1403998E0(__int64 a1, int* a2, int a3, int* a4)
 				{
 					LODWORD(v41) = v23;
 					LODWORD(v40) = *v27;
-					sub_1400EA3E0(
+					Apollo_LUAEvent(
 						*(_QWORD*)(qword_140C65898 + 29504),
 						"SpellCastFailed",
 						"iiUUSS",

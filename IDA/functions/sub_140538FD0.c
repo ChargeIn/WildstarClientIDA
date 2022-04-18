@@ -201,7 +201,7 @@ __int64 __fastcall sub_140538FD0(__int64 a1)
 						sub_1405FBBA0(*(_QWORD*)qword_140C65B80);
 					v32 = *(_QWORD*)(a1 + 29504);
 					LODWORD(v37) = *(_DWORD*)(v32 + 84);
-					sub_1400EA3E0(v32, "ResolutionChanged", byte_1409EC364, *(unsigned int*)(v32 + 80), v37);
+					Apollo_LUAEvent(v32, "ResolutionChanged", byte_1409EC364, *(unsigned int*)(v32 + 80), v37);
 					for (i = *(_QWORD*)(a1 + 28464); i; i = *(_QWORD*)(i + 96))
 					{
 						v34 = qword_140C65898;
@@ -209,7 +209,7 @@ __int64 __fastcall sub_140538FD0(__int64 a1)
 						v35 = *(_QWORD*)(v34 + 120);
 						if (v35 && *(_DWORD*)(i + 8) == *(_DWORD*)(v35 + 8))
 							*(_DWORD*)(v34 + 28568) = 1;
-						sub_1400EA3E0(*(_QWORD*)(v34 + 29504), "UnitCreated", L"U", *(unsigned int*)(i + 8));
+						Apollo_LUAEvent(*(_QWORD*)(v34 + 29504), "UnitCreated", L"U", *(unsigned int*)(i + 8));
 					}
 					if (qword_140C65970)
 						sub_14056FAD0();

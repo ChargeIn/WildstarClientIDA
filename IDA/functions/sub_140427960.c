@@ -173,7 +173,7 @@ void __fastcall sub_140427960(__int64 a1, __int64 a2, unsigned int* a3, unsigned
 		goto LABEL_33;
 	}
 LABEL_35:
-	sub_1400EA3E0(v10, "FriendshipLocation", byte_1409EAC9C, v13, v41, v42);
+	Apollo_LUAEvent(v10, "FriendshipLocation", byte_1409EAC9C, v13, v41, v42);
 	if (v4)
 		sub_1400579E0(v4, v40, v13);
 }

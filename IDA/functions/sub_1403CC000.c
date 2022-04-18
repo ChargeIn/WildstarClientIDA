@@ -146,7 +146,7 @@ __int64 __fastcall sub_1403CC000(__int64 a1, int* a2)
 					v18 = "CostumeForgetResult";
 				LABEL_34:
 					LODWORD(v28) = v5;
-					sub_1400EA3E0(v15, v18, v17, v16, v28);
+					Apollo_LUAEvent(v15, v18, v17, v16, v28);
 				}
 			LABEL_35:
 				v2 = (unsigned int)(v2 + 1);

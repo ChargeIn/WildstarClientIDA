@@ -12,7 +12,7 @@ __int64 sub_14063E3D0()
 		if (*(_DWORD*)(qword_140C65898 + 25600))
 		{
 			*(_DWORD*)(qword_140C65898 + 25600) = 0;
-			return sub_1400EA3E0(*(_QWORD*)(v0 + 29504), "AlternateTargetUnitChanged", L"U", 0i64);
+			return Apollo_LUAEvent(*(_QWORD*)(v0 + 29504), "AlternateTargetUnitChanged", L"U", 0i64);
 		}
 	}
 	return result;

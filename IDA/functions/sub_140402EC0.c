@@ -10,7 +10,7 @@ __int64 __fastcall sub_140402EC0(__int64 a1, int* a2)
 	if (v3)
 	{
 		v5 = *a2;
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "AccountSupportTicketResult", "Hb", v3, v5);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "AccountSupportTicketResult", "Hb", v3, v5);
 	}
 	return 0i64;
 }

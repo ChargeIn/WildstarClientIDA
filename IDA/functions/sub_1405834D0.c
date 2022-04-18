@@ -210,7 +210,7 @@ __int64 __fastcall sub_1405834D0(__int64 a1, _DWORD* a2)
 			v4 = 0i64;
 		}
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentGuildsUpdated", &unk_1409D0ED3);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentGuildsUpdated", &unk_1409D0ED3);
 	if (v4)
 		(*(void(__fastcall**)(int*))(*((_QWORD*)v4 - 2) + 8i64))(v4 - 4);
 	return 0i64;

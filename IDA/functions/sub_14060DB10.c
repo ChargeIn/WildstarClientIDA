@@ -87,7 +87,7 @@ void __fastcall sub_14060DB10(int* a1)
 		sub_1400FB540((__int64)&v20);
 		v2[2] -= 16i64;
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogDispel", "T", v6, v20);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogDispel", "T", v6, v20);
 	sub_1400579E0((__int64)v2, v19, v6);
 }
 // 14060DC8B: variable 'v16' is possibly undefined

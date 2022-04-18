@@ -49,7 +49,7 @@ __int64 __fastcall sub_1403D1CE0(_QWORD* a1, unsigned __int8* a2)
 		}
 		++j;
 	}
-	sub_1400EA3E0(a1[3688], "CharacterEldanAugmentationsReset", &unk_1409D10E3);
+	Apollo_LUAEvent(a1[3688], "CharacterEldanAugmentationsReset", &unk_1409D10E3);
 	return 0i64;
 }
 

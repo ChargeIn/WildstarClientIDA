@@ -53,7 +53,7 @@ __int64 __fastcall sub_1403B6DE0(__int64 a1, float* a2, double a3, double a4)
 	}
 	sub_1405FE120(*(_QWORD**)(a1 + 32144));
 	sub_140195D70(a1 + 26472);
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "PendingWorldRemovalCancel", &unk_1409D0D62);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "PendingWorldRemovalCancel", &unk_1409D0D62);
 	while (*(_QWORD*)(a1 + 28464))
 		sub_1403D9590(a1, *(_QWORD*)(a1 + 28464), a3, a4);
 	*(_QWORD*)(a1 + 120) = 0i64;
@@ -193,8 +193,8 @@ __int64 __fastcall sub_1403B6DE0(__int64 a1, float* a2, double a3, double a4)
 			}
 			(*(void(__fastcall**)(__int64))(*(_QWORD*)v29 + 8i64))(v29);
 		}
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "P2PCancelTrade", L"i", 1i64);
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "ChangeWorld", &unk_1409D091B);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "P2PCancelTrade", L"i", 1i64);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "ChangeWorld", &unk_1409D091B);
 		sub_140008410(a1 + 28504);
 		return 0i64;
 	}

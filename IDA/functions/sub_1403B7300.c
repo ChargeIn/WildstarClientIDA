@@ -56,9 +56,9 @@ __int64 __fastcall sub_1403B7300(__int64 a1, __int64* a2)
 			if (v14)
 				sub_1400A8020(v14 + 376);
 			if (!v9)
-				sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "PlayerEquippedItemChanged", byte_1409E9FEC, v7, v5, v11);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "PlayerEquippedItemChanged", byte_1409E9FEC, v7, v5, v11);
 			if (!v18)
-				sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "PlayerEquippedItemChanged", byte_1409E9FEC, v19, v11, v5);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "PlayerEquippedItemChanged", byte_1409E9FEC, v19, v11, v5);
 			if (!*(_DWORD*)(v5 + 32) || v8)
 				*(_DWORD*)(a1 + 1368) = 1;
 		}

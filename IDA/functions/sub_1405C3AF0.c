@@ -51,11 +51,11 @@ __int64 __fastcall sub_1405C3AF0(__int64 a1, _DWORD* a2)
 	if (*(_DWORD*)(v2 + 336))
 	{
 		LOBYTE(v6) = a2[1] == 0;
-		sub_1400EA3E0(v9, "MatchingGamePendingUpdate", "b", v6);
+		Apollo_LUAEvent(v9, "MatchingGamePendingUpdate", "b", v6);
 	}
 	else
 	{
-		sub_1400EA3E0(v9, "MatchingGameReady", L"b", 1i64);
+		Apollo_LUAEvent(v9, "MatchingGameReady", L"b", 1i64);
 	}
 	return 0i64;
 }

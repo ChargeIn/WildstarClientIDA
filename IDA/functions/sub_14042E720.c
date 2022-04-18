@@ -433,7 +433,7 @@ void __fastcall sub_14042E720(__int64 a1, _DWORD* a2)
 			}
 		}
 	}
-	sub_1400EA3E0(a1, "WhoResponse", "TiS", v8, v5[4], *(_QWORD*)(qword_140C658A0 + 264));
+	Apollo_LUAEvent(a1, "WhoResponse", "TiS", v8, v5[4], *(_QWORD*)(qword_140C658A0 + 264));
 	if (v2)
 		sub_1400579E0(v2, v97, v8);
 }

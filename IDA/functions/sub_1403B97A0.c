@@ -51,7 +51,7 @@ __int64 __fastcall sub_1403B97A0(__int64 a1, unsigned __int8* a2)
 		if (*a2 < 4u)
 			*(_DWORD*)(a1 + 4i64 * *a2 + 5192) = a2[1];
 		if (*((_DWORD*)a2 + 1) != 1)
-			sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "ActionSetError", byte_1409ECE7C);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "ActionSetError", byte_1409ECE7C);
 		sub_140008410(a1 + 5208);
 		*(_DWORD*)(a1 + 28124) = -1;
 		return 0i64;

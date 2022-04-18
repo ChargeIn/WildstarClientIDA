@@ -17,7 +17,7 @@ __int64 __fastcall sub_1403C9070(__int64 a1, _DWORD* a2)
 
 	v4 = *a2 - a2[3] - a2[4];
 	v12 = a2[3];
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "ElderPointsGained", byte_1409EB744, v4, v12);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "ElderPointsGained", byte_1409EB744, v4, v12);
 	v5 = *(_QWORD*)(a1 + 120) == 0i64;
 	*(_DWORD*)(a1 + 5772) = a2[1];
 	*(_DWORD*)(a1 + 5776) = a2[2];

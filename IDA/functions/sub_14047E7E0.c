@@ -15,7 +15,7 @@ __int64 __fastcall sub_14047E7E0(__int64 a1, unsigned int a2)
 	v4 = sub_140498A40(qword_140C65980, a2, 0);
 	v5 = v4;
 	if (!v4)
-		return sub_1400EA3E0(
+		return Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"PublicEventUnitUpdate",
 			byte_1409ED124,
@@ -24,7 +24,7 @@ __int64 __fastcall sub_14047E7E0(__int64 a1, unsigned int a2)
 	sub_1400293C0(v4 + 200, (__int64)v7, &v8);
 	result = (*(__int64(__fastcall**)(__int64))(*(_QWORD*)v5 + 176i64))(v5);
 	if ((_DWORD)result)
-		return sub_1400EA3E0(
+		return Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"PublicEventUnitUpdate",
 			byte_1409ED124,

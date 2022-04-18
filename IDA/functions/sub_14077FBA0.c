@@ -10,7 +10,7 @@ __int64 sub_14077FBA0()
 		if (*(_DWORD*)(*(_QWORD*)(qword_140C7DE18 + 8 * i) + 16i64) == 3)
 			break;
 	}
-	return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "WarPartyBattleOpen", byte_1409EA574);
+	return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "WarPartyBattleOpen", byte_1409EA574);
 }
 // 1409EA574: using guessed type _BYTE byte_1409EA574[88];
 // 140C65898: using guessed type __int64 qword_140C65898;

@@ -235,7 +235,7 @@ __int64 __fastcall sub_1405828F0(__int64 a1, unsigned int* a2)
 			v36 += 48i64;
 		} while (v31);
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentGuildsList", &unk_1409D0EEB);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentGuildsList", &unk_1409D0EEB);
 	return 0i64;
 }
 // 140B55060: using guessed type __int64 (__fastcall *off_140B55060[2])();

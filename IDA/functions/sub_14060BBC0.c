@@ -62,7 +62,7 @@ void __fastcall sub_14060BBC0(__int64 a1)
 			sub_1400F0870(v4, v14, L"strState", v15);
 			v16 = qword_140C65898;
 			*(_QWORD*)(v4 + 16) -= 16i64;
-			sub_1400EA3E0(*(_QWORD*)(v16 + 29504), "CombatLogCCStateBreak", L"T", (unsigned int)v6, v18);
+			Apollo_LUAEvent(*(_QWORD*)(v16 + 29504), "CombatLogCCStateBreak", L"T", (unsigned int)v6, v18);
 			sub_1400579E0(v4, v17, v6);
 		}
 	}

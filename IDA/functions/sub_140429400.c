@@ -88,7 +88,7 @@ void __fastcall sub_140429400(__int64 a1, unsigned int a2)
 	v18 = v17[96];
 	if (v18)
 		sub_14018B900(v18, 0);
-	sub_1400EA3E0(a1, "LootRollAllPassed", L"T", v13, v20, v21, v22, v23, v24);
+	Apollo_LUAEvent(a1, "LootRollAllPassed", L"T", v13, v20, v21, v22, v23, v24);
 	sub_1400579E0((__int64)v8, v19, v13);
 	if (v26[0])
 	{

@@ -31,7 +31,7 @@ __int64 __fastcall sub_1406077D0(__int64 a1, int a2, __int64 a3, int a4)
 	v7 = sub_14034BDD0(v6, *(_DWORD*)a1);
 	if (v7 && *v7)
 	{
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CountdownTick", L"S", v7);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CountdownTick", L"S", v7);
 		return a1;
 	}
 	else

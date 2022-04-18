@@ -308,7 +308,7 @@ LABEL_31:
 		}
 	}
 	sub_140003890((__int64*)qword_140C658A0, 2u, 0i64, v37, 0, v38);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PetFlairUnlocked", byte_1409EC0D4, *a2);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PetFlairUnlocked", byte_1409EC0D4, *a2);
 	if ((_QWORD)v58)
 		sub_14018B900(v58, 0);
 	sub_1400B7390(&v46);

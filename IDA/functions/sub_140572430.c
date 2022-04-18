@@ -17,7 +17,7 @@ _DWORD* __fastcall sub_140572430(__int64 a1, unsigned int* a2)
 			if (result)
 			{
 				++result[7];
-				return (_DWORD*)sub_1400EA3E0(
+				return (_DWORD*)Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"PlayerPathMissionAdvanced",
 					byte_1409ED524,

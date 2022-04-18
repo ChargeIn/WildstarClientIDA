@@ -64,7 +64,7 @@ __int64 __fastcall sub_14062A5F0(
 		LABEL_5:
 			v16 = *(_QWORD*)(qword_140C65898 + 29504);
 		LABEL_6:
-			sub_1400EA3E0(v16, "MailResult", L"i", v15, v33[0]);
+			Apollo_LUAEvent(v16, "MailResult", L"i", v15, v33[0]);
 			return 2147500037i64;
 		}
 		*(_DWORD*)(a1 + 12) = v14 + 1;
@@ -128,7 +128,7 @@ LABEL_25:
 			v33[1] = 0i64;
 			if (!(*(unsigned int(__fastcall**)(_QWORD*, __int64*, _QWORD))(v30 + 104))(v28, v33, v23))
 			{
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MailResult", L"i", 158i64);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MailResult", L"i", 158i64);
 				return 2147500037i64;
 			}
 			v31 = (*(__int64(__fastcall**)(_QWORD*))(*v29 + 48i64))(v29);

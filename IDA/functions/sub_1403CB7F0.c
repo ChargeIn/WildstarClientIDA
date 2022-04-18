@@ -30,7 +30,7 @@ __int64 __fastcall sub_1403CB7F0(__int64 a1, unsigned int* a2)
 		}
 		v8 = sub_140617410(v5, a2[1]);
 		if (v8)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "InvokeSoldierBuild", "U#", *a2, *(_QWORD*)(v8 + 152));
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "InvokeSoldierBuild", "U#", *a2, *(_QWORD*)(v8 + 152));
 		return 0i64;
 	}
 	return 1i64;

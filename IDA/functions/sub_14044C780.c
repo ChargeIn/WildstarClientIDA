@@ -8,7 +8,7 @@ __int64 __fastcall sub_14044C780(__int64 a1, unsigned int a2, int a3)
 	__int64 v7; // [rsp+20h] [rbp-18h]
 
 	if (qword_140C65898)
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64),
 			"StorePurchaseOfferResult",
 			byte_1409F00AC,
@@ -34,7 +34,7 @@ __int64 __fastcall sub_14044C780(__int64 a1, unsigned int a2, int a3)
 			} while (v5);
 		}
 		LODWORD(v7) = a3;
-		sub_1400EA3E0(*(_QWORD*)(v5 + 72), "StorePurchaseOfferResult", byte_1409F007C, a2, v7);
+		Apollo_LUAEvent(*(_QWORD*)(v5 + 72), "StorePurchaseOfferResult", byte_1409F007C, a2, v7);
 	}
 	return 0i64;
 }

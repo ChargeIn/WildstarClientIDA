@@ -19,7 +19,7 @@ __int64 __fastcall sub_14069BA10(_QWORD* a1)
 			{
 				if (v4[105])
 				{
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildEventLogChange", byte_1409EA76C, v4);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildEventLogChange", byte_1409EA76C, v4);
 					return 0i64;
 				}
 				sub_14057EFA0(v4);

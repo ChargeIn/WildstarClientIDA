@@ -48,7 +48,7 @@ __int64 __fastcall sub_1405FB670(__int64 a1, unsigned int* a2)
 	}
 	v14 = *(_QWORD*)(qword_140C65898 + 29504);
 	if ((*(_DWORD*)(*(_QWORD*)(v4 + 8) + 12i64) & 0x80000) != 0)
-		sub_1400EA3E0(v14, "ContractStateChanged", byte_1409E91D4, *a2, a2[1]);
+		Apollo_LUAEvent(v14, "ContractStateChanged", byte_1409E91D4, *a2, a2[1]);
 	else
 		sub_1404261E0(v14, *a2, a2[1]);
 	return 0i64;

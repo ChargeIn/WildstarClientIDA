@@ -46,7 +46,7 @@ __int64 __fastcall sub_14057E580(__int64 a1, __int64 a2)
 	}
 	if (v3)
 		(*(void(__fastcall**)(__int64))(*(_QWORD*)(v3 - 16) + 8i64))(v3 - 16);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentDescription", byte_1409EA9CC, a1, v11);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "RecruitmentDescription", byte_1409EA9CC, a1, v11);
 	return 0i64;
 }
 // 14057E580: could not find valid save-restore pair for rdi

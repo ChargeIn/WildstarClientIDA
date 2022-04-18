@@ -19,7 +19,7 @@ __int64 __fastcall sub_1403B85A0(__int64 a1, __int64 a2)
 		*(_QWORD*)(v3 + 224) = v5;
 		*(_DWORD*)(v3 + 292) = 1;
 		if ((int)sub_14056A430(v3) >= 0)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ItemModified", byte_1409EAD24, v4);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ItemModified", byte_1409EAD24, v4);
 	}
 	return 0i64;
 }

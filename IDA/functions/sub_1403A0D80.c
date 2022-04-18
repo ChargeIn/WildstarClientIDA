@@ -43,7 +43,7 @@ __int64 sub_1403A0D80()
 	if (!v7 || !*(_DWORD*)(v7 + 68))
 		return 3i64;
 	sub_14039E400(qword_140C65898);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "InvokeCraftingWindow", byte_1409E9F14, *(unsigned int*)(v6 + 8));
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "InvokeCraftingWindow", byte_1409E9F14, *(unsigned int*)(v6 + 8));
 	sub_1403A71F0(v0, *(_DWORD*)(v6 + 8), 0x2Cu, 1);
 	return 0i64;
 }

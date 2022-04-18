@@ -180,7 +180,7 @@ void __fastcall sub_14057F0B0(__int64* a1, __int64 a2, int a3, _DWORD* a4, int a
 		}
 		if (v26 != 1 || (unsigned int)(*a4 - 100) > 0xC7)
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildResult", "ZSii", a1, 0i64, 0, 64);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildResult", "ZSii", a1, 0i64, 0, 64);
 			goto LABEL_95;
 		}
 		v36 = qword_140C65898;
@@ -258,7 +258,7 @@ void __fastcall sub_14057F0B0(__int64* a1, __int64 a2, int a3, _DWORD* a4, int a
 		v28 = &unk_1409F2E04;
 		v29 = *(_QWORD*)(qword_140C65898 + 29504);
 	LABEL_86:
-		sub_1400EA3E0(v29, "GuildResult", "ZSii", a1, v28, 0, 68);
+		Apollo_LUAEvent(v29, "GuildResult", "ZSii", a1, v28, 0, 68);
 		goto LABEL_95;
 	}
 	if (*((_DWORD*)a1 + 4) == 1)

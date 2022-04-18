@@ -63,7 +63,7 @@ _QWORD* __fastcall sub_14042D9B0(__int64 a1, __int64 a2)
 				v13 = v20;
 			}
 			LODWORD(v18) = *((_DWORD*)v5 + 8);
-			sub_1400EA3E0(a1, "PlayerPathAdd", byte_1409ED30C, v13, v18);
+			Apollo_LUAEvent(a1, "PlayerPathAdd", byte_1409ED30C, v13, v18);
 			if (v8)
 				sub_1400579E0((__int64)v8, v16, v13);
 			v17 = v5[3];

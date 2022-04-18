@@ -26,7 +26,7 @@ __int64 __fastcall sub_1403FA680(__int64 a1, int a2)
 				return result;
 		}
 		sub_1403FA490(qword_140C65898, 0);
-		sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(v2 + 32736) + 96i64), "OpenStoreFromBanner", byte_1409EFCA4, *v6);
+		Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(v2 + 32736) + 96i64), "OpenStoreFromBanner", byte_1409EFCA4, *v6);
 		return sub_140400840((__int64*)(v2 + 72), *(_QWORD*)(qword_140C635F0 + 5792), 1, v6[1], v6[2]);
 	}
 	return result;

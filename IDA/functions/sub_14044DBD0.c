@@ -10,8 +10,8 @@ __int64 sub_14044DBD0()
 
 	if (qword_140C65898)
 	{
-		sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64), "StoreCatalogReady", byte_1409D13DF);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "StoreLinksRefresh", byte_1409D13AB);
+		Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64), "StoreCatalogReady", byte_1409D13DF);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "StoreLinksRefresh", byte_1409D13AB);
 	}
 	if (qword_140C65A48)
 	{
@@ -20,7 +20,7 @@ __int64 sub_14044DBD0()
 		{
 			v1 = *(_QWORD*)(v0 + 1424);
 			if (v1)
-				sub_1400EA3E0(v1, "StoreLinksRefresh", byte_1409D13FF);
+				Apollo_LUAEvent(v1, "StoreLinksRefresh", byte_1409D13FF);
 		}
 	}
 	v2 = qword_140C66DA8;
@@ -42,7 +42,7 @@ __int64 sub_14044DBD0()
 				v2 = *(_QWORD*)(v2 + 176);
 			} while (v2);
 		}
-		return sub_1400EA3E0(*(_QWORD*)(v2 + 72), "StoreCatalogReady", &unk_1409D13FE);
+		return Apollo_LUAEvent(*(_QWORD*)(v2 + 72), "StoreCatalogReady", &unk_1409D13FE);
 	}
 	return result;
 }

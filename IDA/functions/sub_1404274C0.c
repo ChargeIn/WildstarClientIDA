@@ -15,7 +15,7 @@ void __fastcall sub_1404274C0(__int64 a1, int a2, int a3, int a4)
 		v12 = a3;
 		v9 = (unsigned int)sub_1400578C0((__int64)v4);
 		v11 = a2;
-		sub_1400EA3E0(a1, "Group_Mentor", byte_1409EA4C4, v9, v11, v12);
+		Apollo_LUAEvent(a1, "Group_Mentor", byte_1409EA4C4, v9, v11, v12);
 		sub_1400579E0((__int64)v4, v10, v9);
 	}
 }

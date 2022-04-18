@@ -150,7 +150,7 @@ __int64 __fastcall sub_14049C1A0(__int64 a1, unsigned int a2, unsigned int a3, i
 	{
 		v25 = v8;
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PrereqFailureMessage", byte_1409E958C, v25);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PrereqFailureMessage", byte_1409E958C, v25);
 	if (v23)
 		sub_14018B900((__int64)v23, 0);
 	if (v8)

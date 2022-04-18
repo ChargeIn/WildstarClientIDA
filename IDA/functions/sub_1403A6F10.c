@@ -33,7 +33,7 @@ __int64 __fastcall sub_1403A6F10(__int64 a1, __int64* a2)
 			}
 		}
 	LABEL_11:
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "P2PTradeChange", byte_1409D1277, v4);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "P2PTradeChange", byte_1409D1277, v4);
 	}
 	return 0i64;
 }

@@ -38,7 +38,7 @@ void __fastcall sub_1405E5AE0(__int64* a1, int a2, int a3)
 				}
 				sub_1401C2F20(v10 + 64, v5);
 				if (a2 != 22)
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ProfessionUpdated", &unk_1409D135E);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ProfessionUpdated", &unk_1409D135E);
 			}
 		}
 	}

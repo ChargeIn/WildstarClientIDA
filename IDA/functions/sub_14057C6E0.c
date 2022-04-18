@@ -73,7 +73,7 @@ __int64 __fastcall sub_14057C6E0(__int64 a1, __int64 a2)
 	LABEL_19:
 		sub_140404090(v10, v11, *(_QWORD*)a1, *(int**)(a1 + 8));
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildName", byte_1409EA944, a1, v13);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildName", byte_1409EA944, a1, v13);
 	return 0i64;
 }
 // 14057C6E0: could not find valid save-restore pair for r15

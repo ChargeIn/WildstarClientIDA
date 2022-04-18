@@ -280,7 +280,7 @@ LABEL_43:
 					if (v52 != v53)
 					{
 						LODWORD(v50) = *v48;
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"SpellCastFailed",
 							"iiUUSS",

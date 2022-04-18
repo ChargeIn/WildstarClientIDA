@@ -129,7 +129,7 @@ __int64 __fastcall sub_140045E30(__int64 a1, __int64 a2)
 		v3 = a1;
 		v2 = v41;
 	}
-	sub_1400EA3E0(*(_QWORD*)(v3 + 72), "RealmListChanged", &unk_1409D0217);
+	Apollo_LUAEvent(*(_QWORD*)(v3 + 72), "RealmListChanged", &unk_1409D0217);
 	v22 = dword_140C66910;
 	if (*(_DWORD*)qword_140C63750 < dword_140C66910)
 		v22 = *(_DWORD*)qword_140C63750;
@@ -154,7 +154,7 @@ __int64 __fastcall sub_140045E30(__int64 a1, __int64 a2)
 	LABEL_36:
 		v30 = *(_QWORD*)(v3 + 72);
 		if (v30)
-			sub_1400EA3E0(v30, "NetworkStatus", &unk_1409D01F2, 0i64);
+			Apollo_LUAEvent(v30, "NetworkStatus", &unk_1409D01F2, 0i64);
 		goto LABEL_38;
 	}
 	v29 = 0i64;

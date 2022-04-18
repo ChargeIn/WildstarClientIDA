@@ -35,7 +35,7 @@ __int64 __fastcall sub_1404BB220(__int64 a1, __int64 a2)
 				v3[2] += 8i64;
 			}
 		}
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingVendorListRecieved", byte_1409D0FBE);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingVendorListRecieved", byte_1409D0FBE);
 	}
 	return 0i64;
 }

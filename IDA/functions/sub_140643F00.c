@@ -201,27 +201,27 @@ __int64 __fastcall sub_140643F00(__int64 a1, unsigned int a2, int a3, int a4, __
 							if (v54)
 								sub_14018B900((__int64)v54, 0);
 							v38 = sub_1400B7660(&v57);
-							sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "AlertAchievement", L"S", *(_QWORD*)(v38 + 8));
+							Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "AlertAchievement", L"S", *(_QWORD*)(v38 + 8));
 							sub_140437A10((_QWORD*)qword_140C658D8, 0x48u, 0, 0i64, 0, 0, 1);
 							if (v61)
 								sub_14018B900(v61, 0);
 							sub_1400B7390(&v57);
 						}
 						if ((unsigned int)sub_140644D30(v26, (*v24)[2]) == 5)
-							sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "TradeskillAchievementComplete", L"i", **v24);
+							Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "TradeskillAchievementComplete", L"i", **v24);
 					}
 					else if ((unsigned int)sub_140644D30(v23, v25[2]) == 5 && (unsigned int)sub_1406428D0((__int64)v24) != 5)
 					{
 						v39 = *(_QWORD*)(qword_140C65898 + 29504);
 						v51 = sub_14048C320(v24);
 						v50 = sub_14048C3D0(v24);
-						sub_1400EA3E0(v39, "TradeskillAchievementUpdate", "aii", v24, v50, v51);
+						Apollo_LUAEvent(v39, "TradeskillAchievementUpdate", "aii", v24, v50, v51);
 					}
 				}
 			}
 		}
 		if (*(_QWORD*)(v15 + 32))
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "AchievementGranted", byte_1409E956C, v24);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "AchievementGranted", byte_1409E956C, v24);
 		if ((unsigned int)sub_1406428D0((__int64)v24) == 3 && qword_140C65B78)
 			sub_140575DD0();
 		v11 = a1;

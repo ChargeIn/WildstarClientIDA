@@ -70,7 +70,7 @@ __int64 __fastcall sub_1405DF560(__int64 a1, unsigned int a2)
 	if (a2 != (_DWORD)result && (_DWORD)result != 4)
 	{
 		*(_DWORD*)(a1 + 752) = a2;
-		sub_1400EA3E0(*(_QWORD*)(v10 + 29504), "FriendshipAccountPersonalStatusUpdate", &unk_1409D0EFD);
+		Apollo_LUAEvent(*(_QWORD*)(v10 + 29504), "FriendshipAccountPersonalStatusUpdate", &unk_1409D0EFD);
 		v14 = *(_DWORD*)(a1 + 752);
 		if (v14 == 1)
 		{

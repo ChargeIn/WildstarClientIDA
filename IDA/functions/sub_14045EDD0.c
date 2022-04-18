@@ -68,7 +68,7 @@ void __fastcall sub_14045EDD0(_DWORD* a1)
 	}
 	v17 = v13;
 	v16 = v4;
-	sub_1400EA3E0(*(_QWORD*)(v12 + 29504), "PlayerLevelChange", byte_1409ECB84, (unsigned int)a1[14], v16, v17);
+	Apollo_LUAEvent(*(_QWORD*)(v12 + 29504), "PlayerLevelChange", byte_1409ECB84, (unsigned int)a1[14], v16, v17);
 	sub_1403C9C00();
 	if (v5)
 		sub_14018B900(v5, 0);

@@ -235,7 +235,7 @@ void __fastcall sub_1404297C0(__int64 a1)
 		v9 = v45;
 	}
 	sub_140008410(v4 + 6064);
-	sub_1400EA3E0(v4, "UpdateRewardProperties", byte_1409EB9CC, v9, v44);
+	Apollo_LUAEvent(v4, "UpdateRewardProperties", byte_1409EB9CC, v9, v44);
 	if (v1)
 		sub_1400579E0(v1, v43, v9);
 }

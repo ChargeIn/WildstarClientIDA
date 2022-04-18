@@ -25,7 +25,7 @@ __int64 __fastcall sub_140561AD0(__int64 a1, __int64 a2)
 			v7 = *(_DWORD*)qword_140C63750;
 		if (dword_140C45DF0[v7] == 1)
 			LABEL_8:
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SprintStateUpdated", "b", 0i64);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SprintStateUpdated", "b", 0i64);
 	}
 	if (!*(_QWORD*)(a2 + 56))
 	{

@@ -143,7 +143,7 @@ __int64 __fastcall sub_1404BAF60(__int64 a1, int* a2)
 		}
 	}
 LABEL_44:
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingPlotsRecieved", &unk_1409D0F73);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingPlotsRecieved", &unk_1409D0F73);
 	return 0i64;
 }
 // 140A6A8D8: using guessed type wchar_t *off_140A6A8D8[2];

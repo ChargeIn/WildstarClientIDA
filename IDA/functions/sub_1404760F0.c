@@ -87,7 +87,7 @@ __int64 __fastcall sub_1404760F0(__int64 a1, __int64 a2)
 	v17 = *(unsigned int*)(a1 + 8);
 	*(_QWORD*)(a1 + 6192) = v6;
 	LODWORD(v19) = 1;
-	return sub_1400EA3E0(*(_QWORD*)(v16 + 29504), "UnitTextBubbleCreate", "USbf", v17, L"###", v19, 0i64);
+	return Apollo_LUAEvent(*(_QWORD*)(v16 + 29504), "UnitTextBubbleCreate", "USbf", v17, L"###", v19, 0i64);
 }
 // 1404762AA: variable 'v19' is possibly undefined
 // 140B080C0: using guessed type wchar_t asc_140B080C0[4];

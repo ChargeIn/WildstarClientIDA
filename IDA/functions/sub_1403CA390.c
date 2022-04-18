@@ -72,7 +72,7 @@ __int64 __fastcall sub_1403CA390(__int64 a1, unsigned int* a2)
 				v9 = sub_14034BDD0(v23, (unsigned int)(a2[1] != 0) + 95656);
 			}
 			v15 = (__int64)v9;
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayerTitleUpdate", byte_1409D10C7);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayerTitleUpdate", byte_1409D10C7);
 			v16 = v25;
 			if (v15)
 			{
@@ -94,7 +94,7 @@ __int64 __fastcall sub_1403CA390(__int64 a1, unsigned int* a2)
 					*(_WORD*)((char*)v17 + v21) = 0;
 				if (v24)
 					(*(void(__fastcall**)(__int64))(*(_QWORD*)(v24 - 16) + 8i64))(v24 - 16);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "AlertTitle", L"S", v17);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "AlertTitle", L"S", v17);
 				if (v17)
 					sub_14018B900((__int64)v17, 0);
 			}

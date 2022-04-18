@@ -78,7 +78,7 @@ __int64 __fastcall sub_14015BE50(__int64 a1, signed int a2, int* a3, unsigned __
 				}
 				else
 				{
-					sub_1400EA3E0(*(_QWORD*)(a1 + 32), v26, byte_1409DC064, (unsigned int)v9, v22);
+					Apollo_LUAEvent(*(_QWORD*)(a1 + 32), v26, byte_1409DC064, (unsigned int)v9, v22);
 				}
 				if (v21)
 					sub_14018B900((__int64)v21, 0);

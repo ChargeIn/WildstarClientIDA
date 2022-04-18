@@ -20,7 +20,7 @@ __int64 __fastcall sub_1405F4040(__int64 a1, __int64 a2, unsigned int a3, unsign
 		{
 			v10 = *(_QWORD*)(qword_140C65898 + 29504);
 			v11 = (*(__int64(__fastcall**)(__int64))(*(_QWORD*)v7 + 320i64))(v7);
-			sub_1400EA3E0(v10, "PublicEventObjectiveLocationAdded", byte_1409ED2AC, v11);
+			Apollo_LUAEvent(v10, "PublicEventObjectiveLocationAdded", byte_1409ED2AC, v11);
 		}
 	}
 	return (unsigned int)v9;

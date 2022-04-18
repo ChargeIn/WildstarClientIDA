@@ -107,7 +107,7 @@ __int64 __fastcall sub_1404F1150(_QWORD* a1)
 					(__int64*)(v23 + 184),
 					(__int64)&unk_1409F0D44);
 			else
-				sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64), "StoreError", byte_1409F0D5C, 18i64);
+				Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64), "StoreError", byte_1409F0D5C, 18i64);
 		}
 		else if (*v20)
 		{

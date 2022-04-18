@@ -16,7 +16,7 @@ __int64 __fastcall sub_14056D920(_QWORD* a1, char a2, char a3)
 		if ((a3 & 1) != 0 && (a3 & 2) == 0)
 		{
 			sub_14056F210(qword_140C65970, a1, 1);
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathMissionUnlocked", byte_1409ECD0C, a1[6]);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathMissionUnlocked", byte_1409ECD0C, a1[6]);
 			result = sub_140437A10((_QWORD*)qword_140C658D8, 0x5Du, 0, 0i64, 0, 0, 1);
 		}
 	}

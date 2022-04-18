@@ -50,7 +50,7 @@ __int64 __fastcall sub_14054EF90(_DWORD* a1, _DWORD* a2)
 			*((_QWORD*)v8 + 2) = *((_QWORD*)v7 + 2);
 		}
 		if (qword_140C65898)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayerCampStart", byte_1409D139F);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayerCampStart", byte_1409D139F);
 	}
 	else
 	{
@@ -60,7 +60,7 @@ __int64 __fastcall sub_14054EF90(_DWORD* a1, _DWORD* a2)
 		a1[6] = 0;
 		if (v3)
 		{
-			sub_1400EA3E0(*(_QWORD*)(v3 + 29504), "PlayerCampCancel", byte_1409D139B);
+			Apollo_LUAEvent(*(_QWORD*)(v3 + 29504), "PlayerCampCancel", byte_1409D139B);
 			return 0i64;
 		}
 	}

@@ -141,7 +141,7 @@ void __fastcall sub_1404262A0(__int64 a1, unsigned int a2, __int64 a3, float* a4
 	v37 = (__int64*)sub_1400580E0(v4, -3);
 	sub_14005EA50(v4, v37, (int*)(*(_QWORD*)(v4 + 16) - 32i64), (unsigned int*)(*(_QWORD*)(v4 + 16) - 16i64));
 	*(_QWORD*)(v4 + 16) -= 48i64;
-	sub_1400EA3E0(a1, "ChallengeFlashStartLocation", "iSfT", a2, a3, (float)((float)v5 * 0.001), v17);
+	Apollo_LUAEvent(a1, "ChallengeFlashStartLocation", "iSfT", a2, a3, (float)((float)v5 * 0.001), v17);
 	sub_1400579E0(v4, v38, v17);
 }
 // 14042643D: variable 'v27' is possibly undefined

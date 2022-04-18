@@ -56,7 +56,7 @@ __int64 __fastcall sub_1406D8E10(__int64 a1, int a2, int* a3)
 						{
 							if (*(_DWORD*)(*(_QWORD*)(v12 + 64) + 360i64) != a2)
 							{
-								sub_1400EA3E0(*(_QWORD*)(v11 + 29504), "CraftingModItem", L"O", v12);
+								Apollo_LUAEvent(*(_QWORD*)(v11 + 29504), "CraftingModItem", L"O", v12);
 								*(_BYTE*)(a1 + 1024) = a2;
 								return sub_1400D2550(a1, a2, a3);
 							}
@@ -118,13 +118,13 @@ __int64 __fastcall sub_1406D8E10(__int64 a1, int a2, int* a3)
 						switch (v27)
 						{
 						case 2:
-							sub_1400EA3E0(*(_QWORD*)(v25 + 29504), "ShowItemInDressingRoom", L"O", v26);
+							Apollo_LUAEvent(*(_QWORD*)(v25 + 29504), "ShowItemInDressingRoom", L"O", v26);
 							break;
 						case 1:
-							sub_1400EA3E0(*(_QWORD*)(v25 + 29504), "ItemLink", byte_1409E9D4C, v26);
+							Apollo_LUAEvent(*(_QWORD*)(v25 + 29504), "ItemLink", byte_1409E9D4C, v26);
 							break;
 						case 4:
-							sub_1400EA3E0(*(_QWORD*)(v25 + 29504), "ToggleItemContextMenu", byte_1409EAE84, v26);
+							Apollo_LUAEvent(*(_QWORD*)(v25 + 29504), "ToggleItemContextMenu", byte_1409EAE84, v26);
 							break;
 						default:
 							v28 = *(_DWORD*)(v25 + 196);

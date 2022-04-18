@@ -18,7 +18,7 @@ __int64 __fastcall sub_140611E30(__int64 a1, __int64 a2)
 		v8 = *(_DWORD*)(a2 + 8) & 8;
 		v7 = *(_DWORD*)(a2 + 8) & 4;
 		v6 = *(_DWORD*)(a2 + 8) & 2;
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"QuestPeriodicReset",
 			"bbbb",

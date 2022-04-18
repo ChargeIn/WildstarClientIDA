@@ -54,7 +54,7 @@ __int64 __fastcall sub_140602D20(__int64 a1, __int64 a2)
 					v12 = sub_140605420(a1, (int*)(a2 + 16));
 					v18 = v10;
 					v17 = *(_DWORD*)(a2 + 36);
-					sub_1400EA3E0(
+					Apollo_LUAEvent(
 						*(_QWORD*)(qword_140C65898 + 29504),
 						"Group_MemberFlagsChanged",
 						byte_1409EA12C,

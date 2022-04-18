@@ -41,7 +41,7 @@ __int64 __fastcall sub_140612740(__int64 a1, unsigned int* a2)
 		}
 	}
 	v13 = a2[1];
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SoldierHoldoutEnd", "#i", *(_QWORD*)(v5 + 152), v13);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SoldierHoldoutEnd", "#i", *(_QWORD*)(v5 + 152), v13);
 	return 0i64;
 }
 // 1406127C4: variable 'v9' is possibly undefined

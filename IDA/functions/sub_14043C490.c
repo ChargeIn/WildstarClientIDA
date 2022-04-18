@@ -103,7 +103,7 @@ LABEL_8:
 	v20 = *v3;
 	for (i = 0i64; v20 != v3; ++i)
 		v20 = (_QWORD*)*v20;
-	return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Communicator_UpdateCallback", byte_1409E9034, i != 0, 0);
+	return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Communicator_UpdateCallback", byte_1409E9034, i != 0, 0);
 }
 // 1409E9034: using guessed type _BYTE byte_1409E9034[56];
 // 140C65898: using guessed type __int64 qword_140C65898;

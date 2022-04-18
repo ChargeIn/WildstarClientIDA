@@ -231,7 +231,7 @@ __int64 __fastcall sub_14044C840(__int64 a1, unsigned int* a2)
 			sub_14018B900(v57, 0);
 	}
 	if (qword_140C65898)
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64),
 			"StorePurchaseVirtualCurrencyPackageResult",
 			"bibbbbbSSfffS",
@@ -273,7 +273,7 @@ __int64 __fastcall sub_14044C840(__int64 a1, unsigned int* a2)
 		LODWORD(v52) = v59;
 		LODWORD(v51) = v60;
 		LODWORD(v50) = a2[1];
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(v47 + 72),
 			"StorePurchaseVirtualCurrencyPackageResult",
 			"bibbbbbSSfffS",

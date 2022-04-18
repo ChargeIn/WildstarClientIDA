@@ -158,9 +158,9 @@ void sub_1405E2530(__int64 a1, _QWORD* a2, __int64 a3, ...)
 		v26 = (unsigned int)*v10;
 		v27 = *(_QWORD*)(v25 + 29504);
 		if (v8)
-			sub_1400EA3E0(v27, "FriendshipSuggestedUpdate", byte_1409EAADC, v26, v32);
+			Apollo_LUAEvent(v27, "FriendshipSuggestedUpdate", byte_1409EAADC, v26, v32);
 		else
-			sub_1400EA3E0(v27, "FriendshipSuggestedAdd", byte_1409EAB0C, v26, v32);
+			Apollo_LUAEvent(v27, "FriendshipSuggestedAdd", byte_1409EAB0C, v26, v32);
 		v28 = *v7;
 		v29 = sub_140200220(0x345u);
 		if (v29)
@@ -169,7 +169,7 @@ void sub_1405E2530(__int64 a1, _QWORD* a2, __int64 a3, ...)
 			v30 = 50;
 		if (v28 > v30)
 		{
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"FriendshipSuggestedRemove",
 				byte_1409EAABC,

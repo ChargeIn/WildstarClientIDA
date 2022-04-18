@@ -3,7 +3,7 @@
 //----- (000000014042E5E0) ----------------------------------------------------
 __int64 sub_14042E5E0()
 {
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ToggleMailWindow", byte_1409D12BB);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ToggleMailWindow", byte_1409D12BB);
 	return 0i64;
 }
 // 1409D12BB: using guessed type _BYTE byte_1409D12BB[36];

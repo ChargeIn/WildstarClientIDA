@@ -41,7 +41,7 @@ void __fastcall sub_140563AD0(__int64 a1, __int64 a2)
 					v18 = v10;
 					v17 = v10;
 					LODWORD(v16) = *v11;
-					sub_1400EA3E0(
+					Apollo_LUAEvent(
 						*(_QWORD*)(qword_140C65898 + 29504),
 						"SpellCastFailed",
 						"iiUUSS",

@@ -48,11 +48,11 @@ __int64 __fastcall sub_14056DED0(__int64 a1, unsigned int* a2)
 		v10 = *(_QWORD*)(qword_140C65898 + 29504);
 		v11 = sub_140491BD0(qword_140C65968, *(_DWORD*)(**(_QWORD**)(v8 + 48) + 32i64));
 		if (v11)
-			sub_1400EA3E0(v10, "PlayerPathRewardAvailable", byte_1409ECD2C, v11);
+			Apollo_LUAEvent(v10, "PlayerPathRewardAvailable", byte_1409ECD2C, v11);
 	}
 	else if (!v9)
 	{
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"PlayerPathMissionCompleteSound",
 			byte_1409ECDAC,

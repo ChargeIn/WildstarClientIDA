@@ -12,7 +12,7 @@ __int64 __fastcall sub_14050C790(__int64 a1)
 		v1 = *(_DWORD**)(a1 + 24);
 	v2 = v1[2];
 	v3 = v2 && (v2 != 1 || *v1);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ShowInventory", byte_1409E9CE4, v3);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ShowInventory", byte_1409E9CE4, v3);
 	return 0i64;
 }
 // 1409E9CE4: using guessed type _BYTE byte_1409E9CE4[24];

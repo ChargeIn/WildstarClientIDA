@@ -79,9 +79,9 @@ void __fastcall sub_1403A84D0(__int64 a1)
 	++* (_DWORD*)(a1 + 25500);
 	v13 = 1i64;
 LABEL_23:
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "StunVGPressed", byte_1409E9C8C, v13);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "StunVGPressed", byte_1409E9C8C, v13);
 LABEL_24:
-	sub_1400EA3E0(
+	Apollo_LUAEvent(
 		*(_QWORD*)(a1 + 29504),
 		"UpdateCCStateStun",
 		byte_1409E9C9C,

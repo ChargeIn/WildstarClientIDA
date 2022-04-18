@@ -45,7 +45,7 @@ __int64 __fastcall sub_140729770(__int64 a1)
 		*(_DWORD*)(i + v4 + 92) = 6;
 		*(_BYTE*)(v8 + 1232) = 1;
 	}
-	sub_1400EA3E0(*(_QWORD*)(a1 + 1424), "GameEnd", byte_1409F8DF4, 3i64);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 1424), "GameEnd", byte_1409F8DF4, 3i64);
 	return 0i64;
 }
 // 1409F8DF4: using guessed type _BYTE byte_1409F8DF4[216];

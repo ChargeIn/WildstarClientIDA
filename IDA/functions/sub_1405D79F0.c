@@ -359,7 +359,7 @@ LABEL_24:
 											v77[1] = 1;
 											*(_DWORD*)(v7 + 5000) = v66;
 											sub_1405773B0(v66, v65, (int*)&v76, (__int64*)(v7 + 1416));
-											sub_1400EA3E0(
+											Apollo_LUAEvent(
 												*(_QWORD*)(qword_140C65898 + 29504),
 												"UnitGibbed",
 												L"U",

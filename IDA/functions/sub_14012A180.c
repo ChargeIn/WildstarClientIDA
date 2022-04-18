@@ -23,7 +23,7 @@ void __fastcall sub_14012A180(__int64 a1)
 				if (v4)
 				{
 					LODWORD(v9) = *(_DWORD*)(a1 + 776) >= 0;
-					sub_1400EA3E0(v4, v3[2], "Xb", a1, v9);
+					Apollo_LUAEvent(v4, v3[2], "Xb", a1, v9);
 					sub_1400EC370(*((_QWORD*)*v3 + 2), v3[2]);
 				}
 			}

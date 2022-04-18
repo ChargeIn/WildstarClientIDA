@@ -56,7 +56,7 @@ void __fastcall sub_1404C19C0(__m128* a1)
 			v24 = &v18;
 			sub_1401AFB10(&v23, v21);
 			a1[40].m128_i32[1] = (*(__int64(__fastcall**)(__m128*, __m128*))(a1->m128_u64[0] + 280))(a1, v21);
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"HousingFreePlaceDecorPlaced",
 				byte_1409EBD74,
@@ -67,7 +67,7 @@ void __fastcall sub_1404C19C0(__m128* a1)
 		else if (v4 == 7)
 		{
 			a1[40].m128_i32[1] = 1;
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"HousingHookDecorPlaced",
 				byte_1409EBE4C,

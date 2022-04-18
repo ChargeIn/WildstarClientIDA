@@ -26,7 +26,7 @@ __int64 __fastcall sub_1403DB9A0(__int64 a1, unsigned int* a2)
 					sub_1403A71F0(a1, 0, 0x65u, 1);
 					return 0i64;
 				}
-				sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "InvokeVendorWindow", byte_1409E9E94, *a2);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "InvokeVendorWindow", byte_1409E9E94, *a2);
 			}
 			*(_DWORD*)(v6 + 14044) = a2[8];
 			*(_DWORD*)(v6 + 14048) = a2[9];
@@ -68,7 +68,7 @@ __int64 __fastcall sub_1403DB9A0(__int64 a1, unsigned int* a2)
 					while (v8 < a2[1]);
 				}
 			}
-			sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "VendorItemsUpdated", &unk_1409D0D66);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "VendorItemsUpdated", &unk_1409D0D66);
 		}
 	}
 	return 0i64;

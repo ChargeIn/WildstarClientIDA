@@ -106,7 +106,7 @@ LABEL_26:
 	sub_140003890((__int64*)qword_140C658A0, 0x19u, 0i64, *(int**)(v15 + 8), 0, 0i64);
 	v16 = sub_1400B7660(&v19);
 	LODWORD(v18) = a2[1];
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "RealmFirstAchievementAnnounce", "ibSS", *a2, v18, v6, *(_QWORD*)(v16 + 8));
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "RealmFirstAchievementAnnounce", "ibSS", *a2, v18, v6, *(_QWORD*)(v16 + 8));
 	if ((_QWORD)v23)
 		sub_14018B900(v23, 0);
 	sub_1400B7390(&v19);

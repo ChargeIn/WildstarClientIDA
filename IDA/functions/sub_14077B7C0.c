@@ -16,7 +16,7 @@ __int64 __fastcall sub_14077B7C0(__int64 a1, __int64 a2, _QWORD* a3)
 		*(_OWORD*)(a1 + 192) = *(_OWORD*)(*(_QWORD*)(qword_140C65898 + 120) + 4576i64);
 		v6 = *(_QWORD*)(v5 + 29504);
 		if (v6)
-			sub_1400EA3E0(v6, "ProgressClickWindowDisplay", byte_1409EC1B4, 1i64);
+			Apollo_LUAEvent(v6, "ProgressClickWindowDisplay", byte_1409EC1B4, 1i64);
 		return 0i64;
 	}
 	return result;

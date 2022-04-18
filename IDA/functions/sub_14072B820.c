@@ -16,7 +16,7 @@ __int64 sub_14072B820()
 		sub_14078B4A0(v1);
 	}
 	if (qword_140C65898)
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ShowInventory", byte_1409E9CE4, 1i64);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ShowInventory", byte_1409E9CE4, 1i64);
 	return 0i64;
 }
 // 1409E9CE4: using guessed type _BYTE byte_1409E9CE4[24];

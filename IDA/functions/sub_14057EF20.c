@@ -11,7 +11,7 @@ void __fastcall sub_14057EF20(__int64* a1)
 	{
 		if (a1[82])
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "WarPartyBossTokensUpdated", byte_1409EA85C, a1);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "WarPartyBossTokensUpdated", byte_1409EA85C, a1);
 		}
 		else
 		{

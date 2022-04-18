@@ -45,7 +45,7 @@ void __fastcall sub_1405E3030(__int64 a1, __int64 a2, unsigned int a3)
 		else
 		{
 			lpv = 0;
-			sub_1400EA3E0(*(_QWORD*)(v7 + 29504), "FriendshipResult", byte_1409EA994, &unk_1409F393C, lpv);
+			Apollo_LUAEvent(*(_QWORD*)(v7 + 29504), "FriendshipResult", byte_1409EA994, &unk_1409F393C, lpv);
 		}
 	}
 	else

@@ -16,7 +16,7 @@ __int64 __fastcall sub_140729490(__int64 a1)
 			*(_DWORD*)(a1 + 20) = 3;
 			sub_14078AD30(v2);
 		}
-		return sub_1400EA3E0(*(_QWORD*)(a1 + 1424), "ShowGachaUI", byte_1409D15AB);
+		return Apollo_LUAEvent(*(_QWORD*)(a1 + 1424), "ShowGachaUI", byte_1409D15AB);
 	}
 	return result;
 }

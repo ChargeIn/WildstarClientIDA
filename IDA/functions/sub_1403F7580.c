@@ -23,7 +23,7 @@ __int64 __fastcall sub_1403F7580(__int64 a1, char a2)
 			v4 = *(_DWORD*)qword_140C63750;
 		result = sub_14001A6C0((__int64)&off_140C45E70, v4, a2);
 		if (qword_140C63620 && *(_QWORD*)(qword_140C63620 + 24))
-			result = sub_1400EA3E0(*(_QWORD*)(qword_140C63620 + 88), "OpenOptions", &unk_1409D0202);
+			result = Apollo_LUAEvent(*(_QWORD*)(qword_140C63620 + 88), "OpenOptions", &unk_1409D0202);
 		if (!a2)
 		{
 			result = qword_140C65898;

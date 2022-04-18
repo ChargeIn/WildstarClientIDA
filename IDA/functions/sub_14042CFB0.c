@@ -19,7 +19,7 @@ __int64 __fastcall sub_14042CFB0(__int64 a1)
 		*(float*)&v3 = (float)(int)v2 * 0.001;
 		dword_140DC28A4 = v3;
 	}
-	return sub_1400EA3E0(a1, "DuelLeftArea", byte_1409ECA8C, v3);
+	return Apollo_LUAEvent(a1, "DuelLeftArea", byte_1409ECA8C, v3);
 }
 // 1409ECA8C: using guessed type _BYTE byte_1409ECA8C[4];
 // 140DC28A0: using guessed type int dword_140DC28A0;

@@ -88,7 +88,7 @@ __int64 __fastcall sub_1404BADA0(__int64 a1, __int64 a2)
 			v3[2] += 8i64;
 		}
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingRandomCommunityListReceived", byte_1409D100F);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingRandomCommunityListReceived", byte_1409D100F);
 	return 0i64;
 }
 // 1409D100F: using guessed type _BYTE byte_1409D100F[39];

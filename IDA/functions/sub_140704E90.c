@@ -184,7 +184,7 @@ __int64 __fastcall sub_140704E90(_QWORD* a1)
 	*(_DWORD*)(v41 + 32500) = 1;
 	sub_1400FA3C0((__int64)&v50, *(_QWORD*)(v43 + 400), v42);
 	v44 = v51;
-	sub_1400EA3E0(v43, "NavPointSet", L"T", v51);
+	Apollo_LUAEvent(v43, "NavPointSet", L"T", v51);
 	if (v52)
 		sub_1400579E0(v52, v45, v44);
 	return 0i64;

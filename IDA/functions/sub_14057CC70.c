@@ -17,7 +17,7 @@ __int64 __fastcall sub_14057CC70(__int64 a1, __int64 a2)
 	if (v5)
 		sub_1404276F0(v6, a1, (__int64)v5);
 	else
-		sub_1400EA3E0(v6, "GuildMemberChange", byte_1409EA3D4, a1);
+		Apollo_LUAEvent(v6, "GuildMemberChange", byte_1409EA3D4, a1);
 	return 0i64;
 }
 // 1409EA3D4: using guessed type _BYTE byte_1409EA3D4[32];

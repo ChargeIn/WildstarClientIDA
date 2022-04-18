@@ -8,7 +8,7 @@ __int64 __fastcall sub_1405C1EA0(__int64 a1)
 
 	*(_DWORD*)(a1 + 48) = 0;
 	*(_QWORD*)(a1 + 56) = 0i64;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MatchVoteKickEnd", &unk_1409D12BA);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MatchVoteKickEnd", &unk_1409D12BA);
 	v2 = sub_14034BDD0(v1, 394064);
 	sub_140003890((__int64*)qword_140C658A0, 2u, 0i64, (int*)v2, 0, 0i64);
 	return 0i64;

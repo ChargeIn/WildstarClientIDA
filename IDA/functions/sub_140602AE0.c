@@ -34,7 +34,7 @@ __int64 __fastcall sub_140602AE0(__int64 a1, __int64 a2)
 		v10 = qword_140C65898;
 		*(_QWORD*)(a1 + 72) = 0i64;
 		*(_DWORD*)(v10 + 28568) = 1;
-		sub_1400EA3E0(*(_QWORD*)(v10 + 29504), "Group_Left", byte_1409EA14C, *(unsigned int*)(a2 + 8));
+		Apollo_LUAEvent(*(_QWORD*)(v10 + 29504), "Group_Left", byte_1409EA14C, *(unsigned int*)(a2 + 8));
 		return 0i64;
 	}
 	else

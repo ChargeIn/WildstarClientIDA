@@ -54,11 +54,11 @@ __int64 __fastcall sub_140611F20(__int64 a1, __int64 a2)
 		{
 			v15 = sub_140643E20(qword_140C65C28, *(_DWORD*)v6);
 			if (v15 && (*(_BYTE*)(*(_QWORD*)v15 + 12i64) & 2) == 0)
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ProfessionAchievementUpdated", L"a", v10);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ProfessionAchievementUpdated", L"a", v10);
 		}
 		else
 		{
-			sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "AchievementUpdated", byte_1409E94AC, v10);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "AchievementUpdated", byte_1409E94AC, v10);
 		}
 	}
 	return 0i64;

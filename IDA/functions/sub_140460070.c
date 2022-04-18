@@ -77,7 +77,7 @@ __int64 __fastcall sub_140460070(__int64 a1, int a2, __int64 a3, __int64 a4, __i
 			*(_DWORD*)(qword_140C65898 + 1368) = 1;
 		}
 	}
-	return sub_1400EA3E0(
+	return Apollo_LUAEvent(
 		*(_QWORD*)(qword_140C65898 + 29504),
 		"UnitLevelChanged",
 		L"U",

@@ -25,11 +25,11 @@ _DWORD* __fastcall sub_14045BDC0(__int64 a1, int a2, int a3, double a4)
 		if (a2 == v8)
 		{
 			if (*(_DWORD*)(a1 + 264) != v8 && a3 && v9 != *(_DWORD*)(a1 + 8))
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "TargetedByUnit", L"U", v9);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "TargetedByUnit", L"U", v9);
 		}
 		else if (*(_DWORD*)(a1 + 264) == v8 && (unsigned int)sub_14045BED0(a1, v8) && v9 == *(_DWORD*)(v10 + 8))
 		{
-			sub_1400EA3E0(*(_QWORD*)(v11 + 29504), "UnTargetedByUnit", "U", v9);
+			Apollo_LUAEvent(*(_QWORD*)(v11 + 29504), "UnTargetedByUnit", "U", v9);
 		}
 	}
 	v12 = a1 + 328;

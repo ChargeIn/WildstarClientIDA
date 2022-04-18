@@ -110,7 +110,7 @@ __int64 __fastcall sub_1405C11C0(__int64 a1, int* a2)
 		v30[12] = a2[2];
 		v30[13] = a2[3];
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PvpRatingUpdated", L"i", (unsigned int)a2[4]);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PvpRatingUpdated", L"i", (unsigned int)a2[4]);
 	return 0i64;
 }
 // 1409EEB04: using guessed type wchar_t aI_14[2];

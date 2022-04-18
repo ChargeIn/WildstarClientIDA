@@ -9,7 +9,7 @@ __int64 sub_1407086C0()
 	if (qword_140C65898)
 	{
 		sub_1403FA490(qword_140C65898, 0);
-		sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(v0 + 32736) + 96i64), "AccountInventoryWindowShow", &unk_1409D13CE);
+		Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(v0 + 32736) + 96i64), "AccountInventoryWindowShow", &unk_1409D13CE);
 	}
 	return 0i64;
 }

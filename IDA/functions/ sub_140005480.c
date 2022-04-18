@@ -14,7 +14,7 @@ __int64 __fastcall sub_140005480(__int64 a1, unsigned int* a2)
 	}
 	if (!*(_DWORD*)(qword_140C635F0 + 5896))
 		LABEL_5:
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CREDDRedeemResult", L"i", *a2);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CREDDRedeemResult", L"i", *a2);
 	v4 = qword_140C66DA8;
 	result = qword_140C66DA8;
 	if (qword_140C66DA8)
@@ -34,7 +34,7 @@ __int64 __fastcall sub_140005480(__int64 a1, unsigned int* a2)
 				v4 = *(_QWORD*)(v4 + 176);
 			} while (v4);
 		}
-		sub_1400EA3E0(*(_QWORD*)(v4 + 72), "CREDDRedeemResult", byte_1409D0164, *a2);
+		Apollo_LUAEvent(*(_QWORD*)(v4 + 72), "CREDDRedeemResult", byte_1409D0164, *a2);
 	}
 	return 0i64;
 }

@@ -140,7 +140,7 @@ void __fastcall sub_1405C0040(__int64 a1, __int64 a2)
 				}
 				LODWORD(v29) = v24[11];
 				LODWORD(v28) = v24[10];
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PveRatingUpdated", "iii", v24[9], v28, v29);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PveRatingUpdated", "iii", v24[9], v28, v29);
 				v3 = a1;
 				++v4;
 			} while (v4 < *(_DWORD*)a2);

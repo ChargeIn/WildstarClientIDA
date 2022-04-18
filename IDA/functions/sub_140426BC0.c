@@ -439,7 +439,7 @@ void __fastcall sub_140426BC0(__int64 a1, int a2, __int64 a3, __int64 a4, _DWORD
 		v7 = v106;
 		v14 = v105;
 	}
-	sub_1400EA3E0(a1, "Group_UpdatePosition", byte_1409EA2EC, v14);
+	Apollo_LUAEvent(a1, "Group_UpdatePosition", byte_1409EA2EC, v14);
 	if (v7)
 		sub_1400579E0(v7, v98, v14);
 }

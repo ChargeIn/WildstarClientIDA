@@ -21,7 +21,7 @@ void __fastcall sub_14039D0F0(__int64 a1, unsigned int a2, __int64 a3, double a4
 		v8 = qword_140C65898;
 		if (sub_140396750(*(_QWORD*)(qword_140C65898 + 32144), a2))
 		{
-			sub_1400EA3E0(v5[3688], "PendingLootInteract", L"i", a2);
+			Apollo_LUAEvent(v5[3688], "PendingLootInteract", L"i", a2);
 		}
 		else
 		{

@@ -26,7 +26,7 @@ __int64 __fastcall sub_14056ABA0(__int64 a1, unsigned int a2, int* a3, int a4)
 	*(_DWORD*)(a1 + 292) = 1;
 	result = sub_14056A430(a1);
 	if ((int)result >= 0)
-		return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ItemModified", byte_1409EAD24, a1);
+		return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ItemModified", byte_1409EAD24, a1);
 	*(_DWORD*)(a1 + 184) = 0;
 	return result;
 }

@@ -39,7 +39,7 @@ __int64 __fastcall sub_140556780(__int64 a1, __int64 a2)
 	sub_14034BDD0((__int64)v4, 0);
 	qword_140C7DC98 = 0i64;
 	dword_140C7DCA0 = 0;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_ResponseText", byte_1409E92E4, *(_QWORD*)(a2 + 32));
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_ResponseText", byte_1409E92E4, *(_QWORD*)(a2 + 32));
 	if ((_DWORD)qword_140C7DC60 == 1)
 	{
 		v21 = sub_1405588B0((unsigned int)(qword_140C7DC60 - 1), *(_DWORD*)(a2 + 56));
@@ -160,7 +160,7 @@ __int64 __fastcall sub_140556780(__int64 a1, __int64 a2)
 			HIDWORD(qword_140C7DC74) = 0;
 			LODWORD(qword_140C7DC60) = 0;
 			sub_140557C30((__int64)&qword_140C7DC60);
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
 			sub_140554EA0((__int64)&qword_140C7DC60, 1);
 			goto LABEL_44;
 		default:

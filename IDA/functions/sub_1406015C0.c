@@ -43,7 +43,7 @@ __int64 __fastcall sub_1406015C0(_QWORD* a1, __int64 a2)
 			}
 		LABEL_13:
 			sub_140601880((__int64)a1, v8, v3);
-			return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Group_SetMark", byte_1409EA434, v8, v3);
+			return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Group_SetMark", byte_1409EA434, v8, v3);
 		}
 	}
 	return result;

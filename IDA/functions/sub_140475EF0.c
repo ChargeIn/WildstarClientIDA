@@ -92,7 +92,7 @@ LABEL_29:
 	v19 = *(unsigned int*)(a1 + 8);
 	*(_QWORD*)(a1 + 6192) = v8;
 	LODWORD(v21) = a3;
-	return sub_1400EA3E0(*(_QWORD*)(v18 + 29504), "UnitTextBubbleCreate", "USbf", v19, a2, v21, a4);
+	return Apollo_LUAEvent(*(_QWORD*)(v18 + 29504), "UnitTextBubbleCreate", "USbf", v19, a2, v21, a4);
 }
 // 1404760C3: variable 'v21' is possibly undefined
 // 140C47540: using guessed type int dword_140C47540;

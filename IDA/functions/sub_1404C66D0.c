@@ -40,7 +40,7 @@ void __fastcall sub_1404C66D0(__int64* a1)
 			if (((v7 - 5) & 0xFFFFFFFA) != 0 || v7 == 10)
 			{
 				if (v7 == 7)
-					sub_1400EA3E0(
+					Apollo_LUAEvent(
 						*(_QWORD*)(qword_140C65898 + 29504),
 						"HousingHookDecorPlaced",
 						byte_1409EBE4C,
@@ -48,7 +48,7 @@ void __fastcall sub_1404C66D0(__int64* a1)
 			}
 			else
 			{
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"HousingFreePlaceDecorPlaced",
 					byte_1409EBD74,

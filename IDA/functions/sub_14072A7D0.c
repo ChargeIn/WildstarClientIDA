@@ -29,7 +29,7 @@ void __fastcall sub_14072A7D0(__int64 a1, __int64 a2)
 					v7 = qword_140C665E0;
 					++* (_DWORD*)(a2 + 1256);
 					if (v7)
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(v7 + 1424),
 							"CardFlipped",
 							byte_1409F8DC4,

@@ -17,7 +17,7 @@ void sub_1404B8050()
 			v2[1] = 0i64;
 			v2[0] = 0i64;
 			if ((*(int(__fastcall**)(__int64, __int64*))(*(_QWORD*)v1 + 136i64))(v1, v2) >= 0 && *(_QWORD*)v2[0])
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"HousingFreePlaceDecorCancelled",
 					byte_1409EBD8C,

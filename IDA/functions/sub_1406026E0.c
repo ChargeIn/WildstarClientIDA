@@ -23,7 +23,7 @@ __int64 __fastcall sub_1406026E0(__int64 a1, _QWORD* a2)
 			if (!*(_DWORD*)(v6 + 272) || !*(_QWORD*)(v6 + 280))
 				sub_140605020(a1, 0);
 		}
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Group_Add", byte_1409EA054, a2[5]);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Group_Add", byte_1409EA054, a2[5]);
 		return 0i64;
 	}
 	else

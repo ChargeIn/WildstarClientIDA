@@ -101,7 +101,7 @@ void __fastcall sub_1403A71F0(__int64 a1, unsigned int a2, unsigned int a3, int 
 				switch (v13)
 				{
 				case 8u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "HousingGuildNeighborhoodBrokerClose", byte_1409D0F62);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "HousingGuildNeighborhoodBrokerClose", byte_1409D0F62);
 					break;
 				case 0xBu:
 				case 0xCu:
@@ -117,41 +117,41 @@ void __fastcall sub_1403A71F0(__int64 a1, unsigned int a2, unsigned int a3, int 
 				case 0x3Du:
 				case 0x3Eu:
 				case 0x3Fu:
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
 					sub_140554EA0((__int64)&qword_140C7DC60, 0);
 					break;
 				case 0x1Eu:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "SettlerHubClose", byte_1409D1173);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "SettlerHubClose", byte_1409D1173);
 					break;
 				case 0x24u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "HideInstanceGameModeDialog", byte_1409E8FBC, 1i64);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "HideInstanceGameModeDialog", byte_1409E8FBC, 1i64);
 					break;
 				case 0x28u:
 				case 0x29u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ResourceConversionClose", byte_1409D0E17);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ResourceConversionClose", byte_1409D0E17);
 					break;
 				case 0x2Au:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "AbilitiesWindowClose", byte_1409E9CFC, 1i64);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "AbilitiesWindowClose", byte_1409E9CFC, 1i64);
 					break;
 				case 0x2Bu:
 					sub_140426B60(*(_QWORD*)(v8 + 29504));
 					break;
 				case 0x2Cu:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "CraftingStationClose", &unk_1409D123E);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "CraftingStationClose", &unk_1409D123E);
 					break;
 				case 0x2Du:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ShuttlePromptClose", &unk_1409D0E41);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ShuttlePromptClose", &unk_1409D0E41);
 					break;
 				case 0x2Eu:
 				case 0x2Fu:
 				case 0x30u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "TaxiWindowClose", byte_1409D0DE3);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "TaxiWindowClose", byte_1409D0DE3);
 					break;
 				case 0x31u:
 					sub_140426AC0(*(_QWORD*)(v8 + 29504));
 					break;
 				case 0x41u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "MannequinWindowClose", &unk_1409D0D3D);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "MannequinWindowClose", &unk_1409D0D3D);
 					break;
 				case 0x42u:
 					sub_140426890(*(_QWORD*)(v8 + 29504));
@@ -160,53 +160,53 @@ void __fastcall sub_1403A71F0(__int64 a1, unsigned int a2, unsigned int a3, int 
 					sub_1404268D0(*(_QWORD*)(v8 + 29504));
 					break;
 				case 0x44u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "MailBoxDeactivate", byte_1409D132B);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "MailBoxDeactivate", byte_1409D132B);
 					break;
 				case 0x45u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "HideDye", byte_1409D0DB7);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "HideDye", byte_1409D0DB7);
 					break;
 				case 0x46u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "GuildRegistrarClose", &unk_1409D0EB6);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "GuildRegistrarClose", &unk_1409D0EB6);
 					break;
 				case 0x47u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "WarPartyRegistrarClose", &unk_1409D0E93);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "WarPartyRegistrarClose", &unk_1409D0E93);
 					break;
 				case 0x48u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "GuildBankerClose", &unk_1409D0E92);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "GuildBankerClose", &unk_1409D0E92);
 					break;
 				case 0x49u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "WarPartyBankerClose", byte_1409D0EA7);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "WarPartyBankerClose", byte_1409D0EA7);
 					break;
 				case 0x4Bu:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "MarketplaceWindowClose", byte_1409D107F);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "MarketplaceWindowClose", byte_1409D107F);
 					break;
 				case 0x4Cu:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "AuctionWindowClose", &unk_1409D10A9);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "AuctionWindowClose", &unk_1409D10A9);
 					break;
 				case 0x4Fu:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "TradeskillEngravingStationClose", &unk_1409D11C3);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "TradeskillEngravingStationClose", &unk_1409D11C3);
 					break;
 				case 0x50u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "HousingMannequinClose", &unk_1409D0FFE);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "HousingMannequinClose", &unk_1409D0FFE);
 					break;
 				case 0x51u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "CityDirectionsClose", byte_1409D123F);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "CityDirectionsClose", byte_1409D123F);
 					break;
 				case 0x52u:
 					if (!*(_DWORD*)(qword_140C635F0 + 5896))
-						sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "CREDDExchangeWindowClose", &unk_1409D10AE);
+						Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "CREDDExchangeWindowClose", &unk_1409D10AE);
 					break;
 				case 0x54u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "CommunityRegistrarClose", &unk_1409D0EEA);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "CommunityRegistrarClose", &unk_1409D0EEA);
 					break;
 				case 0x55u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ContractBoardClose", &unk_1409D0BFA);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ContractBoardClose", &unk_1409D0BFA);
 					break;
 				case 0x56u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "BarberClose", &unk_1409D0C5B);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "BarberClose", &unk_1409D0C5B);
 					break;
 				case 0x57u:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "MasterCraftsmanClose", &unk_1409D0C16);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "MasterCraftsmanClose", &unk_1409D0C16);
 					break;
 				default:
 					break;
@@ -231,7 +231,7 @@ void __fastcall sub_1403A71F0(__int64 a1, unsigned int a2, unsigned int a3, int 
 					LOBYTE(v4) = v18 != 167;
 					v19 = sub_140205B60((int)v4 + 12);
 					if (v19)
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(v8 + 29504),
 							"HousingGuildNeighborhoodBrokerOpen",
 							byte_1409EBF7C,
@@ -246,18 +246,18 @@ void __fastcall sub_1403A71F0(__int64 a1, unsigned int a2, unsigned int a3, int 
 						if (v16)
 						{
 							if ((*(_BYTE*)(*(_QWORD*)v16 + 4i64) & 4) == 0)
-								sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ResourceConversionOpen", byte_1409E9FFC, a2);
+								Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ResourceConversionOpen", byte_1409E9FFC, a2);
 						}
 					}
 					break;
 				case 0x2A:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ToggleAbilitiesWindow", byte_1409E9D34, 1i64);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ToggleAbilitiesWindow", byte_1409E9D34, 1i64);
 					break;
 				case 0x2B:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "InvokeTradeskillTrainerWindow", byte_1409E9F2C, a2);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "InvokeTradeskillTrainerWindow", byte_1409E9F2C, a2);
 					break;
 				case 0x2D:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "InvokeShuttlePrompt", byte_1409E9F54, a2);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "InvokeShuttlePrompt", byte_1409E9F54, a2);
 					break;
 				case 0x2E:
 					v23 = 1;
@@ -266,43 +266,43 @@ void __fastcall sub_1403A71F0(__int64 a1, unsigned int a2, unsigned int a3, int 
 				case 0x30:
 					v23 = 0;
 				LABEL_66:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "InvokeTaxiWindow", byte_1409E9F7C, a2, v23);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "InvokeTaxiWindow", byte_1409E9F7C, a2, v23);
 					break;
 				case 0x41:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "MannequinWindowOpen", &unk_1409D0D3E);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "MannequinWindowOpen", &unk_1409D0D3E);
 					break;
 				case 0x42:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ShowBank", &unk_1409D0DB5);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ShowBank", &unk_1409D0DB5);
 					break;
 				case 0x43:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ShowRealmBank", &unk_1409D0DA6);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ShowRealmBank", &unk_1409D0DA6);
 					break;
 				case 0x44:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "MailBoxActivate", &unk_1409D1359);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "MailBoxActivate", &unk_1409D1359);
 					break;
 				case 0x45:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ShowDye", &unk_1409D0DCB);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ShowDye", &unk_1409D0DCB);
 					break;
 				case 0x46:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "GuildRegistrarOpen", byte_1409EA66C, a2);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "GuildRegistrarOpen", byte_1409EA66C, a2);
 					break;
 				case 0x47:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "WarPartyRegistrarOpen", byte_1409EA63C, a2);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "WarPartyRegistrarOpen", byte_1409EA63C, a2);
 					break;
 				case 0x48:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "GuildBankerOpen", byte_1409EA554, a2);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "GuildBankerOpen", byte_1409EA554, a2);
 					break;
 				case 0x49:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "WarPartyBankerOpen", byte_1409EA52C, a2);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "WarPartyBankerOpen", byte_1409EA52C, a2);
 					break;
 				case 0x4B:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ToggleMarketplaceWindow", &unk_1409D1093);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ToggleMarketplaceWindow", &unk_1409D1093);
 					break;
 				case 0x4C:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ToggleAuctionWindow", &unk_1409D10AA);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ToggleAuctionWindow", &unk_1409D10AA);
 					break;
 				case 0x4F:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "TradeskillEngravingStationOpen", byte_1409D11C7);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "TradeskillEngravingStationOpen", byte_1409D11C7);
 					break;
 				case 0x50:
 					qword_140C4DF28 = 0i64;
@@ -316,7 +316,7 @@ void __fastcall sub_1403A71F0(__int64 a1, unsigned int a2, unsigned int a3, int 
 							qword_140C4DF28 = v4;
 						}
 					}
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "HousingMannequinOpen", byte_1409D0FFF);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "HousingMannequinOpen", byte_1409D0FFF);
 					break;
 				case 0x51:
 					v25[1] = 0i64;
@@ -329,20 +329,20 @@ void __fastcall sub_1403A71F0(__int64 a1, unsigned int a2, unsigned int a3, int 
 					break;
 				case 0x52:
 					if (!*(_DWORD*)(qword_140C635F0 + 5896))
-						sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ToggleCREDDExchangeWindow", &unk_1409D10AB);
+						Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ToggleCREDDExchangeWindow", &unk_1409D10AB);
 					break;
 				case 0x54:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "CommunityRegistrarOpen", byte_1409EA9E4, a2);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "CommunityRegistrarOpen", byte_1409EA9E4, a2);
 					break;
 				case 0x55:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "ContractBoardOpen", &unk_1409D0BFB);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "ContractBoardOpen", &unk_1409D0BFB);
 					sub_140437A10((_QWORD*)qword_140C658D8, 0x152u, 0, 0i64, 0, 0, 1);
 					break;
 				case 0x56:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "BarberOpen", &unk_1409D0BDF);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "BarberOpen", &unk_1409D0BDF);
 					break;
 				case 0x57:
-					sub_1400EA3E0(*(_QWORD*)(v8 + 29504), "MasterCraftsmanOpen", byte_1409D0C17);
+					Apollo_LUAEvent(*(_QWORD*)(v8 + 29504), "MasterCraftsmanOpen", byte_1409D0C17);
 					break;
 				case 0x58:
 					sub_1403FA280(a1);

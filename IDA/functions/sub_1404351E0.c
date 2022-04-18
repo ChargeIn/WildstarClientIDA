@@ -9,7 +9,7 @@ void __fastcall sub_1404351E0(__int64 a1)
 	__int64 v4; // [rsp+38h] [rbp-10h]
 	int v5; // [rsp+50h] [rbp+8h] BYREF
 
-	sub_1400EA3E0(*(_QWORD*)(a1 + 96), "StoreClosed", byte_1409D13BF);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 96), "StoreClosed", byte_1409D13BF);
 	v2 = 0i64;
 	v3 = 0i64;
 	v4 = 0i64;

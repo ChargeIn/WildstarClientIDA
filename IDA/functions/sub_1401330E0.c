@@ -34,7 +34,7 @@ void __fastcall sub_1401330E0(__int64 a1)
 	v4 = *(_BYTE**)(a1 + 40);
 	v5 = (unsigned int)(v3 + *(_DWORD*)(a1 + 68));
 	*(_DWORD*)(a1 + 84) = 1;
-	sub_1400EA3E0(v2, v4, "i", v5);
+	Apollo_LUAEvent(v2, v4, "i", v5);
 	v6 = *(_QWORD*)(a1 + 112) == 0i64;
 	*(_DWORD*)(a1 + 84) = 0;
 	if (!v6)
@@ -74,7 +74,7 @@ void __fastcall sub_1401330E0(__int64 a1)
 		v9 = *(_QWORD*)(a1 + 24);
 		*(_DWORD*)(a1 + 88) -= *(_DWORD*)(a1 + 64);
 		*(_DWORD*)(a1 + 84) = 1;
-		sub_1400EA3E0(v9, v8, byte_1409D8A2C, 0i64);
+		Apollo_LUAEvent(v9, v8, byte_1409D8A2C, 0i64);
 		v6 = *(_QWORD*)(a1 + 112) == 0i64;
 		*(_DWORD*)(a1 + 84) = 0;
 		if (!v6)

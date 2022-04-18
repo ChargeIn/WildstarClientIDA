@@ -42,7 +42,7 @@ __int64 __fastcall sub_1406027E0(__int64 a1, __int64 a2)
 				*(_WORD*)v7 = 0;
 				sub_14079ED20(*(_QWORD*)(a1 + 64), a2 + 16);
 				sub_14079EE60(*(_QWORD*)(a1 + 64), a1 + 80, (unsigned __int64*)(*(_QWORD*)(a1 + 64) + 104i64));
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Group_Remove", byte_1409EA034, v13, *(_DWORD*)(a2 + 32));
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Group_Remove", byte_1409EA034, v13, *(_DWORD*)(a2 + 32));
 			}
 		}
 		return 0i64;

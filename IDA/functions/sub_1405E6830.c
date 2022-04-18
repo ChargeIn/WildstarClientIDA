@@ -81,7 +81,7 @@ __int64 __fastcall sub_1405E6830(__int64 a1, __int64 a2)
 	*(_DWORD*)(a1 + 1168) = *(_DWORD*)(a2 + 64);
 	*(_DWORD*)(a1 + 1172) = *(_DWORD*)(a2 + 68);
 	*(_DWORD*)(a1 + 1176) = *(_DWORD*)(a2 + 72);
-	return sub_1400EA3E0(*(_QWORD*)(v13 + 29504), "CraftingUpdateCurrent", &unk_1409D135A);
+	return Apollo_LUAEvent(*(_QWORD*)(v13 + 29504), "CraftingUpdateCurrent", &unk_1409D135A);
 }
 // 140C65898: using guessed type __int64 qword_140C65898;
 

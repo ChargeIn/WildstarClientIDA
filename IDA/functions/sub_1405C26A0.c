@@ -26,7 +26,7 @@ void __fastcall sub_1405C26A0(__int64 a1, int a2, __int64 a3)
 				v10 = v5[16];
 				LODWORD(v9) = v7;
 				LODWORD(v8) = v5[17];
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PvpKillNotification", "SiSii", v12, v8, v11, v9, v10);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PvpKillNotification", "SiSii", v12, v8, v11, v9, v10);
 				sub_1405C5180(a1 + 120);
 				if (*(_QWORD*)(a1 + 128))
 					sub_1405C26A0(a1, 0i64);

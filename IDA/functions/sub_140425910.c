@@ -30,7 +30,7 @@ void __fastcall sub_140425910(__int64 a1)
 	LODWORD(v5) = sub_1400578C0(v1);
 	v9 = v5;
 	sub_14050E830((__int64)&v8);
-	sub_1400EA3E0(a1, "UpdateResurrectDialog", byte_1409E8F44, (unsigned int)v5, v8);
+	Apollo_LUAEvent(a1, "UpdateResurrectDialog", byte_1409E8F44, (unsigned int)v5, v8);
 	sub_1400579E0(v1, v7, v5);
 }
 // 1404259BE: variable 'v7' is possibly undefined

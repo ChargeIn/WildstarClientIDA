@@ -40,7 +40,7 @@ void __fastcall sub_14060B510(int* a1)
 	sub_1400F06F0(v2, v7, L"nAmount", v8);
 	v9 = qword_140C65898;
 	*(_QWORD*)(v2 + 16) -= 16i64;
-	sub_1400EA3E0(*(_QWORD*)(v9 + 29504), "CombatLogAbsorption", "T", (unsigned int)v4, v11);
+	Apollo_LUAEvent(*(_QWORD*)(v9 + 29504), "CombatLogAbsorption", "T", (unsigned int)v4, v11);
 	sub_1400579E0(v2, v10, v4);
 }
 // 14060B5D9: variable 'v8' is possibly undefined

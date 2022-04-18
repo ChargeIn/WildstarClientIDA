@@ -319,7 +319,7 @@ void __fastcall sub_1404259D0(__int64 a1, _DWORD* a2)
 	v77 = (__int64*)sub_1400580E0(v2, -3);
 	sub_14005EA50(v2, v77, (int*)(*(_QWORD*)(v2 + 16) - 32i64), (unsigned int*)(*(_QWORD*)(v2 + 16) - 16i64));
 	*(_QWORD*)(v2 + 16) -= 48i64;
-	sub_1400EA3E0(a1, "ShowInstanceGameModeDialog", byte_1409E8F94, v7);
+	Apollo_LUAEvent(a1, "ShowInstanceGameModeDialog", byte_1409E8F94, v7);
 	sub_1400579E0(v2, v78, v7);
 }
 // 140425B2D: variable 'v19' is possibly undefined

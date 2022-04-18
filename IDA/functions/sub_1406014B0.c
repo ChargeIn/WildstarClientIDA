@@ -35,7 +35,7 @@ __int64 __fastcall sub_1406014B0(__int64 a1, unsigned int a2, unsigned int a3)
 		if (result && *(_QWORD*)(result + 5864))
 			result = sub_140601880(a1, a2, a3);
 		if ((!a3 || v10 && *(_QWORD*)(v10 + 5864)) && a1 == *(_QWORD*)(qword_140C65898 + 27728))
-			return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Group_SetMark", byte_1409EA434, a2, a3);
+			return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Group_SetMark", byte_1409EA434, a2, a3);
 	}
 	return result;
 }

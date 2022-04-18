@@ -77,7 +77,7 @@ __int64 __fastcall sub_14052E4A0(__m128* a1, int* a2, int a3)
 										v20 = (*v17)[3](v17);
 										v21 = *(_QWORD*)(qword_140C65898 + 29504);
 										v22 = (*(__int64(__fastcall**)(__int64))(*(_QWORD*)v20 + 8i64))(v20);
-										sub_1400EA3E0(v21, "ZoneMapWindowChange", byte_1409F1A34, v22, v19);
+										Apollo_LUAEvent(v21, "ZoneMapWindowChange", byte_1409F1A34, v22, v19);
 									}
 								}
 							}
@@ -106,7 +106,7 @@ __int64 __fastcall sub_14052E4A0(__m128* a1, int* a2, int a3)
 				sub_14052E280((__int64)a1);
 			}
 			sub_140529F90((__int64)a1);
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ZoneMapWindowModeChange", "i", a1[79].m128_u32[0]);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ZoneMapWindowModeChange", "i", a1[79].m128_u32[0]);
 			a1[64].m128_i32[0] = 1;
 		}
 	}

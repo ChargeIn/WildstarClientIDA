@@ -10,7 +10,7 @@ int* __fastcall sub_140431570(__int64 a1, unsigned int a2, int a3)
 	if (result)
 	{
 		v6 = a3;
-		return (int*)sub_1400EA3E0(a1, "CostumeForgetResult", "oi", result, v6);
+		return (int*)Apollo_LUAEvent(a1, "CostumeForgetResult", "oi", result, v6);
 	}
 	return result;
 }

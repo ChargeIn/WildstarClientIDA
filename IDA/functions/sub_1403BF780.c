@@ -64,7 +64,7 @@ void __fastcall sub_1403BF780(_QWORD* a1)
 						{
 						LABEL_20:
 							if ((*(_BYTE*)(*(_QWORD*)(v12 + 112) + 268i64) & 0x40) == 0)
-								sub_1400EA3E0(a1[3688], "ClearSpellThreshold", byte_1409E9C64, v7);
+								Apollo_LUAEvent(a1[3688], "ClearSpellThreshold", byte_1409E9C64, v7);
 							goto LABEL_22;
 						}
 					}

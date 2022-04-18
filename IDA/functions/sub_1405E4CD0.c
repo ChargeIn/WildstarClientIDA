@@ -350,8 +350,8 @@ LABEL_74:
 	}
 	v64 = qword_140C65898;
 	*(_DWORD*)(a1 + 1184) = v63;
-	sub_1400EA3E0(*(_QWORD*)(v64 + 29504), "ProfessionsLoaded", byte_1409D135F);
-	return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ProfessionUpdated", &unk_1409D135E);
+	Apollo_LUAEvent(*(_QWORD*)(v64 + 29504), "ProfessionsLoaded", byte_1409D135F);
+	return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ProfessionUpdated", &unk_1409D135E);
 }
 // 1409D135F: using guessed type _BYTE byte_1409D135F[12];
 // 140A6DD58: using guessed type wchar_t *off_140A6DD58[2];

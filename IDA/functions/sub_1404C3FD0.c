@@ -200,7 +200,7 @@ void __fastcall sub_1404C3FD0(__int64 a1, __int64 a2, __int64 a3)
 						sub_1404C69F0(a1);
 						sub_1404C3B50((__int64*)a1);
 						sub_1404C6650(a1, *(_DWORD*)(a1 + 764));
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"HousingFreePlaceDecorMoving",
 							byte_1409EBF24,

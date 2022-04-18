@@ -18,7 +18,7 @@ void __fastcall sub_14077B860(__int64 a1)
 	void(__fastcall * v14)(__int64); // [rsp+30h] [rbp-38h]
 	__int64 v15; // [rsp+38h] [rbp-30h]
 
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "AcceptProgressInput", byte_1409EC27C, 0i64);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "AcceptProgressInput", byte_1409EC27C, 0i64);
 	v2 = *(_DWORD*)(a1 + 208);
 	v3 = *(_QWORD*)(a1 + 144);
 	*(_DWORD*)(a1 + 296) = 0;

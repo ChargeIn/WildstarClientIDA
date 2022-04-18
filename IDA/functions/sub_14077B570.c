@@ -16,12 +16,12 @@ __int64 __fastcall sub_14077B570(__int64 a1)
 		for (i = 0; i < 2; ++i)
 		{
 			LODWORD(v6) = (int)*v3;
-			sub_1400EA3E0(*(_QWORD*)(v2 + 29504), "ProgressClickHighlightTime", byte_1409EC2D4, i, v6);
+			Apollo_LUAEvent(*(_QWORD*)(v2 + 29504), "ProgressClickHighlightTime", byte_1409EC2D4, i, v6);
 			v2 = qword_140C65898;
 			v3 += 5;
 		}
 		LODWORD(v6) = *(_DWORD*)(a1 + 188) & 1;
-		return sub_1400EA3E0(
+		return Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"ProgressClickWindowCompletionLevel",
 			byte_1409EC294,

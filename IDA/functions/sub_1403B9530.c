@@ -15,7 +15,7 @@ __int64 __fastcall sub_1403B9530(__int64 a1, unsigned __int8* a2)
 		if (v5 == *(_QWORD*)(v2 + 48))
 		{
 		LABEL_8:
-			sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "StanceChanged", byte_1409D0C77);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "StanceChanged", byte_1409D0C77);
 			return 0i64;
 		}
 		if (*(_DWORD*)(v2 + 4 * v5 + 8))

@@ -67,7 +67,7 @@ __int64 __fastcall sub_1403A9510(__int64 a1, int* a2)
 	v13 = sub_14034BDD0(v11, 4829);
 	v14 = sub_1400B7660(&v16);
 	sub_140003890((__int64*)qword_140C658A0, 2u, 0i64, *(int**)(v14 + 8), 0, (int*)v13);
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "VanityPetUnlocked", "i", (unsigned int)*a2);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "VanityPetUnlocked", "i", (unsigned int)*a2);
 	if ((_QWORD)v20)
 		sub_14018B900(v20, 0);
 	sub_1400B7390(&v16);

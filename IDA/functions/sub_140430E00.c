@@ -59,7 +59,7 @@ void __fastcall sub_140430E00(__int64 a1, int a2, __int64 a3)
 	v17 = v16[96];
 	if (v17)
 		sub_14018B900(v17, 0);
-	sub_1400EA3E0(a1, "LootBindcheck", L"T", v11, v19, v20, v21, v22);
+	Apollo_LUAEvent(a1, "LootBindcheck", L"T", v11, v19, v20, v21, v22);
 	sub_1400579E0((__int64)v3, v18, v11);
 }
 // 140430EB5: variable 'v15' is possibly undefined

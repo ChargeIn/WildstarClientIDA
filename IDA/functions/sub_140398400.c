@@ -14,7 +14,7 @@ void __fastcall sub_140398400(__int64 a1)
 	{
 		if (*(_DWORD*)(qword_140C65898 + 26336))
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Vacuum", &unk_1409D132A);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Vacuum", &unk_1409D132A);
 			sub_140051AF0(0, 110);
 			LOBYTE(v3) = 0;
 			sub_1403F4900(v1, 0x1ADu, (__int64)&v3);

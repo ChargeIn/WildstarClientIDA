@@ -56,7 +56,7 @@ __int64 __fastcall sub_1404D18E0(__int64 a1, _DWORD* a2)
 					v13 = *(unsigned int*)(*(_QWORD*)(v12 + 8) + 4i64);
 				else
 					v13 = 5i64;
-				sub_1400EA3E0(*(_QWORD*)(v11 + 29504), "RewardTrackActive", "iww", v13, v12, v10);
+				Apollo_LUAEvent(*(_QWORD*)(v11 + 29504), "RewardTrackActive", "iww", v13, v12, v10);
 				v14 = *(_QWORD*)(qword_140C65898 + 32736);
 				if (v14 && *(_QWORD*)(v14 + 24) && (unsigned int)sub_1400480B0(v14))
 					sub_140435810(v15, *(_QWORD*)(v7 + 8), v10);

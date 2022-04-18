@@ -43,7 +43,7 @@ void __fastcall sub_14057F730(__int64 a1, _DWORD* a2)
 	}
 	else
 	{
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildResult", "ZSii", a1, 0i64, 0, 69);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildResult", "ZSii", a1, 0i64, 0, 69);
 	}
 	if (v5)
 		(*(void(__fastcall**)(__int64))(*(_QWORD*)v5 + 8i64))(v5);

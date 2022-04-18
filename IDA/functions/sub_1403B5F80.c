@@ -317,7 +317,7 @@ __int64 __fastcall sub_1403B5F80(__int64 a1, __int64 a2)
 			}
 			v50 = qword_140C65898;
 			*(_DWORD*)(a1 + 1368) = 1;
-			sub_1400EA3E0(*(_QWORD*)(v50 + 29504), "CharacterCreated", &unk_1409D11E1);
+			Apollo_LUAEvent(*(_QWORD*)(v50 + 29504), "CharacterCreated", &unk_1409D11E1);
 			return 0i64;
 		}
 	}

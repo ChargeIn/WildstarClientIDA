@@ -27,7 +27,7 @@ void __fastcall sub_140452A30(__int64 a1, int a2, __int64 a3)
 		v5 = 763772;
 	LABEL_11:
 		v6 = sub_14034BDD0(qword_140C65898, v5);
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"GenericFloater",
 			"US",
@@ -38,7 +38,7 @@ void __fastcall sub_140452A30(__int64 a1, int a2, __int64 a3)
 	if (v4 == 1)
 	{
 		if (a3)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ConfirmPartialUnlock", "O", a3);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ConfirmPartialUnlock", "O", a3);
 	}
 }
 // 140C65898: using guessed type __int64 qword_140C65898;

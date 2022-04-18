@@ -23,7 +23,7 @@ __int64 __fastcall sub_1404296F0(__int64 a1, unsigned int a2, int a3, unsigned i
 				v11 = (__int16*)&unk_1409EB6FC;
 			v13 = 0;
 			v12 = a3;
-			return sub_1400EA3E0(a1, "AttackMissed", "UUiS", a2, v12, v13, v11);
+			return Apollo_LUAEvent(a1, "AttackMissed", "UUiS", a2, v12, v13, v11);
 		}
 	}
 	return result;

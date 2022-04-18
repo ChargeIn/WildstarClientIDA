@@ -22,7 +22,7 @@ __int64 __fastcall sub_14048F960(__int64 a1, unsigned int* a2)
 		v5 = v4 / 0x3E8;
 		dword_140DC30AC = v4 / 0x3E8;
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeShared", byte_1409E99B4, *a2, a2[1], v5);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeShared", byte_1409E99B4, *a2, a2[1], v5);
 	return 0i64;
 }
 // 1409E99B4: using guessed type _BYTE byte_1409E99B4[72];

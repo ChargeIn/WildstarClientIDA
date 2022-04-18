@@ -58,7 +58,7 @@ void __fastcall sub_14042DFD0(__int64 a1, unsigned int* a2)
 		v11 = v17;
 	}
 	v14 = v11;
-	sub_1400EA3E0(a1, "InvokeSettlerBuild", byte_1409EDAAC, *a2, v14);
+	Apollo_LUAEvent(a1, "InvokeSettlerBuild", byte_1409EDAAC, *a2, v14);
 	if (v2)
 		sub_1400579E0((__int64)v2, v13, v11);
 }

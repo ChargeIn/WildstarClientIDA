@@ -15,7 +15,7 @@ __int64 __fastcall sub_14056E480(__int64 a1)
 		*(_QWORD*)(a1 + 88) = 0i64;
 	}
 	if (qword_140C65898)
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathRefresh", byte_1409D10FF);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathRefresh", byte_1409D10FF);
 	v3 = *(_QWORD*)(qword_140C65920 + 8);
 	if (v3)
 	{

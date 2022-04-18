@@ -362,7 +362,7 @@ __int64 __fastcall sub_140409FF0(__int64 a1, FILETIME* a2)
 										v55);
 						}
 					}
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayedTime", "SSSSSiii");
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayedTime", "SSSSSiii");
 					if ((_QWORD)v76)
 						sub_14018B900(v76, 0);
 					sub_1400B7390(v72);

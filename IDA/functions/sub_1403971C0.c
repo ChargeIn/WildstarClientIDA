@@ -247,14 +247,14 @@ LABEL_47:
 				while (v39[v4]);
 			}
 			sub_14001B2D0(v51, v4 + 1, (__int64)v39);
-			sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "InteractiveUnitChanged", "US", *(unsigned int*)(v25 + 8), v51);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "InteractiveUnitChanged", "US", *(unsigned int*)(v25 + 8), v51);
 			if ((_QWORD)v49)
 				sub_14018B900(v49, 0);
 			return (__int64)sub_1400B7390(&v45);
 		}
 		else
 		{
-			return sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "InteractiveUnitChanged", "US", 0i64, v51);
+			return Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "InteractiveUnitChanged", "US", 0i64, v51);
 		}
 	}
 	return result;

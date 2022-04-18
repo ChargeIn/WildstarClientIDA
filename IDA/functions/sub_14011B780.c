@@ -248,7 +248,7 @@ _QWORD* __fastcall sub_14011B780(_QWORD* a1, __int64 a2, int* a3)
 			if (v59)
 				sub_14018B900((__int64)v59, 0);
 			v43 = v54;
-			if (!(unsigned __int8)sub_1400EA3E0(v25, v54, "SS", v14, v50))
+			if (!(unsigned __int8)Apollo_LUAEvent(v25, v54, "SS", v14, v50))
 			{
 				v45 = (int*)sub_14034BDD0(v44, 22);
 				a1[1] = 0i64;

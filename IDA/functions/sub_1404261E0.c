@@ -12,7 +12,7 @@ __int64 __fastcall sub_1404261E0(__int64 a1, int a2, int a3)
 	{
 		v7 = *(_DWORD*)(*(_QWORD*)(result + 8) + 300i64) < 4u;
 		v6 = a3;
-		return sub_1400EA3E0(a1, "QuestStateChanged", byte_1409E93FC, result, v6, v7);
+		return Apollo_LUAEvent(a1, "QuestStateChanged", byte_1409E93FC, result, v6, v7);
 	}
 	return result;
 }

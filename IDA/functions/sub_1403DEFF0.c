@@ -214,7 +214,7 @@ LABEL_55:
 	v35 = sub_1403D90D0(qword_140C65898, *a2);
 	if (v35)
 		*(float*)(v35 + 3404) = v8;
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "Inspect", "UT", *a2, v15);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "Inspect", "UT", *a2, v15);
 	if (v9 && v15 >= 0)
 	{
 		v36 = *(_DWORD**)(*(_QWORD*)sub_1400580E0((__int64)v9, -10000) + 32i64);

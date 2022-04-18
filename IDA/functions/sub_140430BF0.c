@@ -50,7 +50,7 @@ void __fastcall sub_140430BF0(__int64 a1, unsigned int a2, int a3, int a4, _DWOR
 	v23 = v17;
 	v22 = a4;
 	v21 = a3;
-	sub_1400EA3E0(a1, "CraftingSchematicComplete", "ibiTii", a2, v21, v22, v23, a7, a8);
+	Apollo_LUAEvent(a1, "CraftingSchematicComplete", "ibiTii", a2, v21, v22, v23, a7, a8);
 	if (v8)
 		sub_1400579E0(v8, v20, v17);
 }

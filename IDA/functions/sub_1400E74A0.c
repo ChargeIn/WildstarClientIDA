@@ -88,12 +88,12 @@ unsigned __int64 __fastcall sub_1400E74A0(__int64 a1, double a2)
 		v8 = v7;
 	if (!byte_140C3C440[v8])
 	{
-		sub_1400EA3E0(a1, "NextFrame", &unk_1409D0332);
+		Apollo_LUAEvent(a1, "NextFrame", &unk_1409D0332);
 		v9 = dword_140C3C470;
 		if (*(_DWORD*)qword_140C63750 < dword_140C3C470)
 			v9 = *(_DWORD*)qword_140C63750;
 		if (!(*(_DWORD*)(a1 + 48) % dword_140C3C480[v9]))
-			sub_1400EA3E0(a1, "FrameCount", L"i");
+			Apollo_LUAEvent(a1, "FrameCount", L"i");
 	}
 	sub_1400E63A0(a1);
 	v10 = *(_QWORD*)(a1 + 2880);

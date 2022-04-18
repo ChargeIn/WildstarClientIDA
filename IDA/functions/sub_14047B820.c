@@ -59,7 +59,7 @@ __int64 __fastcall sub_14047B820(__int64 a1, __int64 a2, double a3, double a4)
 			v14[50] = *(unsigned __int8*)(a2 + 8);
 			sub_14039E4D0(v15, (__int64)v14, a3, a4);
 			if (v14 == *(_DWORD**)(qword_140C65898 + 120))
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Mount", "b", 1i64);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Mount", "b", 1i64);
 		}
 	}
 	return 0i64;

@@ -10,7 +10,7 @@ __int64 __fastcall sub_1405C4140(__int64 a1, _DWORD* a2)
 	v2 = qword_140C65B98;
 	v3 = qword_140C65898;
 	*(_DWORD*)(qword_140C65B98 + 264) = *a2;
-	sub_1400EA3E0(*(_QWORD*)(v3 + 29504), "MatchJoined", &unk_1409D12A1);
+	Apollo_LUAEvent(*(_QWORD*)(v3 + 29504), "MatchJoined", &unk_1409D12A1);
 	v4 = qword_140C65898;
 	*(_DWORD*)(v2 + 164) = 0;
 	*(_DWORD*)(v4 + 1368) = 1;

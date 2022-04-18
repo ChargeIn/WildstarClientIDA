@@ -14,7 +14,7 @@ void __fastcall sub_14056B600(__int64 a1, unsigned int a2, unsigned int a3)
 		v4 = *(_QWORD*)(v3 + 400);
 		sub_1406EED00(v4, a3 - a2, *(__int64***)(a1 + 8), *(_QWORD*)(a1 + 16));
 		v5 = (unsigned int)sub_1400578C0(v4);
-		sub_1400EA3E0(v3, "PlayerPathScientistScanData", "T", v5);
+		Apollo_LUAEvent(v3, "PlayerPathScientistScanData", "T", v5);
 		sub_1400579E0(v4, v6, v5);
 	}
 }

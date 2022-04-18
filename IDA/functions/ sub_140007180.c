@@ -20,7 +20,7 @@ __int64 __fastcall sub_140007180(__int64 a1, unsigned int* a2)
 			if (v6)
 			{
 				v8 = sub_140007220(a1, *a2);
-				sub_1400EA3E0(v6, "AccountPrivilegeRestrictionUpdate", "ifb", *a2, (float)(*((float*)a2 + 1) * 86400.0), v8);
+				Apollo_LUAEvent(v6, "AccountPrivilegeRestrictionUpdate", "ifb", *a2, (float)(*((float*)a2 + 1) * 86400.0), v8);
 			}
 		}
 	}

@@ -119,7 +119,7 @@ __int64 __fastcall sub_14048DED0(__int64 a1, __int64 a2)
 			v14[15] += dword_140C636A8;
 			v14[17] += v18;
 			v14[19] += v18;
-			sub_1400EA3E0(*(_QWORD*)(v17 + 29504), "ChallengeTimeUpdated", byte_1409E997C, v10, v33, v34);
+			Apollo_LUAEvent(*(_QWORD*)(v17 + 29504), "ChallengeTimeUpdated", byte_1409E997C, v10, v33, v34);
 			if (v8)
 			{
 				sub_14048DDE0(v2, v10, v14[8]);
@@ -217,7 +217,7 @@ __int64 __fastcall sub_14048DED0(__int64 a1, __int64 a2)
 		}
 	LABEL_49:
 		*(_QWORD*)(v26 + 104) = v14;
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeUpdated", byte_1409E965C, v10);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeUpdated", byte_1409E965C, v10);
 		goto LABEL_50;
 	}
 LABEL_51:

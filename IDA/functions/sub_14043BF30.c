@@ -29,7 +29,7 @@ __int64 __fastcall sub_14043BF30(_DWORD* a1, __int64 a2)
 	{
 		result = sub_14043C1A0((__int64)a1, (int*)a2);
 		if (*(_DWORD*)a2)
-			return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Communicator_ShowSpamMsg", "iiSb");
+			return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Communicator_ShowSpamMsg", "iiSb");
 		return result;
 	}
 	v6 = *(_DWORD*)(a2 + 8);
@@ -82,7 +82,7 @@ __int64 __fastcall sub_14043BF30(_DWORD* a1, __int64 a2)
 						if (result)
 						{
 							LODWORD(v20) = v17;
-							result = sub_1400EA3E0(v15, "Communicator_ShowQuestMsg", "iiQS", v18, v20, result, v16);
+							result = Apollo_LUAEvent(v15, "Communicator_ShowQuestMsg", "iiQS", v18, v20, result, v16);
 						}
 						if (!dword_140C7DC68)
 						{

@@ -62,7 +62,7 @@ __int64 __fastcall sub_14057C830(__int64 a1, __int64 a2)
 		*(v2 - 1) = *(int**)((char*)v2 + v3 - 16);
 		--v4;
 	} while (v4);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildRankChange", byte_1409EA894, a1);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildRankChange", byte_1409EA894, a1);
 	return 0i64;
 }
 // 1409EA894: using guessed type _BYTE byte_1409EA894[48];

@@ -206,7 +206,7 @@ void __fastcall sub_14042A360(__int64 a1, unsigned int a2, __int16* a3, int a4, 
 			i = *(int**)i;
 		}
 		v36 = sub_1400578C0(v27);
-		sub_1400EA3E0(a1, "StoryPanelDialog_Show", "iTfi", a2, v36, (float)((float)v47 * 0.001), a5);
+		Apollo_LUAEvent(a1, "StoryPanelDialog_Show", "iTfi", a2, v36, (float)((float)v47 * 0.001), a5);
 		sub_1400579E0(v27, v37, v36);
 		if (v10)
 			sub_14018B900((__int64)v10, 0);

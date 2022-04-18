@@ -53,10 +53,10 @@ __int64 __fastcall sub_1404D6AF0(__int64 a1, __int64 a2)
 		{
 			*(_DWORD*)(qword_140C65898 + 28264) = v11;
 			sub_1403CDBF0(v10);
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CharacterEldanAugmentationsUpdated", &unk_1409D10E6);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CharacterEldanAugmentationsUpdated", &unk_1409D10E6);
 			v10 = qword_140C65898;
 		}
-		sub_1400EA3E0(*(_QWORD*)(v10 + 29504), "PrimalMatrixUpdated", &unk_1409D139A);
+		Apollo_LUAEvent(*(_QWORD*)(v10 + 29504), "PrimalMatrixUpdated", &unk_1409D139A);
 	}
 	return 0i64;
 }

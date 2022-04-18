@@ -17,7 +17,7 @@ __int64 __fastcall sub_14056B530(__int64 a1)
 			sub_140575DD0();
 			v2 = qword_140C65898;
 		}
-		return sub_1400EA3E0(*(_QWORD*)(v2 + 29504), "PlayerPathMissionUpdate", L"p", a1);
+		return Apollo_LUAEvent(*(_QWORD*)(v2 + 29504), "PlayerPathMissionUpdate", L"p", a1);
 	}
 	return result;
 }

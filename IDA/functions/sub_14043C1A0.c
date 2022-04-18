@@ -71,7 +71,7 @@ __int64 __fastcall sub_14043C1A0(__int64 a1, int* a2)
 						for (i = *(_DWORD**)(v6 + 136); a2[2] != *i; ++i)
 						{
 							if (++v17 >= v16)
-								return sub_1400EA3E0(
+								return Apollo_LUAEvent(
 									*(_QWORD*)(qword_140C65898 + 29504),
 									"Communicator_UpdateCallback",
 									byte_1409E9034,
@@ -81,7 +81,7 @@ __int64 __fastcall sub_14043C1A0(__int64 a1, int* a2)
 						v15 = 1;
 					}
 				}
-				return sub_1400EA3E0(
+				return Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"Communicator_UpdateCallback",
 					byte_1409E9034,

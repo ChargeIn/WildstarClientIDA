@@ -15,7 +15,7 @@ __int64 __fastcall sub_140584240(__int64 a1, unsigned int* a2)
 		*(_QWORD*)(v3 + 168) = 0i64;
 		if (v4 && v5)
 			sub_1403705B0((__int64*)(v3 + 160), v5, v4);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "UnitMemberOfGuildChange", byte_1409EDCA4, *a2);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "UnitMemberOfGuildChange", byte_1409EDCA4, *a2);
 	}
 	return 0i64;
 }

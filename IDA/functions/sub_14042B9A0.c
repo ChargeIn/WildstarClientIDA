@@ -695,7 +695,7 @@ void __fastcall sub_14042B9A0(__int64 a1, __int64 a2)
 			} while (v53 < *(unsigned int*)(a2 + 64));
 			v126 = v136;
 		}
-		sub_1400EA3E0(a1, "CREDDExchangeInfoResults", byte_1409EC8A4, v109, v126);
+		Apollo_LUAEvent(a1, "CREDDExchangeInfoResults", byte_1409EC8A4, v109, v126);
 		if (v122)
 			sub_1400579E0((__int64)v122, v129, v126);
 		sub_1400579E0((__int64)v3, v129, v97);

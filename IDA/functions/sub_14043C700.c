@@ -44,7 +44,7 @@ void __fastcall sub_14043C700(__int64 a1, __int64 a2)
 				if (dword_140C7DC68)
 				{
 					dword_140C7CD6C = 0;
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Communicator_EndIncoming", &unk_1409D0B07);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Communicator_EndIncoming", &unk_1409D0B07);
 				}
 			}
 			return;

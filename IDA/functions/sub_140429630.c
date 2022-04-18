@@ -36,7 +36,7 @@ __int64 __fastcall sub_140429630(__int64 a1)
 			v10 = v2[8];
 			v9 = v7;
 			v8 = *v2;
-			return sub_1400EA3E0(
+			return Apollo_LUAEvent(
 				a1,
 				"DamageOrHealingDone",
 				"UUiiiibS",

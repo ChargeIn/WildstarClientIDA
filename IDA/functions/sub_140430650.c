@@ -71,7 +71,7 @@ void __fastcall sub_140430650(__int64 a1, __int64 a2, unsigned __int64 a3, int a
 			++v12;
 		} while (v12 < a3);
 		v19 = (unsigned int)sub_1400578C0((__int64)v5);
-		sub_1400EA3E0(a1, "AvailableMail", "Tb", v19, a4);
+		Apollo_LUAEvent(a1, "AvailableMail", "Tb", v19, a4);
 		sub_1400579E0((__int64)v5, v20, v19);
 		if (a4)
 		{
@@ -87,7 +87,7 @@ void __fastcall sub_140430650(__int64 a1, __int64 a2, unsigned __int64 a3, int a
 				v5[2] += 16i64;
 				sub_1406B33F0(v5, v21);
 				v24 = (unsigned int)sub_1400578C0((__int64)v5);
-				sub_1400EA3E0(a1, "AlertMailInfo", L"T", v24);
+				Apollo_LUAEvent(a1, "AlertMailInfo", L"T", v24);
 				sub_1400579E0((__int64)v5, v25, v24);
 			}
 		}

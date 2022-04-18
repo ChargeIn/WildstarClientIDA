@@ -21,7 +21,7 @@ void __fastcall sub_1403FA490(__int64 a1, int a2)
 	sub_14001A500(&v4, 0i64, &v8);
 	(*(void(__fastcall**)(_QWORD, __int64*))(**(_QWORD**)(a1 + 30088) + 120i64))(*(_QWORD*)(a1 + 30088), &v4);
 	sub_140048100(a1, *(_QWORD*)(a1 + 32736), 3);
-	sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(a1 + 32736) + 96i64), "OpenStore", &unk_1409D13CA);
+	Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(a1 + 32736) + 96i64), "OpenStore", &unk_1409D13CA);
 	sub_140400A20((__int64*)(a1 + 72), *(_QWORD*)(qword_140C635F0 + 5792), a2);
 	if (v5)
 		sub_14018B900(v5, 0);

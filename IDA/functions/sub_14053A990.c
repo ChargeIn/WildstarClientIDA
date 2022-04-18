@@ -72,7 +72,7 @@ void __fastcall sub_14053A990(__int64 a1, double a2)
 					if (*(_DWORD*)(a1 + 29928))
 					{
 						v29 = &unk_1409F224C;
-						sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "SubZoneChanged", byte_1409ECB14);
+						Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "SubZoneChanged", byte_1409ECB14);
 					}
 					*(_DWORD*)(a1 + 29928) = 0;
 				}
@@ -90,7 +90,7 @@ void __fastcall sub_14053A990(__int64 a1, double a2)
 				if (*(_DWORD*)(a1 + 29928) && v13)
 				{
 					HIDWORD(v29) = HIDWORD(v13);
-					sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "SubZoneChanged", byte_1409ECB14);
+					Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "SubZoneChanged", byte_1409ECB14);
 				}
 				*(_DWORD*)(a1 + 29928) = 0;
 			}
@@ -115,7 +115,7 @@ void __fastcall sub_14053A990(__int64 a1, double a2)
 		{
 			v19 = *(_QWORD*)(a1 + 29504);
 			LODWORD(v29) = *(_DWORD*)(v19 + 84);
-			sub_1400EA3E0(v19, "ResolutionChanged", byte_1409EC364, *(unsigned int*)(v19 + 80), v29);
+			Apollo_LUAEvent(v19, "ResolutionChanged", byte_1409EC364, *(unsigned int*)(v19 + 80), v29);
 			dword_140C8AED8 = *(_DWORD*)(v18 + 8);
 			dword_140C8AED4 = *(_DWORD*)(v18 + 12);
 		}
@@ -173,7 +173,7 @@ void __fastcall sub_14053A990(__int64 a1, double a2)
 					} while (v28);
 					LODWORD(v30) = v26;
 					LODWORD(v29) = 1;
-					sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "ShowActionBarShortcut", byte_1409E98AC, (unsigned int)v23, v29, v30);
+					Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "ShowActionBarShortcut", byte_1409E98AC, (unsigned int)v23, v29, v30);
 				}
 				++v23;
 				++v25;

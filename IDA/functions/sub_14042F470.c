@@ -253,7 +253,7 @@ void __fastcall sub_14042F470(__int64 a1, _QWORD* a2)
 		v2 = v45;
 		v9 = v44;
 	}
-	sub_1400EA3E0(a1, "CityDirectionsList", L"T", v9, v43);
+	Apollo_LUAEvent(a1, "CityDirectionsList", L"T", v9, v43);
 	if (v2)
 		sub_1400579E0(v2, v42, v9);
 }

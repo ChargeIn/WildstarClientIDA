@@ -51,7 +51,7 @@ void __fastcall sub_14042B770(__int64 a1, unsigned int* a2)
 		} while (v9 < *a2);
 		v10 = v15;
 	}
-	sub_1400EA3E0(a1, "OwnedItemAuctions", byte_1409EC3D4, v10, v14);
+	Apollo_LUAEvent(a1, "OwnedItemAuctions", byte_1409EC3D4, v10, v14);
 	if (v2)
 		sub_1400579E0((__int64)v2, v13, v10);
 }

@@ -205,7 +205,7 @@ __int64 __fastcall sub_1403D9A60(_QWORD* a1, __int64 a2, int a3, __int64 a4, flo
 						v41 = *(_DWORD*)(v42 + 12);
 					}
 					LODWORD(v47) = v6;
-					sub_1400EA3E0(a1[3688], "PlayerLevelChange", byte_1409ECB84, (unsigned int)v7, v47, v41);
+					Apollo_LUAEvent(a1[3688], "PlayerLevelChange", byte_1409ECB84, (unsigned int)v7, v47, v41);
 				}
 			}
 			else
@@ -244,7 +244,7 @@ __int64 __fastcall sub_1403D9A60(_QWORD* a1, __int64 a2, int a3, __int64 a4, flo
 		{
 			LOBYTE(v6) = *(_DWORD*)(a2 + 8) == *(_DWORD*)(v43 + 8);
 			if (v6)
-				sub_1400EA3E0(a1[3688], "RefreshHealthShieldBar", &unk_1409D08BE);
+				Apollo_LUAEvent(a1[3688], "RefreshHealthShieldBar", &unk_1409D08BE);
 		}
 		break;
 	case 21:

@@ -24,7 +24,7 @@ __int64 __fastcall sub_1405E1F20(__int64 a1, __int64 a2)
 		if (v6)
 		{
 			v7 = *v6;
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountInviteRemoved", byte_1409EAB64, *v7);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountInviteRemoved", byte_1409EAB64, *v7);
 			sub_1400B6120(a1 + 520, (__int64)v7);
 			sub_1400B6120(a1 + 560, (__int64)(v7 + 2));
 			sub_1405DDE60(v7);

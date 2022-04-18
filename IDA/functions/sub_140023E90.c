@@ -666,7 +666,7 @@ LABEL_90:
 		v8 = *(_QWORD*)(v46 + 8i64 * v44);
 	}
 LABEL_96:
-	sub_1400EA3E0(v8, "CharacterCreateFailed", byte_1409D0C3C, v26, &v104);
+	Apollo_LUAEvent(v8, "CharacterCreateFailed", byte_1409D0C3C, v26, &v104);
 	if (!(_DWORD)v104)
 		sub_1400232F0(qword_140C66DA8, v29);
 	return 0i64;

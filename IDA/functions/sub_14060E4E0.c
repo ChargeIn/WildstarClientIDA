@@ -611,10 +611,10 @@ void __fastcall sub_14060E4E0(__int64 a1)
 		(unsigned int*)(*(_QWORD*)(v3 + 16) - 16i64));
 	v110 = qword_140C65898;
 	*(_QWORD*)(v3 + 16) -= 48i64;
-	sub_1400EA3E0(*(_QWORD*)(v110 + 29504), "CombatLogTransference", "T", v99);
+	Apollo_LUAEvent(*(_QWORD*)(v110 + 29504), "CombatLogTransference", "T", v99);
 	v111 = *(unsigned int*)(*(_QWORD*)(qword_140C65898 + 120) + 8i64);
 	if ((_DWORD)v111 == *(_DWORD*)(a1 + 8) || (_DWORD)v111 == *(_DWORD*)(a1 + 16))
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FloaterTransference", "T", v99, v112);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FloaterTransference", "T", v99, v112);
 	if (v40)
 		sub_1400579E0(v40, v111, v45);
 	sub_1400579E0(v3, v111, v99);

@@ -35,7 +35,7 @@ __int64 __fastcall sub_1403C09B0(__int64 a1, unsigned int* a2)
 		sub_14018B900(*(_QWORD*)(v10 + 40), 0);
 		v10 = v8;
 		sub_1403D60D0(v2, &v10);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PetDespawned", byte_140B66548, *a2);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PetDespawned", byte_140B66548, *a2);
 	}
 	return 0i64;
 }

@@ -25,7 +25,7 @@ __int64 __fastcall sub_1405F3E60(_QWORD* a1, int a2)
 	{
 		v9 = *(_QWORD*)(qword_140C65898 + 29504);
 		v10 = (*(__int64(__fastcall**)(_QWORD*))(*a1 + 24i64))(a1);
-		sub_1400EA3E0(v9, "PublicEventLocationRemoved", byte_1409ED1FC, v10);
+		Apollo_LUAEvent(v9, "PublicEventLocationRemoved", byte_1409ED1FC, v10);
 	}
 	return 0i64;
 }

@@ -103,7 +103,7 @@ void __fastcall sub_1406102D0(int* a1)
 		sub_1400F06F0((__int64)v3, v26, L"nRestEP", v27);
 		v28 = qword_140C65898;
 		v3[2] -= 16i64;
-		sub_1400EA3E0(*(_QWORD*)(v28 + 29504), "CombatLogExperience", "T", v9, v30, v31, v32, v33);
+		Apollo_LUAEvent(*(_QWORD*)(v28 + 29504), "CombatLogExperience", "T", v9, v30, v31, v32, v33);
 		sub_1400579E0((__int64)v3, v29, v9);
 	}
 }

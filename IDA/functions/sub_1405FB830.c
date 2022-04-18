@@ -129,7 +129,7 @@ LABEL_42:
 	if ((*(_DWORD*)(*(_QWORD*)(v4 + 8) + 12i64) & 0x80000) != 0)
 	{
 		LODWORD(v24) = a2[1];
-		sub_1400EA3E0(v23, "ContractObjectiveUpdated", byte_1409E91BC, *a2, v24);
+		Apollo_LUAEvent(v23, "ContractObjectiveUpdated", byte_1409E91BC, *a2, v24);
 	}
 	else
 	{

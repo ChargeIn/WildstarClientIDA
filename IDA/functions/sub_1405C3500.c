@@ -24,7 +24,7 @@ void __fastcall sub_1405C3500(__int64 a1, int a2)
 			*(_QWORD*)(v2 + 168) = 16i64;
 			sub_140195D70(v2 + 192);
 			if (!a2)
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MatchingCancelPendingGame", &unk_1409D1256);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MatchingCancelPendingGame", &unk_1409D1256);
 		}
 	}
 }

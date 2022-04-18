@@ -17,7 +17,7 @@ __int64 __fastcall sub_1405842C0(__int64 a1, __int64 a2)
 		v7 = *(_QWORD*)(a2 + 8) == *(_QWORD*)v5;
 		*(_DWORD*)(v5 + 768) = v7;
 		if (v7 && !v6)
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"GuildNameplateChange",
 				byte_1409EA6A4,

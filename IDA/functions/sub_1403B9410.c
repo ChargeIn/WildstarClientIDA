@@ -48,7 +48,7 @@ __int64 __fastcall sub_1403B9410(__int64 a1, __int64 a2)
 			}
 		}
 	}
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "AbilityBookChange", &unk_1409D10C6, v6);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "AbilityBookChange", &unk_1409D10C6, v6);
 	return 0i64;
 }
 // 1403B9448: variable 'v5' is possibly undefined

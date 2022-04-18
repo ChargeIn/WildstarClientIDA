@@ -41,7 +41,7 @@ void __fastcall sub_1403A12A0(__int64 a1, int a2, __int64 a3, int a4)
 						&& (v9 = *(unsigned int**)(a3 + 112), (v9[66] & 0x20000000) != 0)
 						&& (unsigned int)(v6 - 15) <= 1)
 					{
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SpellCastWithServiceToken", byte_1409EAE6C, *v9);
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SpellCastWithServiceToken", byte_1409EAE6C, *v9);
 					}
 					else
 					{
@@ -96,7 +96,7 @@ void __fastcall sub_1403A12A0(__int64 a1, int a2, __int64 a3, int a4)
 									LODWORD(v26) = v18;
 									LODWORD(v25) = v18;
 									LODWORD(v24) = *v22;
-									sub_1400EA3E0(
+									Apollo_LUAEvent(
 										*(_QWORD*)(qword_140C65898 + 29504),
 										"SpellCastFailed",
 										"iiUUSS",

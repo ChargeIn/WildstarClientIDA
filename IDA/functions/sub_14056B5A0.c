@@ -17,7 +17,7 @@ __int64 sub_14056B5A0()
 			sub_140575DD0();
 			v0 = qword_140C65898;
 		}
-		return sub_1400EA3E0(*(_QWORD*)(v0 + 29504), "PlayerPathRefresh", byte_1409D10FF);
+		return Apollo_LUAEvent(*(_QWORD*)(v0 + 29504), "PlayerPathRefresh", byte_1409D10FF);
 	}
 	return result;
 }

@@ -52,7 +52,7 @@ __int64 __fastcall sub_140403670(__int64 a1, unsigned int* a2)
 				sub_14018B900((__int64)v10, 0);
 		}
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatZoneChange", L"S", v6);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatZoneChange", L"S", v6);
 	return 0i64;
 }
 // 14040369A: variable 'v5' is possibly undefined

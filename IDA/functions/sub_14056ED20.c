@@ -192,7 +192,7 @@ __int64 __fastcall sub_14056ED20(__int64 a1, __int64 a2)
 						v27 = *(_DWORD*)(**((_QWORD**)v22 + 6) + 12i64);
 						if (v27 != 2 && v27 != 14 || ((*(__int64(__fastcall**)(int*))(*(_QWORD*)v22 + 88i64))(v22) & 1) != 0)
 						{
-							sub_1400EA3E0(
+							Apollo_LUAEvent(
 								*(_QWORD*)(qword_140C65898 + 29504),
 								"PlayerPathMissionUnlocked",
 								byte_1409ECD0C,
@@ -208,7 +208,7 @@ __int64 __fastcall sub_14056ED20(__int64 a1, __int64 a2)
 			v5 = (unsigned int)(v5 + 1);
 		} while ((unsigned int)v5 < *(_DWORD*)a2);
 		if (v43)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathMissionUnlockedSound", &unk_1409D10C3);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathMissionUnlockedSound", &unk_1409D10C3);
 	}
 	if (v37)
 		sub_14042D9B0(*(_QWORD*)(qword_140C65898 + 29504), (__int64)v35);

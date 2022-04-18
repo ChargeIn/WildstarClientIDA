@@ -114,7 +114,7 @@ __int64 __fastcall sub_1405DFE00(__int64 a1, __int64* a2)
 		sub_1403F87B0(qword_140C65898, v22, &v25, v21);
 		v23 = qword_140C65898;
 		v18[64] = 1;
-		sub_1400EA3E0(*(_QWORD*)(v23 + 29504), "FriendshipAdd", byte_1409EA97C, v18[2]);
+		Apollo_LUAEvent(*(_QWORD*)(v23 + 29504), "FriendshipAdd", byte_1409EA97C, v18[2]);
 		sub_1405E28C0(a1, (__int64)(v18 + 46));
 	}
 	return 0i64;

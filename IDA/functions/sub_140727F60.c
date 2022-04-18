@@ -16,7 +16,7 @@ __int64 __fastcall sub_140727F60(__int64* a1)
 	v3 = a1[178];
 	if (!v3)
 		return 1i64;
-	sub_1400EA3E0(v3, "ShowGachaUI", &unk_1409D158A);
+	Apollo_LUAEvent(v3, "ShowGachaUI", &unk_1409D158A);
 	return 0i64;
 }
 

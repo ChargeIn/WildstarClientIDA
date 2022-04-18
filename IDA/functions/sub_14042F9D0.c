@@ -75,7 +75,7 @@ void __fastcall sub_14042F9D0(__int64 a1, __int64 a2, unsigned int* a3)
 	sub_1400FA3C0((__int64)v32, v3, v27.m128_f32);
 	v25 = v33;
 	sub_1400FB2A0((__int64)&v28, (__int64)L"tLoc", v33);
-	sub_1400EA3E0(a1, "CityDirectionMarked", L"T", v13);
+	Apollo_LUAEvent(a1, "CityDirectionMarked", L"T", v13);
 	if (v34)
 		sub_1400579E0(v34, v26, v25);
 	sub_1400579E0(v3, v26, v13);

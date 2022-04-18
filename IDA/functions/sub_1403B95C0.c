@@ -1,4 +1,5 @@
 #include "../winhttp.h"
+#include "../winhttp.h"
 
 //----- (00000001403B95C0) ----------------------------------------------------
 __int64 __fastcall sub_1403B95C0(__int64 a1, int* a2)
@@ -22,7 +23,7 @@ __int64 __fastcall sub_1403B95C0(__int64 a1, int* a2)
 			v6 = v2;
 		*(_DWORD*)(a1 + 28124) = v6;
 	}
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "AbilityBookChange", &unk_1409D10C6, v5);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "AbilityBookChange", &unk_1409D10C6, v5);
 	return 0i64;
 }
 

@@ -324,7 +324,7 @@ __int64 __fastcall sub_1403CAE70(__int64 a1, _DWORD* a2)
 			v56 = sub_1400B7660(&v76);
 			v2 = a1;
 			v57 = v82;
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(a1 + 29504),
 				"FactionFloater",
 				"USiSi",
@@ -344,7 +344,7 @@ __int64 __fastcall sub_1403CAE70(__int64 a1, _DWORD* a2)
 					{
 						v64 = *(_QWORD*)(qword_140C65898 + 29504);
 						v65 = sub_140616130((unsigned int)(v62 + 1));
-						sub_1400EA3E0(v64, "ReputationBoundryWarning", byte_1409EA15C, v65, v57);
+						Apollo_LUAEvent(v64, "ReputationBoundryWarning", byte_1409EA15C, v65, v57);
 					}
 				}
 			}
@@ -352,11 +352,11 @@ __int64 __fastcall sub_1403CAE70(__int64 a1, _DWORD* a2)
 			{
 				v60 = *(_QWORD*)(qword_140C65898 + 29504);
 				v61 = sub_140616130(v59);
-				sub_1400EA3E0(v60, "ReputationLevel", byte_1409EA18C, v61, v57);
+				Apollo_LUAEvent(v60, "ReputationLevel", byte_1409EA18C, v61, v57);
 			}
 			sub_1403CADA0(a1, *a2);
 			LODWORD(v69) = (int)*(float*)(v14 + 36);
-			sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "ReputationChanged", byte_1409EA1CC, v57, v69, v23);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "ReputationChanged", byte_1409EA1CC, v57, v69, v23);
 			sub_140437A10((_QWORD*)qword_140C658D8, 0xC4u, 0, 0i64, 0, 0, 1);
 			if (v80)
 				sub_14018B900(v80, 0);

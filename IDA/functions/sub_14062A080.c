@@ -22,7 +22,7 @@ __int64 __fastcall sub_14062A080(__int64 a1, int a2, unsigned int* a3)
 				{
 					v8 = *(_QWORD*)(qword_140C65898 + 29504);
 					sub_14001B370(v9, 30i64, L"%I64u", *(_QWORD*)(v6 + 8));
-					result = sub_1400EA3E0(v8, "RefreshMail", L"S", v9);
+					result = Apollo_LUAEvent(v8, "RefreshMail", L"S", v9);
 				}
 			}
 		}

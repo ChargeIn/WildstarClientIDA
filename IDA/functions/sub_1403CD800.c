@@ -13,14 +13,14 @@ void __fastcall sub_1403CD800(__int64 a1, unsigned __int8 a2)
 	if (a2 >= 4u)
 	{
 		v5 = 1;
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SpecChanged", byte_1409ECDE4, (unsigned int)a2 + 1, v5);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SpecChanged", byte_1409ECDE4, (unsigned int)a2 + 1, v5);
 		return;
 	}
 	if (a2 == *(_DWORD*)(qword_140C65898 + 28140))
 	{
 		v6 = 2;
 	LABEL_12:
-		sub_1400EA3E0(*(_QWORD*)(v2 + 29504), "SpecChanged", byte_1409ECDE4, (unsigned int)a2 + 1, v6);
+		Apollo_LUAEvent(*(_QWORD*)(v2 + 29504), "SpecChanged", byte_1409ECDE4, (unsigned int)a2 + 1, v6);
 		return;
 	}
 	v4 = *(_QWORD*)(qword_140C65898 + 25744);

@@ -23,7 +23,7 @@ __int64 __fastcall sub_14051FE90(__int64 a1)
 					v5 <= v4))
 			{
 				sub_14073FE40(*(_QWORD*)(a1 + 16), *(_DWORD*)(a1 + 24));
-				return sub_1400EA3E0(
+				return Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"CostumeSaveResult",
 					"iii",

@@ -17,8 +17,8 @@ __int64 __fastcall sub_1406019A0(__int64* a1, int a2)
 		v6 = 1;
 		sub_1403F4900(qword_140C65898, 0x41Au, (__int64)&v5);
 		v4 = *(_QWORD*)(qword_140C65898 + 29504);
-		sub_1400EA3E0(v4, "HideInstanceGameModeDialog", byte_1409E8FBC, 1i64);
-		sub_1400EA3E0(v4, "Group_AcceptInvite", byte_1409D0E6B);
+		Apollo_LUAEvent(v4, "HideInstanceGameModeDialog", byte_1409E8FBC, 1i64);
+		Apollo_LUAEvent(v4, "Group_AcceptInvite", byte_1409D0E6B);
 		sub_1406070A0((__int64)a1);
 		return 1i64;
 	}

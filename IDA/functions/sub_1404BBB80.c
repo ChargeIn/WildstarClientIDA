@@ -146,7 +146,7 @@ __int64 __fastcall sub_1404BBB80(__int64 a1, __int64 a2)
 		v2 = v31;
 		v8 = v30;
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HarvestItemsSentToOwner", byte_1409EC24C, v8, v29);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HarvestItemsSentToOwner", byte_1409EC24C, v8, v29);
 	if (v2)
 		sub_1400579E0(v2, v27, v8);
 	return 0i64;

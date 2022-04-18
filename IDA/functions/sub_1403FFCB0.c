@@ -84,7 +84,7 @@ unsigned __int64 __fastcall sub_1403FFCB0(
 				{
 					v20 = *(_QWORD*)(qword_140C65898 + 29504);
 					if (v20)
-						sub_1400EA3E0(v20, "MessageFinished", byte_1409EB834, &v22);
+						Apollo_LUAEvent(v20, "MessageFinished", byte_1409EB834, &v22);
 				}
 				if (v29)
 				{

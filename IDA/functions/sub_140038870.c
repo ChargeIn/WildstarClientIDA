@@ -77,7 +77,7 @@ void __fastcall sub_140038870(__int64 a1)
 	v19 = *(_QWORD*)(a1 + 72);
 	*(_DWORD*)(a1 + 168) = 1;
 	if (v19)
-		sub_1400EA3E0(v19, "NetworkStatus", &unk_1409D01F2);
+		Apollo_LUAEvent(v19, "NetworkStatus", &unk_1409D01F2);
 }
 // 1409D22C4: using guessed type wchar_t aD_0[3];
 // 1409F5938: using guessed type wchar_t aLoginwindow[12];

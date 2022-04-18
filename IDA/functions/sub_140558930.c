@@ -30,7 +30,7 @@ __int64 __fastcall sub_140558930(__int64 a1, int a2, int a3, int a4)
 	{
 	case 0:
 		sub_140557C30(a1);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
 		sub_140554EA0(a1, 1);
 		break;
 	case 1:
@@ -111,7 +111,7 @@ __int64 __fastcall sub_140558930(__int64 a1, int a2, int a3, int a4)
 	LABEL_25:
 		sub_1403A71F0(qword_140C65898, *(_DWORD*)(a1 + 4), v17, 1);
 	LABEL_26:
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Dialog_Close", byte_1409D0BFF);
 		break;
 	default:
 		break;

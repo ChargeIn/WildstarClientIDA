@@ -278,7 +278,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 						v17 = 5000;
 					dword_140DC3084 = v17;
 				}
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeUnlocked", byte_1409E952C, v9);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeUnlocked", byte_1409E952C, v9);
 				sub_140437A10((_QWORD*)qword_140C658D8, 0x44u, 0, 0i64, 0, 0, 1);
 				if (v199)
 					sub_14018B900(v199, 0);
@@ -286,10 +286,10 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 				goto LABEL_280;
 			case 1:
 				sub_14048DDE0(v2, v5, 0);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeActivate", byte_1409E945C, v9);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeActivate", byte_1409E945C, v9);
 				goto LABEL_280;
 			case 3:
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeAbandon", byte_1409E9514, v5, &unk_1409F05F4);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeAbandon", byte_1409E9514, v5, &unk_1409F05F4);
 				sub_14048D7A0(v2, v5);
 				goto LABEL_280;
 			case 4:
@@ -345,7 +345,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 						v63 = 0i64;
 					}
 					sub_1400B7480((__int64)&v165, v63);
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
 					sub_140437A10((_QWORD*)qword_140C658D8, 0x46u, 0, 0i64, 0, 0, 1);
 				}
 				else
@@ -390,7 +390,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 						*v167 = 0;
 						v168 = v167;
 					}
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeFailSound", byte_1409E975C, v5);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeFailSound", byte_1409E975C, v5);
 				}
 				if ((dword_140DC3080 & 8) == 0)
 				{
@@ -405,7 +405,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 				v74 = *(_QWORD*)(sub_1400B7660(&v165) + 8);
 				v75 = sub_1400B7660(&v170);
 				LODWORD(v143) = dword_140DC3090;
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"ChallengeFailTime",
 					"$SSi",
@@ -449,7 +449,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 						*v157 = 0;
 						v158 = v157;
 					}
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
 					sub_140437A10((_QWORD*)qword_140C658D8, 0x46u, 0, 0i64, 0, 0, 1);
 				}
 				else
@@ -494,7 +494,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 						*v202 = 0;
 						v203 = v202;
 					}
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeFailSound", byte_1409E975C, v5);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeFailSound", byte_1409E975C, v5);
 				}
 				if ((dword_140DC3080 & 0x10) == 0)
 				{
@@ -509,7 +509,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 				v91 = *(_QWORD*)(sub_1400B7660(&v200) + 8);
 				v92 = sub_1400B7660(&v155);
 				LODWORD(v143) = dword_140DC3094;
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"ChallengeFailArea",
 					"$SSi",
@@ -627,7 +627,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 						*v152 = 0;
 						v153 = v152;
 					}
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
 					sub_140437A10((_QWORD*)qword_140C658D8, 0x46u, 0, 0i64, 0, 0, 1);
 					if (!*(_DWORD*)(a2 + 8))
 					{
@@ -656,7 +656,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 				}
 				else
 				{
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeFailSound", byte_1409E975C, v5);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeFailSound", byte_1409E975C, v5);
 				}
 				if ((dword_140DC3080 & 4) == 0)
 				{
@@ -671,7 +671,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 				v52 = *(_QWORD*)(sub_1400B7660(&v145) + 8);
 				v53 = sub_1400B7660(&v150);
 				LODWORD(v143) = dword_140DC308C;
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"ChallengeFailGeneric",
 					"$SSi",
@@ -695,7 +695,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 					sub_140575DD0();
 					v142 = qword_140C65898;
 				}
-				sub_1400EA3E0(*(_QWORD*)(v142 + 29504), "ChallengeUpdated", byte_1409E965C, v5);
+				Apollo_LUAEvent(*(_QWORD*)(v142 + 29504), "ChallengeUpdated", byte_1409E965C, v5);
 				break;
 			case 7:
 				v125 = sub_14034BDD0(v10, *(_DWORD*)(v9 + 68));
@@ -734,7 +734,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 					dword_140DC30A0 = v132;
 				}
 				v133 = sub_1400B7660(&v185);
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"ChallengeAreaRestriction",
 					"iSSf",
@@ -803,10 +803,10 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 					dword_140DC3088 = v28;
 				}
 				if (((*(_BYTE*)(v9 + 12) & 8) != 0 || v21 >= *(_DWORD*)(v9 + 40)) && *(_DWORD*)(v9 + 40) > 1u)
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeTierAchieved", byte_1409E97E4, v5, v21);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeTierAchieved", byte_1409E97E4, v5, v21);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
 				v29 = sub_1400B7660(&v180);
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"ChallengeCompleted",
 					"iSSi",
@@ -834,7 +834,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 					v18 = &unk_1409E94FC;
 					v20 = "ChallengeTypeAlreadyActive";
 				LABEL_234:
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), v20, v18, v5, v19);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), v20, v18, v5, v19);
 				}
 				goto LABEL_280;
 			case 0xB:
@@ -874,7 +874,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 					dword_140DC309C = v123;
 				}
 				v124 = sub_1400B7660(&v190);
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"ChallengeCooldownActive",
 					"iSSi",
@@ -889,7 +889,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 			case 0xC:
 				v138 = sub_14034BDD0(v10, *(_DWORD*)(v9 + 68));
 				v140 = sub_14034BDD0(v139, 148347);
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeLeftArea", "iSSb", v5, v138, v140, v11[14]);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeLeftArea", "iSSb", v5, v138, v140, v11[14]);
 				goto LABEL_280;
 			case 0x10:
 				sub_14048D120(v2, v5);
@@ -947,7 +947,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 						v102 = 0i64;
 					}
 					sub_1400B7480((__int64)&v160, v102);
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeCompletedSound", byte_1409E9784, v5);
 					sub_140437A10((_QWORD*)qword_140C658D8, 0x46u, 0, 0i64, 0, 0, 1);
 				}
 				else
@@ -992,7 +992,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 						*v162 = 0;
 						v163 = v162;
 					}
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeFailSound", byte_1409E975C, v5);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChallengeFailSound", byte_1409E975C, v5);
 				}
 				if ((dword_140DC3080 & 0x20) == 0)
 				{
@@ -1007,7 +1007,7 @@ __int64 __fastcall sub_14048E2B0(__int64 a1, __int64 a2)
 				v113 = *(_QWORD*)(sub_1400B7660(&v160) + 8);
 				v114 = sub_1400B7660(&v175);
 				LODWORD(v143) = dword_140DC3098;
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"ChallengeFailTime",
 					"$SSi",

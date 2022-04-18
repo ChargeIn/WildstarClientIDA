@@ -52,7 +52,7 @@ void __fastcall sub_1404B9DB0(__int64 a1)
 		else
 		{
 			v10 = 3;
-			sub_1400EA3E0(*(_QWORD*)(v2 + 29504), "HousingResult", byte_1409EBB6C, &unk_1409F0854, v10);
+			Apollo_LUAEvent(*(_QWORD*)(v2 + 29504), "HousingResult", byte_1409EBB6C, &unk_1409F0854, v10);
 		}
 	}
 	else

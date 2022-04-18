@@ -38,7 +38,7 @@ __int64 __fastcall sub_1405E1540(__int64 a1, _DWORD* a2)
 		if (v7)
 			*(_DWORD*)(a1 + 752) = v8;
 		if (*(_DWORD*)(a1 + 656) == *(_DWORD*)(a1 + 752))
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountPersonalStatusUpdate", &unk_1409D0EFD);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountPersonalStatusUpdate", &unk_1409D0EFD);
 		else
 			sub_1405DF720(a1);
 		return 0i64;
@@ -57,7 +57,7 @@ __int64 __fastcall sub_1405E1540(__int64 a1, _DWORD* a2)
 		{
 			v12 = (unsigned int*)v11[3];
 			v12[16] = a2[1];
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountDataUpdate", byte_1409EACD4, *v12);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipAccountDataUpdate", byte_1409EACD4, *v12);
 		}
 	}
 	return 0i64;

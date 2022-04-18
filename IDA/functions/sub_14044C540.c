@@ -93,7 +93,7 @@ __int64 __fastcall sub_14044C540(__int64 a1, unsigned int* a2)
 		} while (v7 < *a2);
 	}
 	if (qword_140C65898)
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64),
 			"StorePurchaseHistoryReady",
 			byte_1409D13DB);

@@ -117,7 +117,7 @@ __int64 __fastcall sub_140486340(__int64* a1, __m128* a2)
 				+ _mm_shuffle_ps(v29, v29, 170).m128_f32[0]);
 			if (v28)
 				v30 = fmaxf(0.0, v30 - *(float*)(v28 + 4));
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"HintArrowDistanceUpdate",
 				byte_1409E9E64,

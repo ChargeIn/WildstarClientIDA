@@ -36,7 +36,7 @@ __int64 __fastcall sub_1405F53F0(__int64 a1, _DWORD* a2)
 LABEL_7:
 	if (!v2)
 		LABEL_8 :
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventVoteEnded", byte_1409ED494, (unsigned int)a2[2]);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PublicEventVoteEnded", byte_1409ED494, (unsigned int)a2[2]);
 	return 0i64;
 }
 // 1409ED494: using guessed type _BYTE byte_1409ED494[144];

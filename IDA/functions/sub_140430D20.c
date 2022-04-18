@@ -29,14 +29,14 @@ __int64 __fastcall sub_140430D20(
 		v16 = a8;
 		v15 = a6;
 		v14 = a5;
-		return sub_1400EA3E0(a1, "ShowTutorial", "ibSibWiii", a2, a3, a4, v14, v15, a7, v16, v17, v18);
+		return Apollo_LUAEvent(a1, "ShowTutorial", "ibSibWiii", a2, a3, a4, v14, v15, a7, v16, v17, v18);
 	}
 	else
 	{
 		LODWORD(a8) = a6;
 		v19 = (unsigned int)a5;
 		LODWORD(a5) = a3;
-		return sub_1400EA3E0(a1, "ShowTutorial", "ibSib", a2, a5, a4, v19, a8, a9, a10, a11, a12);
+		return Apollo_LUAEvent(a1, "ShowTutorial", "ibSib", a2, a5, a4, v19, a8, a9, a10, a11, a12);
 	}
 }
 // 140430D20: using guessed type _QWORD arg_40;

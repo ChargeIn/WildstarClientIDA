@@ -118,7 +118,7 @@ void __fastcall sub_1403C76D0(__int64 a1)
 						if (*((_QWORD*)&v28 + 1))
 							sub_14018B900(*((__int64*)&v28 + 1), 0);
 						v22 = sub_1400B7660(&v31);
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"CombatMomentum",
 							"iiS",

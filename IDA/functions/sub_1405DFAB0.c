@@ -162,7 +162,7 @@ __int64 __fastcall sub_1405DFAB0(__int64 a1, unsigned __int16* a2)
 	}
 	v29 = qword_140C65898;
 	*(_DWORD*)(a1 + 652) = 1;
-	sub_1400EA3E0(*(_QWORD*)(v29 + 29504), "FriendshipLoaded", &unk_1409D0ED6);
+	Apollo_LUAEvent(*(_QWORD*)(v29 + 29504), "FriendshipLoaded", &unk_1409D0ED6);
 	return 0i64;
 }
 // 1405DFD07: conditional instruction was optimized away because ecx.4 is in (1..2|>=5u)

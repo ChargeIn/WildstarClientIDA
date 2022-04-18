@@ -48,12 +48,12 @@ void __fastcall sub_140016560(__int64 a1, unsigned int a2)
 				}
 				(***(void(__fastcall****)(_QWORD))(a1 + 5536))(*(_QWORD*)(a1 + 5536));
 				if (*(_DWORD*)(a1 + 5704))
-					sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(a1 + 5536) + 88i64), "TriggerDemoOptions", byte_1409D0FFC, a2);
+					Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(a1 + 5536) + 88i64), "TriggerDemoOptions", byte_1409D0FFC, a2);
 			}
 			if (qword_140C63620)
 			{
 				if (*(_QWORD*)(qword_140C63620 + 24))
-					sub_1400EA3E0(*(_QWORD*)(qword_140C63620 + 88), "OpenOptions", &unk_1409D0202);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C63620 + 88), "OpenOptions", &unk_1409D0202);
 			}
 		}
 	}

@@ -9,7 +9,7 @@ __int64 __fastcall sub_14056D740(__int64 a1)
 	unsigned int v5; // edx
 	int v6; // ecx
 
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathMissionActivate", byte_1409ECCAC, *(_QWORD*)(a1 + 48));
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PlayerPathMissionActivate", byte_1409ECCAC, *(_QWORD*)(a1 + 48));
 	v3 = **(_QWORD**)(a1 + 48);
 	result = *(int*)(v3 + 12);
 	switch ((int)result)

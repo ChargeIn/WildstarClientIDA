@@ -354,7 +354,7 @@ void __fastcall sub_1404045C0(
 				sub_1400F06F0(v23, v86, L"nPremiumTier", a14);
 				v87 = qword_140C65898;
 				*(_QWORD*)(v23 + 16) -= 16i64;
-				sub_1400EA3E0(*(_QWORD*)(v87 + 29504), "ChatMessage", "HT", v21, v27);
+				Apollo_LUAEvent(*(_QWORD*)(v87 + 29504), "ChatMessage", "HT", v21, v27);
 				if (v113)
 					sub_1400579E0(v113, v88, v68);
 				sub_1400579E0(v23, v88, v27);

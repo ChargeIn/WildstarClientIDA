@@ -131,7 +131,7 @@ __int64 __fastcall sub_1405A9A00(__int64 a1, unsigned int a2, int a3)
 									*(_QWORD*)(a1 + 104) = v31;
 							}
 						}
-						return sub_1400EA3E0(
+						return Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"HousingBuildStarted",
 							byte_1409F3264,

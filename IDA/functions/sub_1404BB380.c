@@ -27,14 +27,14 @@ __int64 __fastcall sub_1404BB380(__int64 a1, __int64 a2)
 	case 12:
 	case 13:
 	case 44:
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"HousingNeighborInviteDeclined",
 			byte_1409EC084,
 			*(_QWORD*)(a2 + 16));
 		return 0i64;
 	case 16:
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"HousingNeighborInviteAccepted",
 			byte_1409EC0A4,
@@ -119,7 +119,7 @@ __int64 __fastcall sub_1404BB380(__int64 a1, __int64 a2)
 	default:
 		v19 = v4;
 	LABEL_24:
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingResult", byte_1409EBB6C, *(_QWORD*)(a2 + 16), v19);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingResult", byte_1409EBB6C, *(_QWORD*)(a2 + 16), v19);
 		return 0i64;
 	}
 }

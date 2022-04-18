@@ -10,7 +10,7 @@ void __fastcall sub_1403FA610(__int64 a1, unsigned int a2)
 	if (a2 == -1)
 	{
 		sub_1403FA490(qword_140C65898, 0);
-		sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(v2 + 32736) + 96i64), "OpenSignature", &unk_1409D13AE);
+		Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(v2 + 32736) + 96i64), "OpenSignature", &unk_1409D13AE);
 	}
 	else
 	{

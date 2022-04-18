@@ -15,7 +15,7 @@ __int64 __fastcall sub_1405C21D0(__int64 a1)
 	int* v12; // [rsp+48h] [rbp-10h]
 
 	*(_DWORD*)(a1 + 64) = 1;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MatchVoteSurrenderBegin", &unk_1409D12B9);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MatchVoteSurrenderBegin", &unk_1409D12B9);
 	v2 = sub_14018B280(16i64, 0);
 	v4 = v2;
 	v10 = v2;

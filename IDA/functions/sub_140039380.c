@@ -77,7 +77,7 @@ __int64 __fastcall sub_140039380(__int64 a1)
 		if (v12)
 			*(_WORD*)v12 = 0;
 		v13 = sub_1400B7660(v17);
-		sub_1400EA3E0(*(_QWORD*)(a1 + 72), "NetworkStatus", byte_1409D0F64, *(_QWORD*)(v13 + 8), 0);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "NetworkStatus", byte_1409D0F64, *(_QWORD*)(v13 + 8), 0);
 		if ((_QWORD)v22)
 			sub_14018B900(v22, 0);
 		sub_1400B7390(v17);

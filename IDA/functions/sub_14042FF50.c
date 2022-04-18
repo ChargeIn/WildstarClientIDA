@@ -365,7 +365,7 @@ void __fastcall sub_14042FF50(__int64 a1, __int64 a2)
 		v73 = v8;
 	} while (!v62);
 	v63 = v67;
-	sub_1400EA3E0(a1, "WarPartyMatchResults", L"T", v67);
+	Apollo_LUAEvent(a1, "WarPartyMatchResults", L"T", v67);
 	if (v68)
 		sub_1400579E0(v68, v64, v63);
 }

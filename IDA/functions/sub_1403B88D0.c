@@ -73,7 +73,7 @@ LABEL_15:
 		a1[3174] = v10;
 	}
 	a1[3175] = v9;
-	sub_1400EA3E0(a1[3688], "BuybackItemsUpdated", byte_1409D0D87);
+	Apollo_LUAEvent(a1[3688], "BuybackItemsUpdated", byte_1409D0D87);
 	return 0i64;
 }
 // 1409D0D87: using guessed type _BYTE byte_1409D0D87[28];

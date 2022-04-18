@@ -72,7 +72,7 @@ LABEL_14:
 		if (v2)
 		{
 			if (result)
-				return sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SubZoneChanged", byte_1409ECB14, v2, result);
+				return Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SubZoneChanged", byte_1409ECB14, v2, result);
 		}
 	}
 	return result;

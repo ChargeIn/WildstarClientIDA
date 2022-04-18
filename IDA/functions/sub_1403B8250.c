@@ -17,14 +17,14 @@ __int64 __fastcall sub_1403B8250(__int64 a1, unsigned int a2, int a3, int a4)
 		v8 = *(_QWORD*)(a1 + 29504);
 		result = (__int64)sub_1400B5DF0(qword_140C658F0, a2, 0i64);
 		if (result)
-			return sub_1400EA3E0(v8, "ItemSentToCrate", "oii", result, a3, 24);
+			return Apollo_LUAEvent(v8, "ItemSentToCrate", "oii", result, a3, 24);
 	}
 	else
 	{
 		v10 = *(_QWORD*)(a1 + 29504);
 		result = (__int64)sub_1400B5DF0(qword_140C658F0, a2, 0i64);
 		if (result)
-			result = sub_1400EA3E0(v10, "ItemRemoved", "oii", result, a3, a4);
+			result = Apollo_LUAEvent(v10, "ItemRemoved", "oii", result, a3, a4);
 		if (a4 == 21)
 		{
 			v11 = *(_DWORD*)(*(_QWORD*)(a1 + 120) + 8i64);

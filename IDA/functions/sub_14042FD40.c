@@ -91,7 +91,7 @@ void __fastcall sub_14042FD40(__int64 a1, _QWORD* a2)
 			v11 = v17;
 		} while ((unsigned __int64)v17 < a2[1]);
 	}
-	sub_1400EA3E0(a1, "MatchingLeaveQueue", "T", (unsigned int)v10, v22);
+	Apollo_LUAEvent(a1, "MatchingLeaveQueue", "T", (unsigned int)v10, v22);
 	sub_1400579E0(v3, v21, v10);
 }
 // 14042FD40: could not find valid save-restore pair for xmm6

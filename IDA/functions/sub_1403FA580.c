@@ -10,9 +10,9 @@ void __fastcall sub_1403FA580(__int64 a1, __int64 a2)
 	{
 		v4 = *(_QWORD*)(*(_QWORD*)(a1 + 32736) + 96i64);
 		if (*(_DWORD*)(a2 + 4))
-			sub_1400EA3E0(v4, "OpenStoreLinkCategory", byte_1409EFC74);
+			Apollo_LUAEvent(v4, "OpenStoreLinkCategory", byte_1409EFC74);
 		else
-			sub_1400EA3E0(v4, "OpenStoreLinkSingle", byte_1409EFC4C, *(unsigned int*)(a2 + 12), *(_QWORD*)(a2 + 16) + 1i64);
+			Apollo_LUAEvent(v4, "OpenStoreLinkSingle", byte_1409EFC4C, *(unsigned int*)(a2 + 12), *(_QWORD*)(a2 + 16) + 1i64);
 		sub_140400940((__int64*)(a1 + 72), *(_QWORD*)(qword_140C635F0 + 5792), *(_DWORD*)a2);
 	}
 }

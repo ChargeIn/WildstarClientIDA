@@ -73,7 +73,7 @@ void __fastcall sub_1403A81E0(__int64 a1, int a2)
 		v10 = *(unsigned int*)(v2 + 25480);
 		v11 = *(_QWORD*)(v2 + 29504);
 		*(_DWORD*)(v2 + 25512) = dword_140C636A8;
-		sub_1400EA3E0(v11, "ActivateCCStateStun", byte_1409E9CC4, v10, v12[0]);
+		Apollo_LUAEvent(v11, "ActivateCCStateStun", byte_1409E9CC4, v10, v12[0]);
 	}
 }
 // 1409E9CC4: using guessed type _BYTE byte_1409E9CC4[24];

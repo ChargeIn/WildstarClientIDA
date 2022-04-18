@@ -13,10 +13,10 @@ __int64 __fastcall sub_140004540(__int64* a1, __int64 a2)
 		sub_140005BF0(a1, *(_QWORD*)(a2 + 8) + 96 * i, 1);
 	if (qword_140C65898)
 	{
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "AccountPendingItemsUpdate", &unk_1409D138E);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "AccountPendingItemsUpdate", &unk_1409D138E);
 		v5 = *(_QWORD*)(qword_140C65898 + 32736);
 		if (v5)
-			sub_1400EA3E0(*(_QWORD*)(v5 + 96), "AccountPendingItemsUpdate", &unk_1409D013B);
+			Apollo_LUAEvent(*(_QWORD*)(v5 + 96), "AccountPendingItemsUpdate", &unk_1409D013B);
 	}
 	v6 = qword_140C66DA8;
 	result = qword_140C66DA8;
@@ -37,7 +37,7 @@ __int64 __fastcall sub_140004540(__int64* a1, __int64 a2)
 				v6 = *(_QWORD*)(v6 + 176);
 			} while (v6);
 		}
-		sub_1400EA3E0(*(_QWORD*)(v6 + 72), "AccountItemUpdate", &unk_1409D013C);
+		Apollo_LUAEvent(*(_QWORD*)(v6 + 72), "AccountItemUpdate", &unk_1409D013C);
 	}
 	return 0i64;
 }

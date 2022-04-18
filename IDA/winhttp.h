@@ -20,9 +20,15 @@
 
 #include <stddef.h>
 
+#define LOWORD(_dw)     ((WORD)(((DWORD_PTR)(_dw)) & 0xffff))
+#define HIWORD(_dw)     ((WORD)((((DWORD_PTR)(_dw)) >> 16) & 0xffff))
+#define LODWORD(_qw)    ((DWORD)(_qw))
+#define HIDWORD(_qw)    ((DWORD)(((_qw) >> 32) & 0xffffffff))
+
 //----------------------------------------------------
 // Added to support windows types on non windows env-m
 //----------------------------------------------------
+typedef int bool;
 typedef int BOOL;
 typedef void* LPVOID;
 typedef unsigned char BYTE;

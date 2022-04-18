@@ -108,7 +108,7 @@ void __fastcall sub_14060D630(__int64 a1)
 	sub_14005EA50((__int64)v2, v22, (int*)(v2[2] - 32i64), (unsigned int*)(v2[2] - 16i64));
 	v23 = qword_140C65898;
 	v2[2] -= 48i64;
-	sub_1400EA3E0(*(_QWORD*)(v23 + 29504), "CombatLogFallingDamage", "T", v8, v25);
+	Apollo_LUAEvent(*(_QWORD*)(v23 + 29504), "CombatLogFallingDamage", "T", v8, v25);
 	sub_1400579E0((__int64)v2, v24, v8);
 }
 // 14060D761: variable 'v14' is possibly undefined

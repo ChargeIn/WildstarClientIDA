@@ -128,7 +128,7 @@ __int64 __fastcall sub_1404B5D10(__int64 a1, unsigned int a2, unsigned __int64 a
 				if (v15)
 				{
 					v16 = (*(__int64(__fastcall**)(__int64))(*(_QWORD*)v15 + 152i64))(v15);
-					sub_1400EA3E0(
+					Apollo_LUAEvent(
 						*(_QWORD*)(qword_140C65898 + 29504),
 						"HousingFreePlaceDecorMoveBegin",
 						byte_1409EBD2C,
@@ -224,7 +224,7 @@ __int64 __fastcall sub_1404B5D10(__int64 a1, unsigned int a2, unsigned __int64 a
 	if (!v18)
 		goto LABEL_29;
 	v19 = (*(__int64(__fastcall**)(_QWORD))(*(_QWORD*)v18 + 152i64))(*(_QWORD*)(qword_140C659F8 + 200));
-	sub_1400EA3E0(
+	Apollo_LUAEvent(
 		*(_QWORD*)(qword_140C65898 + 29504),
 		"HousingFreePlaceDecorMoveEnd",
 		byte_1409EBE6C,
@@ -369,7 +369,7 @@ LABEL_29:
 					v69 = 0i64;
 					(*(void(__fastcall**)(__int64*, __int64*))(v60 + 136))(v58, &v69);
 					if (v70)
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"HousingFreePlaceDecorMoveBegin",
 							byte_1409EBD2C,
@@ -418,7 +418,7 @@ LABEL_29:
 		v69 = 0i64;
 		(*(void(__fastcall**)(__int64, __int64*))(v55 + 136))(v56, &v69);
 		if (v70)
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"HousingFreePlaceDecorMoveEnd",
 				byte_1409EBE6C,

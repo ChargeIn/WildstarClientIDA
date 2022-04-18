@@ -100,7 +100,7 @@ void __fastcall sub_1403AA680(__int64 a1)
 				if (v9 && *v9)
 				{
 					sub_140003890((__int64*)qword_140C658A0, 2u, 0i64, (int*)v9, 0, 0i64);
-					sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "HealthyGamingUpdate", "iS", *(unsigned int*)(a1 + 32644), v10);
+					Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "HealthyGamingUpdate", "iS", *(unsigned int*)(a1 + 32644), v10);
 				}
 			}
 		}
@@ -109,7 +109,7 @@ void __fastcall sub_1403AA680(__int64 a1)
 		if (qword_140C658A0 && v11 && *v11)
 		{
 			sub_140003890((__int64*)qword_140C658A0, 2u, 0i64, (int*)v11, 0, 0i64);
-			sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "HealthyGamingUpdate", "iS", *(unsigned int*)(a1 + 32644), v12);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "HealthyGamingUpdate", "iS", *(unsigned int*)(a1 + 32644), v12);
 		}
 		v13 = 1000 * sub_1403AA9A0(a1);
 		if (v13)

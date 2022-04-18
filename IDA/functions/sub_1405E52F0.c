@@ -101,7 +101,7 @@ void __fastcall sub_1405E52F0(__int64* a1, int* a2)
 				sub_14018EFA0(&v42, (__int64)v19, v21);
 				v22 = v43;
 				sub_140003890((__int64*)qword_140C658A0, 2u, 0i64, v43, 0, 0i64);
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"TradeSkillFloater",
 					"US",
@@ -114,7 +114,7 @@ void __fastcall sub_1405E52F0(__int64* a1, int* a2)
 					if (v23)
 						sub_140437A10((_QWORD*)qword_140C658D8, v23, 0, 0i64, 0, 0, 1);
 					if ((*(_BYTE*)(v13 + 16) & 2) == 0 && *a2 != 22)
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "TradeSkills_Learned", "i");
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "TradeSkills_Learned", "i");
 				}
 				if (v22)
 					sub_14018B900((__int64)v22, 0);
@@ -126,7 +126,7 @@ void __fastcall sub_1405E52F0(__int64* a1, int* a2)
 				sub_14018EFA0(&v42, (__int64)v24, (unsigned int)(v8[20] - v6), v26);
 				v27 = v43;
 				sub_140003890((__int64*)qword_140C658A0, 2u, 0i64, v43, 0, 0i64);
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"TradeSkillFloater",
 					"US",
@@ -142,7 +142,7 @@ void __fastcall sub_1405E52F0(__int64* a1, int* a2)
 				sub_14018EFA0(&v42, (__int64)v28, v30, (unsigned int)v8[21]);
 				v31 = v43;
 				sub_140003890((__int64*)qword_140C658A0, 2u, 0i64, v43, 0, 0i64);
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"TradeSkillFloater",
 					"US",
@@ -215,7 +215,7 @@ void __fastcall sub_1405E52F0(__int64* a1, int* a2)
 			}
 		}
 		if (*a2 != 22)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ProfessionUpdated", &unk_1409D135E);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ProfessionUpdated", &unk_1409D135E);
 	}
 }
 // 1405E53C3: variable 'v11' is possibly undefined

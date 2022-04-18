@@ -43,7 +43,7 @@ void sub_1404B54E0()
 					if (!v8)
 					{
 					LABEL_9:
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingNamePropertyOpen", &unk_1409D0FD3);
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingNamePropertyOpen", &unk_1409D0FD3);
 						v4 = qword_140C659F0;
 					}
 				}
@@ -63,7 +63,7 @@ void sub_1404B54E0()
 						} while (*v11);
 						if (!v5)
 							LABEL_15:
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingNamePropertyOpen", &unk_1409D0FD3);
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingNamePropertyOpen", &unk_1409D0FD3);
 					}
 				}
 				sub_14053ADC0(qword_140C65898);

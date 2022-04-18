@@ -81,7 +81,7 @@ void __fastcall sub_1405C8130(__int64 a1, __int64 a2, __int64 a3)
 			if (sub_1400EC900(v17, "ActionBarDescriptionSpell"))
 			{
 				sub_1405C6040(a1 + 16, (__int64)&v19, *(_QWORD**)(v17 + 400));
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"ActionBarDescriptionSpell",
 					byte_1409E9914,

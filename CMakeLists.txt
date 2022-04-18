@@ -1121,7 +1121,7 @@ add_executable(WildstarIDA
         IDA/functions/sub_1400E9680.c
         IDA/functions/sub_1400E9780.c
         IDA/functions/sub_1400E9900.c
-        IDA/functions/sub_1400EA3E0.c
+        IDA/functions/Apollo_LUAEvent.c
         IDA/functions/sub_1400EA7B0.c
         IDA/functions/sub_1400EA400.c
         IDA/functions/sub_1400EAA10.c
@@ -4503,7 +4503,7 @@ add_executable(WildstarIDA
         IDA/functions/sub_1403EBFA0.c
         IDA/functions/sub_1403EC2C0.c
         IDA/functions/sub_1403EC5A0.c
-        IDA/functions/sub_1403EC6A0.c
+        IDA/functions/WorldPaketHandler.c
         IDA/functions/sub_1403EC440.c
         IDA/functions/sub_1403F3B50.c
         IDA/functions/sub_1403F3D30.c
@@ -9456,7 +9456,6 @@ add_executable(WildstarIDA
         IDA/functions/sub_1408FEBE0.c
         IDA/functions/sub_1408FF070.c
         IDA/functions/sub_1408FF360.c
-        IDA/functions/sub_14000A3B0.c
         IDA/functions/sub_14000A310.c
         IDA/functions/sub_14000A490.c
         IDA/functions/sub_14000A740.c
@@ -27423,4 +27422,7 @@ add_executable(WildstarIDA
         IDA/functions/sub_140958210.c
         IDA/functions/sub_140958650.c
         IDA/functions/TopLevelExceptionFilter.c
+        IDA/functions/sub_14062D0F0.c
+        IDA/functions/sub_140572550.c
+        IDA/functions/sub_1403CC530.c
         )

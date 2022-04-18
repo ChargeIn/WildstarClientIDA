@@ -8,7 +8,7 @@ __int64 __fastcall sub_1405A9920(_DWORD* a1)
 	result = (unsigned int)a1[46];
 	if ((_DWORD)result == 5)
 	{
-		result = sub_1400EA3E0(
+		result = Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"HousingBuildComplete",
 			byte_1409F327C,

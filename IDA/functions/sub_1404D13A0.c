@@ -18,7 +18,7 @@ __int64 __fastcall sub_1404D13A0(__int64 a1, int a2, int a3, int a4)
 	v5 = *(_QWORD*)(a1 + 8);
 	*(_DWORD*)(a1 + 36) = a3;
 	*(_DWORD*)(a1 + 32) = a2;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "RewardTrackUpdated", "w", v5);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "RewardTrackUpdated", "w", v5);
 	v7 = *(_DWORD*)(a1 + 36);
 	if (v4 < v7)
 	{
@@ -44,12 +44,12 @@ __int64 __fastcall sub_1404D13A0(__int64 a1, int a2, int a3, int a4)
 			{
 				result = *(_QWORD*)(result + 32);
 				if (!result)
-					return sub_1400EA3E0(*(_QWORD*)(v12 + 96), "RewardTrackUpdated", byte_1409EFCFC, *(_QWORD*)(a1 + 8));
+					return Apollo_LUAEvent(*(_QWORD*)(v12 + 96), "RewardTrackUpdated", byte_1409EFCFC, *(_QWORD*)(a1 + 8));
 			}
 		}
 		else
 		{
-			return sub_1400EA3E0(*(_QWORD*)(v12 + 96), "RewardTrackUpdated", byte_1409EFCFC, *(_QWORD*)(a1 + 8));
+			return Apollo_LUAEvent(*(_QWORD*)(v12 + 96), "RewardTrackUpdated", byte_1409EFCFC, *(_QWORD*)(a1 + 8));
 		}
 	}
 	return result;

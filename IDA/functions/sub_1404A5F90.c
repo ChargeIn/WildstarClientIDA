@@ -14,9 +14,9 @@ void __fastcall sub_1404A5F90(__int64 a1)
 		v2 = *(_QWORD*)(*(_QWORD*)(a1 + 56) + 16i64);
 		v3 = *(_DWORD*)(v2 + 32);
 		v4 = *(_QWORD*)(v2 + 40);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HazardRemoved", byte_1409E9A5C, v3);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HazardRemoved", byte_1409E9A5C, v3);
 		LODWORD(v5) = *(_DWORD*)(v4 + 24);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HazardRemoveMinimapUnit", byte_1409E99FC, v3, v5);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HazardRemoveMinimapUnit", byte_1409E99FC, v3, v5);
 		sub_14018B900(*(_QWORD*)(v2 + 40), 0);
 		v6 = v2;
 		sub_1404A6830(a1 + 48, &v6);

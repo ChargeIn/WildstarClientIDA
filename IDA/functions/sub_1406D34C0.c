@@ -149,15 +149,15 @@ __int64 __fastcall sub_1406D34C0(__int64 a1, int a2, int* a3)
 									case 4:
 										if (*(_DWORD*)(*(_QWORD*)(v15 + 64) + 360i64))
 										{
-											sub_1400EA3E0(*(_QWORD*)(v14 + 29504), "CraftingModItem", L"O", v15);
+											Apollo_LUAEvent(*(_QWORD*)(v14 + 29504), "CraftingModItem", L"O", v15);
 											return 0i64;
 										}
 										break;
 									case 1:
-										sub_1400EA3E0(*(_QWORD*)(v14 + 29504), "SplitItemStack", "O", v15);
+										Apollo_LUAEvent(*(_QWORD*)(v14 + 29504), "SplitItemStack", "O", v15);
 										return 0i64;
 									case 2:
-										sub_1400EA3E0(*(_QWORD*)(v14 + 29504), "ToggleItemContextMenu", byte_1409EAE84, v15);
+										Apollo_LUAEvent(*(_QWORD*)(v14 + 29504), "ToggleItemContextMenu", byte_1409EAE84, v15);
 										return 0i64;
 									default:
 										v17 = sub_14018EFA0(&v100, (__int64)L"%d", (unsigned int)v10[22])[1];
@@ -200,7 +200,7 @@ __int64 __fastcall sub_1406D34C0(__int64 a1, int a2, int* a3)
 				v23 = qword_140C65898;
 				v24 = sub_1403AC780(qword_140C65898 + 160, (int*)(v22 + 12));
 				if (v24)
-					sub_1400EA3E0(*(_QWORD*)(v23 + 29504), "ItemLink", byte_1409E9D4C, v24);
+					Apollo_LUAEvent(*(_QWORD*)(v23 + 29504), "ItemLink", byte_1409E9D4C, v24);
 			}
 			goto LABEL_133;
 		}
@@ -212,7 +212,7 @@ __int64 __fastcall sub_1406D34C0(__int64 a1, int a2, int* a3)
 				v26 = qword_140C65898;
 				v27 = sub_1403AC780(qword_140C65898 + 160, (int*)(v25 + 12));
 				if (v27)
-					sub_1400EA3E0(*(_QWORD*)(v26 + 29504), "ToggleItemContextMenu", byte_1409EAE84, v27);
+					Apollo_LUAEvent(*(_QWORD*)(v26 + 29504), "ToggleItemContextMenu", byte_1409EAE84, v27);
 			}
 			goto LABEL_133;
 		}
@@ -327,7 +327,7 @@ __int64 __fastcall sub_1406D34C0(__int64 a1, int a2, int* a3)
 							v46 = *((unsigned __int8*)v10 + 16) | (((unsigned __int8)v45 | ((unsigned __int16)v28 << 8)) << 8);
 						else
 							v46 = -1;
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MailAddAttachment", L"i", v46);
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MailAddAttachment", L"i", v46);
 					}
 					goto LABEL_133;
 				}
@@ -440,7 +440,7 @@ __int64 __fastcall sub_1406D34C0(__int64 a1, int a2, int* a3)
 						goto LABEL_133;
 				}
 				if (!(unsigned int)sub_1403B91D0(v61, *v59))
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "UnlockCostumeItem", L"O", v58);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "UnlockCostumeItem", L"O", v58);
 				goto LABEL_133;
 			}
 		}
@@ -468,11 +468,11 @@ __int64 __fastcall sub_1406D34C0(__int64 a1, int a2, int* a3)
 						v67 = (unsigned int*)sub_140203DA0(v66[116]);
 						if (!v67)
 							return v104;
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "DecorPreviewOpen", byte_1409EC01C, *v67);
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "DecorPreviewOpen", byte_1409EC01C, *v67);
 					}
 					else
 					{
-						sub_1400EA3E0(*(_QWORD*)(v62 + 29504), "ShowItemInDressingRoom", L"O", v65);
+						Apollo_LUAEvent(*(_QWORD*)(v62 + 29504), "ShowItemInDressingRoom", L"O", v65);
 					}
 				}
 				goto LABEL_132;
@@ -542,14 +542,14 @@ __int64 __fastcall sub_1406D34C0(__int64 a1, int a2, int* a3)
 					&& v96
 					&& (v96[2] & 4) != 0)
 				{
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SalvageKeyRequiresConfirm", byte_1409EB924, v65);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SalvageKeyRequiresConfirm", byte_1409EB924, v65);
 				}
 				else
 				{
 				LABEL_183:
 					v92 = sub_1403998E0(qword_140C65898, v10 + 3, 0, 0i64);
 					if (!v92 || v92 == 317)
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "RefreshInventoryBags", byte_1409D0D27);
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "RefreshInventoryBags", byte_1409D0D27);
 				}
 				sub_140611DD0(*(_QWORD*)(qword_140C65898 + 29544), v10 + 3);
 				goto LABEL_132;

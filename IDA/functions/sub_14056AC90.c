@@ -21,7 +21,7 @@ __int64 __fastcall sub_14056AC90(
 	v12 = sub_14018CDF0();
 	v13 = qword_140C65898;
 	*(_DWORD*)(a1 + 312) = a4 + v12;
-	return sub_1400EA3E0(*(_QWORD*)(v13 + 29504), "ItemModified", byte_1409EAD24, a1, a5, a6, a7, a8);
+	return Apollo_LUAEvent(*(_QWORD*)(v13 + 29504), "ItemModified", byte_1409EAD24, a1, a5, a6, a7, a8);
 }
 // 1409EAD24: using guessed type _BYTE byte_1409EAD24[24];
 // 140C65898: using guessed type __int64 qword_140C65898;

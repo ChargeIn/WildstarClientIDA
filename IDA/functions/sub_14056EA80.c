@@ -89,7 +89,7 @@ void __fastcall sub_14056EA80(__int64 a1, __int64 a2)
 							sub_140575DD0();
 							v14 = qword_140C65898;
 						}
-						sub_1400EA3E0(*(_QWORD*)(v14 + 29504), "PlayerPathRefresh", byte_1409D10FF);
+						Apollo_LUAEvent(*(_QWORD*)(v14 + 29504), "PlayerPathRefresh", byte_1409D10FF);
 					}
 				}
 				else
@@ -146,7 +146,7 @@ void __fastcall sub_14056EA80(__int64 a1, __int64 a2)
 					sub_140575DD0();
 					v22 = qword_140C65898;
 				}
-				sub_1400EA3E0(*(_QWORD*)(v22 + 29504), "PlayerPathRefresh", byte_1409D10FF);
+				Apollo_LUAEvent(*(_QWORD*)(v22 + 29504), "PlayerPathRefresh", byte_1409D10FF);
 			}
 		}
 	}

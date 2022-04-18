@@ -31,7 +31,7 @@ __int64 __fastcall sub_14062A8C0(unsigned int* a1, __int64 a2, unsigned int a3)
 		v8 = a1[3];
 		if (v8 == a1[5])
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MailResult", L"i", 64i64);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MailResult", L"i", 64i64);
 			return 2147500037i64;
 		}
 		a1[3] = v8 + 1;
@@ -67,7 +67,7 @@ __int64 __fastcall sub_14062A8C0(unsigned int* a1, __int64 a2, unsigned int a3)
 	}
 	else
 	{
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MailResult", L"i", 161i64);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MailResult", L"i", 161i64);
 		return 2147500037i64;
 	}
 }

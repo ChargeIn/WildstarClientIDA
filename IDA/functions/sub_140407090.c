@@ -67,7 +67,7 @@ void __fastcall sub_140407090(__int64 a1)
 	if (!v2)
 	{
 		v11 = sub_140401220((__int64*)qword_140C658A0, 1u, 0i64);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v11, 1);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v11, 1);
 	}
 	v12 = lpv;
 	if ((unsigned int)sub_1403E1170(lpv, 0))
@@ -87,7 +87,7 @@ void __fastcall sub_140407090(__int64 a1)
 	{
 		v13 = sub_140401220((__int64*)qword_140C658A0, 1u, 0i64);
 		LODWORD(v15) = 20;
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v13, v15);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v13, v15);
 	}
 	if (v9)
 		sub_14018B900((__int64)v9, 0);

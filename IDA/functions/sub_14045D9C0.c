@@ -190,7 +190,7 @@ LABEL_18:
 				if (v22 >= *(_QWORD*)(a1 + 8 * v15 + 728))
 				{
 					LODWORD(v3) = a3;
-					return sub_1400EA3E0(
+					return Apollo_LUAEvent(
 						*(_QWORD*)(qword_140C65898 + 29504),
 						"RemoveCCState",
 						byte_1409E9BEC,
@@ -200,7 +200,7 @@ LABEL_18:
 				}
 			}
 		}
-		return sub_1400EA3E0(
+		return Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"RemoveCCState",
 			byte_1409E9BEC,

@@ -66,7 +66,7 @@ void __fastcall sub_140428260(__int64 a1, unsigned int* a2)
 		v2[2] -= 16i64;
 	}
 	v18 = v11;
-	sub_1400EA3E0(a1, "ChannelUpdate_Crafting", byte_1409EADAC, *a2, v18);
+	Apollo_LUAEvent(a1, "ChannelUpdate_Crafting", byte_1409EADAC, *a2, v18);
 	sub_1400579E0((__int64)v2, v17, v11);
 }
 // 140428382: variable 'v16' is possibly undefined

@@ -12,7 +12,7 @@ void __fastcall sub_1405DED30(__int64 a1, _WORD* a2, _WORD* a3)
 		{
 			LODWORD(v5) = 34;
 		LABEL_4:
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v5);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v5);
 			return;
 		}
 		if (!(unsigned int)sub_1403E1170(a3, 0x16u))

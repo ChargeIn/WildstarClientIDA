@@ -122,7 +122,7 @@ void __fastcall sub_1405C0420(__int64 a1, __int64 a2)
 		v28 = __PAIR64__(v24, v23);
 		sub_1405C5410(v35[0] + 40, (__int64)v36, &v25);
 	LABEL_21:
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "PvpRatingUpdated", L"i", v20[9]);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "PvpRatingUpdated", L"i", v20[9]);
 		goto LABEL_22;
 	}
 	if (*(_DWORD*)a2)

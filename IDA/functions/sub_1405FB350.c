@@ -148,7 +148,7 @@ __int64 __fastcall sub_1405FB350(__int64 a1, __int64 a2)
 	{
 	LABEL_40:
 		sub_1405FCCB0(a1);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "QuestInit", &unk_1409D0C12);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "QuestInit", &unk_1409D0C12);
 		*(_DWORD*)(a1 + 148) = 1;
 		return 0i64;
 	}

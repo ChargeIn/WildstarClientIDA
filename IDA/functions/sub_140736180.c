@@ -33,7 +33,7 @@ __int64 __fastcall sub_140736180(_QWORD* a1)
 	else
 	{
 		v5 = 3;
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingResult", byte_1409EBB6C, &unk_1409F9244, v5);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingResult", byte_1409EBB6C, &unk_1409F9244, v5);
 	}
 	return 0i64;
 }

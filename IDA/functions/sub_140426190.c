@@ -10,7 +10,7 @@ __int64 __fastcall sub_140426190(__int64 a1, int a2)
 	if (result)
 	{
 		v5 = dword_140C65C38 == a2;
-		return sub_1400EA3E0(a1, "QuestHighlightChanged", byte_1409E925C, result, v5);
+		return Apollo_LUAEvent(a1, "QuestHighlightChanged", byte_1409E925C, result, v5);
 	}
 	return result;
 }

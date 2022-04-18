@@ -55,7 +55,7 @@ void __fastcall sub_14053ADC0(__int64 a1)
 		{
 			if (v10 == v11 && v2)
 			{
-				sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
 				v12 = 0;
 				v13 = sub_140207050();
 				if (!v13)
@@ -84,7 +84,7 @@ void __fastcall sub_14053ADC0(__int64 a1)
 					v34 = 0;
 				LABEL_52:
 					v33 = v11;
-					sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "HousingPanelControlOpen", byte_1409EBF64, v19, v33, v34);
+					Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "HousingPanelControlOpen", byte_1409EBF64, v19, v33, v34);
 					return;
 				}
 			LABEL_15:
@@ -130,7 +130,7 @@ void __fastcall sub_14053ADC0(__int64 a1)
 			if (sub_1405B15C0(v5, *(_DWORD*)(v9 + 6124))
 				&& *(_QWORD*)(sub_1405B15C0(*(_QWORD*)(qword_140C659F0 + 824), *(_DWORD*)(v9 + 6124)) + 16) == *(_QWORD*)(v6 + 16))
 			{
-				sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
 				v25 = sub_140207050();
 				if (!v25)
 					return;
@@ -162,7 +162,7 @@ void __fastcall sub_14053ADC0(__int64 a1)
 		if (sub_1405B16C0(*(_QWORD*)(v3 + 824), v11, 1)
 			&& *(_QWORD*)(sub_1405B16C0(*(_QWORD*)(qword_140C659F0 + 824), v11, 1) + 16) == *(_QWORD*)(v6 + 16))
 		{
-			sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
 			v29 = sub_1402070A0(*(_DWORD*)(v6 + 64));
 			v27 = (unsigned int*)v29;
 			if (!v29)
@@ -180,8 +180,8 @@ void __fastcall sub_14053ADC0(__int64 a1)
 		v32 = sub_1405B1510(&qword_140C7DFB0);
 		if (v32)
 			sub_1405AD310(v32, 1);
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "WarPartyBattleClose", &unk_1409D0EA6);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "WarPartyBattleClose", &unk_1409D0EA6);
 	}
 }
 // 14053AEE6: conditional instruction was optimized away because ecx.4!=0

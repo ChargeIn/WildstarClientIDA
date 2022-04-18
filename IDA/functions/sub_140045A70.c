@@ -52,7 +52,7 @@ __int64 __fastcall sub_140045A70(__int64 a1, int a2, unsigned int a3, __int64 a4
 				if (v9)
 					return v9 != 435;
 				v13 = *(_DWORD*)a4;
-				sub_1400EA3E0(*(_QWORD*)(a1 + 72), "RealmBroadcast", byte_1409D10FC, *(_QWORD*)(a4 + 8), v13);
+				Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "RealmBroadcast", byte_1409D10FC, *(_QWORD*)(a4 + 8), v13);
 				return 0i64;
 			}
 			else

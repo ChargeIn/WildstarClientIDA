@@ -44,7 +44,7 @@ void __fastcall sub_140779660(__int64 a1, __int64 a2)
 			v10 = *(_QWORD*)(qword_140C65898 + 29504);
 			if (v10)
 			{
-				sub_1400EA3E0(v10, "ProgressClickWindowDisplay", byte_1409EC19C, 0i64);
+				Apollo_LUAEvent(v10, "ProgressClickWindowDisplay", byte_1409EC19C, 0i64);
 				v9 = qword_140C65898;
 			}
 			v11 = *(_QWORD*)(v9 + 29064);

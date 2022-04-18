@@ -22,7 +22,7 @@ __int64 __fastcall sub_140652D00(__int64 a1)
 		if (*(_QWORD*)(qword_140C65898 + 25744) && *(_DWORD*)(qword_140C65898 + 25600) != v5)
 		{
 			*(_DWORD*)(qword_140C65898 + 25600) = v5;
-			sub_1400EA3E0(*(_QWORD*)(v6 + 29504), "AlternateTargetUnitChanged", L"U", v5);
+			Apollo_LUAEvent(*(_QWORD*)(v6 + 29504), "AlternateTargetUnitChanged", L"U", v5);
 			return 1i64;
 		}
 	}

@@ -69,7 +69,7 @@ void __fastcall sub_140426910(_QWORD* a1)
 			v10 = v17;
 		}
 		sub_140008410((__int64)(a1 + 754));
-		sub_1400EA3E0((__int64)a1, "DyeLearned", byte_1409E9EFC, v3, v10);
+		Apollo_LUAEvent((__int64)a1, "DyeLearned", byte_1409E9EFC, v3, v10);
 		if (v2)
 			sub_1400579E0(v2, v15, v10);
 	}

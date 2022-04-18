@@ -27,7 +27,7 @@ void __fastcall sub_1405DE7A0(__int64 a1, int a2, int a3)
 	{
 	LABEL_5:
 		v9 = 7;
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v9);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v9);
 	}
 	else
 	{

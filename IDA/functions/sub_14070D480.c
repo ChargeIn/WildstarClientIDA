@@ -51,7 +51,7 @@ __int64 __fastcall sub_14070D480(_QWORD* a1)
 	{
 	LABEL_16:
 		v11 = 0;
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v11);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipResult", byte_1409EA994, 0i64, v11);
 	}
 	return 0i64;
 }

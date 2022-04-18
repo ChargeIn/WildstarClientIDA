@@ -11,7 +11,7 @@ __int64 __fastcall sub_1404BBFC0(__int64 a1, __int64 a2)
 	case 0x2F:
 	case 0x38:
 	case 0x41:
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CommunityRenameResult", byte_1409EC1FC);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CommunityRenameResult", byte_1409EC1FC);
 		break;
 	default:
 		return 0i64;

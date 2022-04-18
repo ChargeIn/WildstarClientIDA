@@ -26,7 +26,7 @@ __int64 __fastcall sub_140486920(__int64 a1)
 	v8 = 0i64;
 	v9 = 0;
 	(*(void(__fastcall**)(__int64, _QWORD, __int64*))(*(_QWORD*)v4 + 584i64))(v4, 0i64, &v5);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SplineHintObjectEnd", byte_1409D115F);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SplineHintObjectEnd", byte_1409D115F);
 	return 0i64;
 }
 // 1409D115F: using guessed type _BYTE byte_1409D115F[20];

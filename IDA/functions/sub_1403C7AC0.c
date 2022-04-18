@@ -376,7 +376,7 @@ void __fastcall sub_1403C7AC0(__int64 a1, unsigned int* a2)
 						v48 = sub_1400B7660(&v83);
 						v3 = a1;
 						LODWORD(v79) = a2[2];
-						sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "CombatMomentum", "iiS", *a2, v79, *(_QWORD*)(v48 + 8));
+						Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "CombatMomentum", "iiS", *a2, v79, *(_QWORD*)(v48 + 8));
 						if (v36)
 							sub_14018B900((__int64)v36, 0);
 						if ((_QWORD)v87)
@@ -462,7 +462,7 @@ void __fastcall sub_1403C7AC0(__int64 a1, unsigned int* a2)
 						if (*((_QWORD*)&v80 + 1))
 							sub_14018B900(*((__int64*)&v80 + 1), 0);
 						v64 = sub_1400B7660(&v89);
-						sub_1400EA3E0(*(_QWORD*)(v3 + 29504), "CombatLogString", "S", *(_QWORD*)(v64 + 8));
+						Apollo_LUAEvent(*(_QWORD*)(v3 + 29504), "CombatLogString", "S", *(_QWORD*)(v64 + 8));
 						if (v53)
 							sub_14018B900((__int64)v53, 0);
 						if ((_QWORD)v93)

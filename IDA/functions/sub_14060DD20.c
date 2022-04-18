@@ -72,7 +72,7 @@ void __fastcall sub_14060DD20(int* a1)
 		*(_QWORD*)(v3 + 16) += 16i64;
 		sub_1400F06F0(v3, v20, L"nAbsorption", v21);
 		*(_QWORD*)(v3 + 16) -= 16i64;
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogHeal", "T", (unsigned int)v5, v23);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogHeal", "T", (unsigned int)v5, v23);
 		sub_1400579E0(v3, v22, v5);
 	}
 }

@@ -71,7 +71,7 @@ __int64 __fastcall sub_1403B6A80(__int64 a1, int* a2)
 			v8 = sub_140048100(a1, v3, 1);
 			if (v8 >= 0)
 			{
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "LogOut", &unk_1409D11FD);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "LogOut", &unk_1409D11FD);
 				if (v3)
 				{
 					(*(void(__fastcall**)(__int64))(*(_QWORD*)v3 + 8i64))(v3);

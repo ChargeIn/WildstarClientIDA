@@ -462,7 +462,7 @@ LABEL_10:
 						{
 							v85 = *(_QWORD*)(qword_140C65898 + 29504);
 							if (v85)
-								sub_1400EA3E0(v85, "MessageFinished", byte_1409EB834, v84 - 8);
+								Apollo_LUAEvent(v85, "MessageFinished", byte_1409EB834, v84 - 8);
 						}
 						v86 = *(v84 - 1);
 						if (v86)

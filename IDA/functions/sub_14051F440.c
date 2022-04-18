@@ -35,7 +35,7 @@ __int64 __fastcall sub_14051F440(__int64 a1)
 				if (result)
 				{
 					v10 = v7;
-					return sub_1400EA3E0(v9, "CostumeUnlockResult", "oi", result, v10);
+					return Apollo_LUAEvent(v9, "CostumeUnlockResult", "oi", result, v10);
 				}
 			}
 		}

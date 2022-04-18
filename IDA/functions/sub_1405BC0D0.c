@@ -78,7 +78,7 @@ void __fastcall sub_1405BC0D0(__int64 a1, unsigned int a2, __int64 a3)
 				LABEL_26:
 					sub_1405BC680((__int64)v20, *(_QWORD*)(v12 + 400), a3);
 					v18 = v21;
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "BuffUpdated", byte_1409EB89C, a2, v21);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "BuffUpdated", byte_1409EB89C, a2, v21);
 					if (v22)
 						sub_1400579E0(v22, v19, v18);
 				}

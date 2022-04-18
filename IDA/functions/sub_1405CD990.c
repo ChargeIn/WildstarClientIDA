@@ -54,7 +54,7 @@ void __fastcall sub_1405CD990(unsigned __int64 a1, unsigned __int16* a2, _QWORD*
 		else
 		{
 			v14 = 0;
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"CinematicsNotify",
 				"Si",

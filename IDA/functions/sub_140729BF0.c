@@ -56,7 +56,7 @@ __int64 __fastcall sub_140729BF0(__int64 a1)
 	(*(void(__fastcall**)(__int64, _QWORD, __int64*))(*(_QWORD*)v8 + 584i64))(v8, 0i64, &v11);
 	v9 = *(_QWORD*)(a1 + 1424);
 	*(_DWORD*)(a1 + 20) = 7;
-	return sub_1400EA3E0(v9, "FortuneCoinSpent", &unk_1409D15AA);
+	return Apollo_LUAEvent(v9, "FortuneCoinSpent", &unk_1409D15AA);
 }
 // 140C39740: using guessed type _DWORD dword_140C39740[16];
 

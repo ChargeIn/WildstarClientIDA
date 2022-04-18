@@ -15,7 +15,7 @@ __int64 __fastcall sub_1403CD760(__int64 a1, _DWORD* a2)
 		v4 = *a2 & 1;
 		if ((v2 & 1) != v4)
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ItemAuctionsDisabled", byte_1409EC954, v4);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ItemAuctionsDisabled", byte_1409EC954, v4);
 			v5 = qword_140C65898;
 			if (v4 && *(_DWORD*)(qword_140C65898 + 26180) == 76)
 			{

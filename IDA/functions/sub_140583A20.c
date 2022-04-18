@@ -110,7 +110,7 @@ __int64 __fastcall sub_140583A20(__int64 a1, _QWORD* a2)
 	}
 	if (v14)
 		(*(void(__fastcall**)(__int64))(*(_QWORD*)(v14 - 16) + 8i64))(v14 - 16);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildInvite", "SSiT", a2[1], *a2, *((_DWORD*)a2 + 5), v23);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildInvite", "SSiT", a2[1], *a2, *((_DWORD*)a2 + 5), v23);
 	v22 = off_140B56A08;
 	if (v24)
 		sub_1400579E0(v24, v20, v23);

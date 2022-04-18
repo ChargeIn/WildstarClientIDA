@@ -11,8 +11,8 @@ void __fastcall sub_1400384B0(__int64 a1, __int64 a2)
 	v3 = *(_QWORD*)(a1 + 72);
 	v7 = 0;
 	if (v3)
-		sub_1400EA3E0(v3, "NetworkStatus", &unk_1409D01F2);
-	sub_1400EA3E0(*(_QWORD*)(a1 + 72), "LoginError", byte_1409D0E44, a2, &v7);
+		Apollo_LUAEvent(v3, "NetworkStatus", &unk_1409D01F2);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "LoginError", byte_1409D0E44, a2, &v7);
 	if (!v7)
 		sub_1400481B0(a1, a2, (void(__fastcall***)(_QWORD))a1);
 	v5 = *(_QWORD*)(a1 + 232);

@@ -158,7 +158,7 @@ __int64 sub_140041E90()
 			sub_1400C7F10(v28);
 		sub_1400E8BF0((__int64)v0);
 		sub_1400E8B00((__int64)v0, v2);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C66E38 + 72), "HideCredits", &unk_1409D01F6);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C66E38 + 72), "HideCredits", &unk_1409D01F6);
 		sub_1401A76A0((__int64)v32);
 	}
 	return 0i64;

@@ -74,7 +74,7 @@ void __fastcall sub_14046C300(__m128* a1, int a2, int a3)
 		sub_140478FD0(a1, 1);
 		if (!a3 && (unsigned int)sub_1407E6AF0((unsigned __int64*)&v17, a1[400].m128_i64[1], 0x48ui64))
 		{
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"UnitActivationTypeChanged",
 				byte_1409EDC54,

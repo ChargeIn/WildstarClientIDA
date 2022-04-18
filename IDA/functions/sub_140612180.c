@@ -44,7 +44,7 @@ __int64 __fastcall sub_140612180(__int64 a1, unsigned int* a2)
 			v11 = sub_1400518A0(qword_140C63628, 131, 6, 0);
 		*(_DWORD*)(a1 + 31216) = v11;
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SoldierHoldoutStatus", L"#", *(_QWORD*)(v7 + 152));
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SoldierHoldoutStatus", L"#", *(_QWORD*)(v7 + 152));
 	return 0i64;
 }
 // 1406121DA: variable 'v6' is possibly undefined

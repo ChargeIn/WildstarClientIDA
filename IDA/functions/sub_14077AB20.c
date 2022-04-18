@@ -53,7 +53,7 @@ __int64 __fastcall sub_14077AB20(__int64 a1, int* a2, _QWORD* a3)
 			v12 = *(_QWORD*)(qword_140C65898 + 29504);
 			if (v12)
 			{
-				sub_1400EA3E0(v12, "ProgressClickWindowDisplay", byte_1409EC1B4, 1i64);
+				Apollo_LUAEvent(v12, "ProgressClickWindowDisplay", byte_1409EC1B4, 1i64);
 				v13 = 0x7FFFFFFF;
 				v14 = 0x80000000i64;
 				v15 = 0x7FFFFFFF;
@@ -78,7 +78,7 @@ __int64 __fastcall sub_14077AB20(__int64 a1, int* a2, _QWORD* a3)
 					v19 = v16;
 				if (v13 != 0x80000000)
 					v14 = v13;
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "SetProgressClickTimes", "iiii", v14, v19, v20, v18);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "SetProgressClickTimes", "iiii", v14, v19, v20, v18);
 			}
 		}
 		return 0i64;

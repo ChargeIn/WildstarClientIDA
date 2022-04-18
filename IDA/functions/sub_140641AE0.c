@@ -22,7 +22,7 @@ __int64 __fastcall sub_140641AE0(__int64 a1, __int64 a2)
 	if ((int)sub_1406416D0((__int64)v6, a2, 0) >= 0)
 	{
 		v4 = sub_1400B7660(v6);
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"GenericFloater",
 			"US",

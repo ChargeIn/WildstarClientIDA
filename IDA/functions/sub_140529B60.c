@@ -137,7 +137,7 @@ void __fastcall sub_140529B60(__int64 a1, __int64 a2)
 		*(_DWORD*)(a1 + 1332) = v27;
 		LOBYTE(v5) = !v28;
 		if (v5)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ZoneMapPlayerIndicatorUpdated", L"b", v27);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ZoneMapPlayerIndicatorUpdated", L"b", v27);
 	}
 	else
 	{

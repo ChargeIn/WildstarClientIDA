@@ -3,7 +3,7 @@
 //----- (000000014056D890) ----------------------------------------------------
 __int64 __fastcall sub_14056D890(__int64 a1)
 {
-	return sub_1400EA3E0(
+	return Apollo_LUAEvent(
 		*(_QWORD*)(qword_140C65898 + 29504),
 		"PlayerPathMissionDeactivate",
 		byte_1409ECD4C,

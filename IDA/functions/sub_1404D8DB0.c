@@ -230,7 +230,7 @@ void __fastcall sub_1404D8DB0(__m128* a1, __int64 a2, double a3, double a4, __in
 			}
 			else
 			{
-				sub_1400EA3E0(a1[1844].m128_i64[0], "GameClickSky", byte_1409D0F0F);
+				Apollo_LUAEvent(a1[1844].m128_i64[0], "GameClickSky", byte_1409D0F0F);
 				if (a1[1803].m128_i32[0])
 					sub_1405598D0((__int64)&a1[1803]);
 			}

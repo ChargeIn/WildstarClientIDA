@@ -74,7 +74,7 @@ __int64 __fastcall sub_1403B9920(__int64 a1, int* a2)
 				v23 = *a2;
 			*(_DWORD*)(a1 + 5276) = v23;
 		}
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "ShowActionBarShortcut", byte_1409E98AC);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "ShowActionBarShortcut", byte_1409E98AC);
 		return 0i64;
 	}
 	v11 = sub_1401EAE20(v5);

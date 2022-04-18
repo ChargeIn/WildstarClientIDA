@@ -36,14 +36,14 @@ void __fastcall sub_14003E470(__int64 a1, int a2, int* a3)
 				sub_1400B7480((__int64)v10, v6);
 			}
 			v9 = sub_1400B7660(v10);
-			sub_1400EA3E0(*(_QWORD*)(a1 + 72), "NetworkStatus", byte_1409D0F64, *(_QWORD*)(v9 + 8));
+			Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "NetworkStatus", byte_1409D0F64, *(_QWORD*)(v9 + 8));
 			if ((_QWORD)v11)
 				sub_14018B900(v11, 0);
 			sub_1400B7390(v10);
 		}
 		else
 		{
-			sub_1400EA3E0(v4, "NetworkStatus", &unk_1409D01F2);
+			Apollo_LUAEvent(v4, "NetworkStatus", &unk_1409D01F2);
 		}
 	}
 }

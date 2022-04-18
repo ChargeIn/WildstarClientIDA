@@ -19,11 +19,11 @@ __int64 __fastcall sub_1406120B0(__int64 a1, _DWORD* a2)
 		v6 = *(_QWORD*)(qword_140C65898 + 29504);
 		if (*a2)
 		{
-			sub_1400EA3E0(v6, "PlayerPathScientistScanBotDeployed", &unk_1409D115E);
+			Apollo_LUAEvent(v6, "PlayerPathScientistScanBotDeployed", &unk_1409D115E);
 			return 0i64;
 		}
-		sub_1400EA3E0(v6, "PlayerPathScientistScanBotDespawned", &unk_1409D115D);
-		sub_1400EA3E0(
+		Apollo_LUAEvent(v6, "PlayerPathScientistScanBotDespawned", &unk_1409D115D);
+		Apollo_LUAEvent(
 			*(_QWORD*)(qword_140C65898 + 29504),
 			"PlayerPathScientistScanBotCooldown",
 			"f",

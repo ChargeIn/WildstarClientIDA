@@ -20,7 +20,7 @@ void __fastcall sub_1404D9450(__m128* a1, unsigned int a2, double a3, double a4,
 		v8 = a1[1816].m128_i64[1];
 		if (v8 && (*(unsigned int(__fastcall**)(__int64))(*(_QWORD*)v8 + 96i64))(v8))
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CSIKeyPressed", byte_1409E928C, a2, a5);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CSIKeyPressed", byte_1409E928C, a2, a5);
 		}
 		else
 		{

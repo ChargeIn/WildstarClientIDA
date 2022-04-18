@@ -91,7 +91,7 @@ void __fastcall sub_1405B0F50(__int64 a1, __int64 a2)
 						*(_QWORD*)(v13 + 29968) = 0i64;
 						*(_DWORD*)(v13 + 29976) = 0;
 						if ((v14 & 1) != 0)
-							sub_1400EA3E0(*(_QWORD*)(v13 + 29504), "HousingPrivacyUpdated", byte_1409EC064, 0i64);
+							Apollo_LUAEvent(*(_QWORD*)(v13 + 29504), "HousingPrivacyUpdated", byte_1409EC064, 0i64);
 					}
 					v36 = *(unsigned int*)(v4 + 28);
 					sub_1400B6120(a1 + 56, (__int64)&v36);
@@ -230,11 +230,11 @@ void __fastcall sub_1405B0F50(__int64 a1, __int64 a2)
 				*v32 = v33;
 				++* (_QWORD*)(a1 + 56);
 				sub_1405B13D0(v34, *(_DWORD*)(v4 + 28), *(int**)(a2 + 48));
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingPlotsRecieved", &unk_1409D0F73);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingPlotsRecieved", &unk_1409D0F73);
 			}
 		LABEL_77:
 			if (v7)
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingOwnershipRecieved", &unk_1409D0F76, v5);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingOwnershipRecieved", &unk_1409D0F76, v5);
 		}
 	}
 }

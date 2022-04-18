@@ -157,7 +157,7 @@ __int64 __fastcall sub_140602ED0(__int64 a1, __int64 a2)
 					v17 += 16i64;
 				} while (v15 < *(unsigned int*)(a2 + 16));
 			}
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"Group_MemberOrderChanged",
 				byte_1409EA11C,

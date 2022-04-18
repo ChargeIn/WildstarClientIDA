@@ -8,7 +8,7 @@ __int64 __fastcall sub_14044CDF0(__int64 a1, unsigned int* a2)
 	__int64 v5; // [rsp+20h] [rbp-18h]
 
 	if (qword_140C65898)
-		sub_1400EA3E0(
+		Apollo_LUAEvent(
 			*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64),
 			"StoreCompleteOrderVirtualCurrencyPackageResult",
 			byte_1409F0024,
@@ -34,7 +34,7 @@ __int64 __fastcall sub_14044CDF0(__int64 a1, unsigned int* a2)
 			} while (v3);
 		}
 		LODWORD(v5) = a2[1];
-		sub_1400EA3E0(*(_QWORD*)(v3 + 72), "StoreCompleteOrderVirtualCurrencyPackageResult", byte_1409EFFEC, *a2, v5);
+		Apollo_LUAEvent(*(_QWORD*)(v3 + 72), "StoreCompleteOrderVirtualCurrencyPackageResult", byte_1409EFFEC, *a2, v5);
 	}
 	return 0i64;
 }

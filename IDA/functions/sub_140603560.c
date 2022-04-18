@@ -13,7 +13,7 @@ __int64 __fastcall sub_140603560(__int64 a1, __int64 a2)
 		*(_DWORD*)(*(_QWORD*)(a1 + 64) + 44i64) = *(_DWORD*)(a2 + 20);
 		*(_DWORD*)(*(_QWORD*)(a1 + 64) + 48i64) = *(_DWORD*)(a2 + 24);
 		*(_DWORD*)(*(_QWORD*)(a1 + 64) + 52i64) = *(_DWORD*)(a2 + 28);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "Group_LootRulesChanged", byte_1409D0E6F);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "Group_LootRulesChanged", byte_1409D0E6F);
 		return 0i64;
 	}
 	else

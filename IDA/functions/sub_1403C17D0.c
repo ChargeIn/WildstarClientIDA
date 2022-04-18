@@ -76,7 +76,7 @@ __int64 __fastcall sub_1403C17D0(__int64 a1, int* a2, int* a3, int a4)
 							v19 = (unsigned __int8)v6 | ((unsigned __int64)(unsigned __int8)v28 << 8);
 						else
 							v19 = -1i64;
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"ItemConfirmSoulboundOnEquip",
 							byte_1409E9FAC,
@@ -89,7 +89,7 @@ __int64 __fastcall sub_1403C17D0(__int64 a1, int* a2, int* a3, int a4)
 					{
 						v24 = (unsigned __int8)v7 | ((unsigned __int64)(unsigned __int8)v27 << 8);
 						if (v5 < 300)
-							sub_1400EA3E0(
+							Apollo_LUAEvent(
 								*(_QWORD*)(qword_140C65898 + 29504),
 								"ItemConfirmClearRestockOnEquip",
 								byte_1409EA01C,
@@ -97,7 +97,7 @@ __int64 __fastcall sub_1403C17D0(__int64 a1, int* a2, int* a3, int a4)
 								(unsigned __int8)v6 | ((unsigned __int64)(unsigned __int8)v28 << 8),
 								v24);
 						else
-							sub_1400EA3E0(
+							Apollo_LUAEvent(
 								*(_QWORD*)(qword_140C65898 + 29504),
 								"ItemConfirmClearRestockOnEquip",
 								byte_1409EA01C,
@@ -115,7 +115,7 @@ __int64 __fastcall sub_1403C17D0(__int64 a1, int* a2, int* a3, int a4)
 							v20 = (unsigned __int8)v6 | ((unsigned __int64)(unsigned __int8)v28 << 8);
 						else
 							v20 = -1i64;
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"ItemConfirmSoulboundOnEquip",
 							byte_1409E9FAC,
@@ -130,7 +130,7 @@ __int64 __fastcall sub_1403C17D0(__int64 a1, int* a2, int* a3, int a4)
 							v21 = (unsigned __int8)v6 | ((unsigned __int64)(unsigned __int8)v28 << 8);
 						else
 							v21 = -1i64;
-						sub_1400EA3E0(
+						Apollo_LUAEvent(
 							*(_QWORD*)(qword_140C65898 + 29504),
 							"ItemConfirmClearRestockOnEquip",
 							byte_1409EA01C,

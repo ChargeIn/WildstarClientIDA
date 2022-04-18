@@ -70,7 +70,7 @@ __int64 __fastcall sub_1405F2E90(__int64* a1, unsigned int* a2)
 	{
 		v17 = *(_QWORD*)(qword_140C65898 + 29504);
 		v18 = (*(__int64(__fastcall**)(__int64*))(*a1 + 24))(a1);
-		sub_1400EA3E0(v17, "PublicEventLeave", byte_1409ED224, v18, v2[1]);
+		Apollo_LUAEvent(v17, "PublicEventLeave", byte_1409ED224, v18, v2[1]);
 	}
 	(*(void(__fastcall**)(__int64*))(*a1 + 184))(a1);
 	v19 = (_QWORD*)qword_140C65BA8;

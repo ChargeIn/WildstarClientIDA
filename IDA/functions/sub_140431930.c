@@ -34,7 +34,7 @@ void __fastcall sub_140431930(__int64 a1)
 	v8 = *(_QWORD*)(qword_140C635F0 + 5584);
 	if (v8)
 		sub_140003C90(v8, (__int64)&v10);
-	sub_1400EA3E0(a1, "DailyLoginUpdate", "T", v7, v10, v11, v12, v13);
+	Apollo_LUAEvent(a1, "DailyLoginUpdate", "T", v7, v10, v11, v12, v13);
 	sub_1400579E0(v1, v9, v7);
 }
 // 1404319F1: variable 'v9' is possibly undefined

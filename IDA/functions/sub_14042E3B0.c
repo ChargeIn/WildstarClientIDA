@@ -11,7 +11,7 @@ __int64 __fastcall sub_14042E3B0(_QWORD* a1)
 		v2 = 0;
 	else
 		v2 = sub_140056D60(a1, 1u);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ShowQuestLog", byte_1409E90BC, v2);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ShowQuestLog", byte_1409E90BC, v2);
 	return 0i64;
 }
 // 1409E90BC: using guessed type _BYTE byte_1409E90BC[256];

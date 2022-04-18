@@ -80,7 +80,7 @@ __int64 __fastcall sub_1404CF010(__int64 a1, unsigned int a2, unsigned int a3, i
 			LODWORD(result) = 0;
 		*((_DWORD*)v12 + v5 + 2) = v17 + result;
 		if (a4)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ZoneCompletionUpdated", L"i", **v12);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ZoneCompletionUpdated", L"i", **v12);
 		++* (_DWORD*)(v4 + 136);
 		return 0i64;
 	}

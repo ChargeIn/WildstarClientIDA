@@ -165,7 +165,7 @@ void __fastcall sub_140406040(__int64 a1)
 	}
 	v28 = sub_140401220((__int64*)qword_140C658A0, 1u, 0i64);
 	LODWORD(v31) = 1;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v28, v31);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v28, v31);
 LABEL_41:
 	for (i = v11; i != v10; i += 32i64)
 	{

@@ -65,7 +65,7 @@ __int64 __fastcall sub_1403A6590(__int64 a1, float a2)
 							v12 = *(unsigned int*)(a1 + 32464);
 							v13 = *(_QWORD*)(a1 + 29504);
 							*(_QWORD*)(a1 + 32464) = 0i64;
-							sub_1400EA3E0(v13, "CityDirectionClear", "i", v12);
+							Apollo_LUAEvent(v13, "CityDirectionClear", "i", v12);
 						}
 					}
 				}

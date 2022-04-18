@@ -60,7 +60,7 @@ __int64 __fastcall sub_1404BB790(__int64 a1, __int64 a2)
 			sub_1400B6120(v3 + 456, v11 + 184);
 			if (v11)
 				sub_1404B4CF0(v11);
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingNeighborsLoaded", byte_1409D0F67);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingNeighborsLoaded", byte_1409D0F67);
 			if (sub_1405B1510(*(_QWORD**)(v3 + 824))
 				&& *(_QWORD*)(sub_1405B1510(*(_QWORD**)(v3 + 824)) + 32) == *(_QWORD*)(a2 + 24))
 			{
@@ -106,7 +106,7 @@ __int64 __fastcall sub_1404BB790(__int64 a1, __int64 a2)
 			sub_1403F8660(v9, 4, v23 + 23, &v20);
 			v10 = qword_140C65898;
 			*(_DWORD*)(v8 + 240) = 1;
-			sub_1400EA3E0(*(_QWORD*)(v10 + 29504), "HousingNeighborUpdate", byte_1409EBF9C, *(unsigned int*)(v8 + 8));
+			Apollo_LUAEvent(*(_QWORD*)(v10 + 29504), "HousingNeighborUpdate", byte_1409EBF9C, *(unsigned int*)(v8 + 8));
 		}
 	}
 	return 0i64;

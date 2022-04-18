@@ -9,7 +9,7 @@ __int64 __fastcall sub_1405C24A0(__int64 a1)
 
 	*(_DWORD*)(qword_140C65B98 + 164) = 0;
 	*(_DWORD*)(a1 + 68) = 0;
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MatchStoppedLookingForReplacements", &unk_1409D128E);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MatchStoppedLookingForReplacements", &unk_1409D128E);
 	v1 = sub_1405BED30(qword_140C65B98, 16);
 	v2 = 359357;
 	if (v1)

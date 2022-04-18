@@ -16,7 +16,7 @@ __int64 __fastcall sub_1405DA570(__int64 a1)
 		v4 = qword_140C65898;
 		*(_DWORD*)(v3 + 5636) = 1;
 		v5 = 1;
-		return sub_1400EA3E0(*(_QWORD*)(v4 + 29504), "ShieldsOverloaded", byte_1409EB71C, *(unsigned int*)(a1 + 92), v5);
+		return Apollo_LUAEvent(*(_QWORD*)(v4 + 29504), "ShieldsOverloaded", byte_1409EB71C, *(unsigned int*)(a1 + 92), v5);
 	}
 	return result;
 }

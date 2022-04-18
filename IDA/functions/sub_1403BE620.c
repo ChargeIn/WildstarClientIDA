@@ -113,7 +113,7 @@ void __fastcall sub_1403BE620(_QWORD* a1, unsigned int a2, int a3, int a4, int a
 							--v22;
 						v23 = *(_QWORD*)(v8 + 112);
 						if ((*(_BYTE*)(v23 + 268) & 0x40) == 0)
-							sub_1400EA3E0(
+							Apollo_LUAEvent(
 								a1[3688],
 								"StartSpellThreshold",
 								byte_1409E98FC,

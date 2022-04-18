@@ -20,12 +20,12 @@ __int64 __fastcall sub_1405E04B0(__int64 a1, __int64 a2)
 		if (v5 != (_QWORD*)-24i64)
 		{
 			v6 = v5[3];
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipRemove", byte_1409EABDC, *(unsigned int*)(v6 + 8));
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipRemove", byte_1409EABDC, *(unsigned int*)(v6 + 8));
 			sub_1400B6120(a1 + 80, v6 + 8);
 			sub_1400B6120(a1 + 120, v6);
 			sub_1400B6120(a1 + 160, v6 + 184);
 			sub_1405DDD80((_QWORD*)v6);
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipPostRemove", &unk_1409D0EEE);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "FriendshipPostRemove", &unk_1409D0EEE);
 		}
 	}
 	return 0i64;

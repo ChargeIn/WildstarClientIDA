@@ -48,7 +48,7 @@ void __fastcall sub_1400166A0(__int64 a1)
 				}
 				(***(void(__fastcall****)(_QWORD))(a1 + 5536))(*(_QWORD*)(a1 + 5536));
 			}
-			sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(a1 + 5536) + 88i64), "OpenAddons", &unk_1409D0203);
+			Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(a1 + 5536) + 88i64), "OpenAddons", &unk_1409D0203);
 		}
 	}
 }

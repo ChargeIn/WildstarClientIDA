@@ -98,7 +98,7 @@ void __fastcall sub_14060FCC0(__int64 a1)
 	sub_14005EA50((__int64)v2, v19, (int*)(v2[2] - 32i64), (unsigned int*)(v2[2] - 16i64));
 	v20 = qword_140C65898;
 	v2[2] -= 48i64;
-	sub_1400EA3E0(*(_QWORD*)(v20 + 29504), "CombatLogStealth", L"T", v8, v22);
+	Apollo_LUAEvent(*(_QWORD*)(v20 + 29504), "CombatLogStealth", L"T", v8, v22);
 	sub_1400579E0((__int64)v2, v21, v8);
 }
 // 14060FEB1: variable 'v21' is possibly undefined

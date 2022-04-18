@@ -17,6 +17,6 @@ __int64 __fastcall sub_1404277D0(__int64 a1, __int64 a2, __int64 a3, int a4)
 		v8 = 100;
 	v11 = v14 + 1;
 	v10 = v13 - v8 + 1;
-	return sub_1400EA3E0(a1, "GuildBankItem", "ZiiOb", a2, v10, v11, a3, v12);
+	return Apollo_LUAEvent(a1, "GuildBankItem", "ZiiOb", a2, v10, v11, a3, v12);
 }
 

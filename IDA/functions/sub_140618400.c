@@ -73,7 +73,7 @@ __int64 __fastcall sub_140618400(__int64 a1, __int64 a2)
 				}
 			}
 			if (i && v4)
-				sub_1400EA3E0(
+				Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"SettlerBuildStatusUpdate",
 					"iU",

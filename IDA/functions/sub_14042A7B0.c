@@ -739,7 +739,7 @@ void __fastcall sub_14042A7B0(__int64 a1, unsigned int* a2)
 		v128 = v139;
 	}
 	v131 = v153;
-	sub_1400EA3E0(a1, "CommodityInfoResults", byte_1409EC6DC, *a2, v153, v128);
+	Apollo_LUAEvent(a1, "CommodityInfoResults", byte_1409EC6DC, *a2, v153, v128);
 	if (v125)
 		sub_1400579E0((__int64)v125, v132, v128);
 	sub_1400579E0((__int64)v2, v132, v163);

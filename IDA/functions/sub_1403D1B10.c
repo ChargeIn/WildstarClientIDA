@@ -30,7 +30,7 @@ __int64 __fastcall sub_1403D1B10(__int64 a1, __int16 a2)
 	v8 = sub_1403D02A0(v2);
 	if (v8 == 1)
 	{
-		sub_1400EA3E0(*(_QWORD*)(v2 + 29504), "CharacterEldanAugmentationsUpdated", &unk_1409D10E6);
+		Apollo_LUAEvent(*(_QWORD*)(v2 + 29504), "CharacterEldanAugmentationsUpdated", &unk_1409D10E6);
 		return 1i64;
 	}
 	else

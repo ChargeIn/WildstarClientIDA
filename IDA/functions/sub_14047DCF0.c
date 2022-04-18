@@ -280,7 +280,7 @@ void __fastcall sub_14047DCF0(__int64 a1, int a2, double a3, double a4)
 				if ((_DWORD)v36 != v4)
 				{
 					if (v8)
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "UnitDestroyed", L"U", v36);
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "UnitDestroyed", L"U", v36);
 				}
 			}
 			return;
@@ -456,7 +456,7 @@ void __fastcall sub_14047DCF0(__int64 a1, int a2, double a3, double a4)
 		*(_DWORD*)(a1 + 528) = dword_140C636A8;
 		if (v7 != a1)
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "UnitCreated", L"U", *(unsigned int*)(a1 + 8));
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "UnitCreated", L"U", *(unsigned int*)(a1 + 8));
 			return;
 		}
 		v61 = 0x100000018i64;

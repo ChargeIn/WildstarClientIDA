@@ -42,7 +42,7 @@ __int64 __fastcall sub_1405B1800(_QWORD* a1, __int64 a2)
 		{
 			if (sub_1405B1510(a1) == v7)
 			{
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingPanelControlClose", byte_1409D0F4F);
 				v10 = qword_140C65898;
 				*(_DWORD*)(qword_140C65898 + 29940) = 0;
 				if (!*(_DWORD*)(v10 + 29944))
@@ -92,7 +92,7 @@ __int64 __fastcall sub_1405B1800(_QWORD* a1, __int64 a2)
 		}
 		v14 = qword_140C65898;
 	LABEL_19:
-		sub_1400EA3E0(*(_QWORD*)(v14 + 29504), "HousingOwnershipRecieved", &unk_1409D0F76);
+		Apollo_LUAEvent(*(_QWORD*)(v14 + 29504), "HousingOwnershipRecieved", &unk_1409D0F76);
 		goto LABEL_20;
 	}
 	return 0i64;

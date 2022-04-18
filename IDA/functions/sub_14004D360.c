@@ -207,7 +207,7 @@ LABEL_30:
 				(*(void(__fastcall**)(__int64, _QWORD))(*(_QWORD*)v41 + 248i64))(v41, 0i64);
 				(*(void(__fastcall**)(__int64, _QWORD))(*(_QWORD*)v41 + 232i64))(v41, 0i64);
 			}
-			sub_1400EA3E0(a4, "ActorMouseExit", byte_1409D11E4, *(_QWORD*)(v40 + 40));
+			Apollo_LUAEvent(a4, "ActorMouseExit", byte_1409D11E4, *(_QWORD*)(v40 + 40));
 		}
 	}
 	v42 = *(_DWORD*)(a1 + 456);
@@ -239,7 +239,7 @@ LABEL_30:
 				(*(void(__fastcall**)(__int64, __int64))(*(_QWORD*)v47 + 248i64))(v47, 1i64);
 				(*(void(__fastcall**)(__int64, __int64))(*(_QWORD*)v47 + 232i64))(v47, 1i64);
 			}
-			sub_1400EA3E0(a4, "ActorMouseEnter", byte_1409D1274, *(_QWORD*)(v46 + 40));
+			Apollo_LUAEvent(a4, "ActorMouseEnter", byte_1409D1274, *(_QWORD*)(v46 + 40));
 		}
 	}
 	return 0i64;

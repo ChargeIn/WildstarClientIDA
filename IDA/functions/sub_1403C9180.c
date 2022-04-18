@@ -9,7 +9,7 @@ __int64 __fastcall sub_1403C9180(__int64 a1)
 	int v6; // [rsp+28h] [rbp-10h]
 	int v7; // [rsp+2Ch] [rbp-Ch]
 
-	sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "ElderPointsLimitReached", &unk_1409D0F0D);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "ElderPointsLimitReached", &unk_1409D0F0D);
 	v2 = *(_DWORD*)(*(_QWORD*)(a1 + 120) + 8i64);
 	v7 = 34;
 	v6 = v2;

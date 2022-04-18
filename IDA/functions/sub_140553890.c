@@ -49,7 +49,7 @@ __int64 __fastcall sub_140553890(__int64 a1, unsigned int a2)
 			LABEL_9:
 				v8 = *(_QWORD*)(a1 + 8i64 * v6 + 24);
 				if (*(_DWORD*)(v8 + 4) == 38)
-					return sub_1400EA3E0(
+					return Apollo_LUAEvent(
 						*(_QWORD*)(qword_140C65898 + 29504),
 						"WorkOrderLocate",
 						byte_1409E901C,

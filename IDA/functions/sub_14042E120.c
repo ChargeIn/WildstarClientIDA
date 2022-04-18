@@ -5,7 +5,7 @@ __int64 __fastcall sub_14042E120(__int64 a1, unsigned int a2, int a3)
 {
 	__int64 result; // rax
 
-	result = sub_1400EA3E0(a1, "UnitEnteredCombat", byte_1409EDC64, a2, a3);
+	result = Apollo_LUAEvent(a1, "UnitEnteredCombat", byte_1409EDC64, a2, a3);
 	if (a3)
 	{
 		if ((result = *(_QWORD*)(qword_140C65898 + 25744)) != 0 && *(_DWORD*)(result + 8) == a2
@@ -14,7 +14,7 @@ __int64 __fastcall sub_14042E120(__int64 a1, unsigned int a2, int a3)
 			if (qword_140C63620)
 			{
 				if (*(_QWORD*)(qword_140C63620 + 24))
-					return sub_1400EA3E0(*(_QWORD*)(qword_140C63620 + 88), "EnteredCombat", &unk_1409D01F7);
+					return Apollo_LUAEvent(*(_QWORD*)(qword_140C63620 + 88), "EnteredCombat", &unk_1409D01F7);
 			}
 		}
 	}

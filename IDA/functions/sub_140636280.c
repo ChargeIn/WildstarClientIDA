@@ -368,7 +368,7 @@ LABEL_55:
 			v52 = v67;
 		}
 		if (*(_DWORD*)v53)
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "RewardRotationsUpdated", "i", v52);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "RewardRotationsUpdated", "i", v52);
 		++v52;
 		v51 += 32i64;
 		v53 = (__int64*)((char*)v53 + 4);

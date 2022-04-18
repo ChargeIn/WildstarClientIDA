@@ -45,7 +45,7 @@ __int64 __fastcall sub_1403AA8E0(__int64* a1, int* a2)
 		sub_1401C2F20((__int64)(a1 + 4093), v9);
 	LABEL_13:
 		v12 = a2[2];
-		sub_1400EA3E0(a1[3688], "DisabledGameplaySystemNotification", "ib", (unsigned int)*a2, v12);
+		Apollo_LUAEvent(a1[3688], "DisabledGameplaySystemNotification", "ib", (unsigned int)*a2, v12);
 	}
 	return 0i64;
 }

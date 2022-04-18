@@ -69,7 +69,7 @@ __int64 __fastcall sub_140004AE0(__int64 a1, __int64 a2)
 				v12 = *(_QWORD*)(v12 + 176);
 			} while (v12);
 		}
-		sub_1400EA3E0(*(_QWORD*)(v12 + 72), "AccountItemUpdate", &unk_1409D014D);
+		Apollo_LUAEvent(*(_QWORD*)(v12 + 72), "AccountItemUpdate", &unk_1409D014D);
 	}
 	return 0i64;
 }

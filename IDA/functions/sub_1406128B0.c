@@ -153,22 +153,22 @@ LABEL_31:
 	switch ((char*)v7 - (char*)v6)
 	{
 	case 0i64:
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), v26, &unk_1409D143A);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), v26, &unk_1409D143A);
 		break;
 	case 1i64:
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), v26, v6, v30);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), v26, v6, v30);
 		break;
 	case 2i64:
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), v26, v6, v30, v31);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), v26, v6, v30, v31);
 		break;
 	case 3i64:
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), v26, v6, v30, v31, v32);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), v26, v6, v30, v31, v32);
 		break;
 	case 4i64:
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), v26, v6, v30, v31, v32, v33);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), v26, v6, v30, v31, v32, v33);
 		break;
 	case 5i64:
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), v26, v6, v30, v31, v32, v33, v34);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), v26, v6, v30, v31, v32, v33, v34);
 		break;
 	default:
 		break;

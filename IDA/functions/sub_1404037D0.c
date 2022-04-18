@@ -17,7 +17,7 @@ __int64 __fastcall sub_1404037D0(__int64 a1, __int64 a2)
 		{
 			v6 = qword_140C65898;
 			*(_DWORD*)v5 = *(_DWORD*)(a2 + 16);
-			sub_1400EA3E0(*(_QWORD*)(v6 + 29504), "ChatFlag", L"H");
+			Apollo_LUAEvent(*(_QWORD*)(v6 + 29504), "ChatFlag", L"H");
 		}
 	}
 	return 0i64;

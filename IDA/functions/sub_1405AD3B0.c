@@ -21,12 +21,12 @@ void __fastcall sub_1405AD3B0(__int64 a1, __int64 a2)
 		if ((unsigned int)v5 <= 2 || v4 == 4 && (unsigned int)sub_140724910(v3))
 		{
 		LABEL_9:
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingFreePlaceDecorQuery", &unk_1409D0F4E);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingFreePlaceDecorQuery", &unk_1409D0F4E);
 		}
 		else
 		{
 			sub_1404C9520(v5, v3);
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(qword_140C65898 + 29504),
 				"HousingFreePlaceDecorSelected",
 				byte_1409EBDA4,

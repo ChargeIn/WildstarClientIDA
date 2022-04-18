@@ -107,7 +107,7 @@ LABEL_10:
 			v26 = v28;
 			sub_140407E40((__int64)v4, v28);
 			if (qword_140C65898)
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatJoin", L"H", v26);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatJoin", L"H", v26);
 			return v26;
 		}
 		else

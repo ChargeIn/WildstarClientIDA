@@ -605,7 +605,7 @@ __int64 __fastcall sub_1403E85D0(int* a1, double a2, double a3, double a4)
 								}
 							}
 							if (v6[6584] != v62)
-								sub_1400EA3E0(*((_QWORD*)v6 + 3688), "CanVacuumChange", L"b");
+								Apollo_LUAEvent(*((_QWORD*)v6 + 3688), "CanVacuumChange", L"b");
 							sub_1406006D0(v85, *(float*)&a2);
 							sub_140575D20(v93);
 							sub_14055A3F0(v6 + 7372);

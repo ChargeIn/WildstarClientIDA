@@ -118,7 +118,7 @@ void __fastcall sub_1405ADD40(__int64 a1, int a2)
 LABEL_36:
 	if (!*(_DWORD*)qword_140C659F0)
 		sub_1405AEC80(a1);
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingMyResidenceDecorChanged", byte_1409EBF4C, 0i64);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingMyResidenceDecorChanged", byte_1409EBF4C, 0i64);
 	if (v5)
 		sub_14018B900(v5, 0);
 }

@@ -36,7 +36,7 @@ __int64 __fastcall sub_14062AD80(_DWORD* a1, _QWORD* a2)
 		v6 = a1[3];
 		if (v6 == a1[5])
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "MailResult", L"i", 64i64);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "MailResult", L"i", 64i64);
 			return 2147500037i64;
 		}
 		a1[3] = v6 + 1;

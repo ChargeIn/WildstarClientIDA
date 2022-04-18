@@ -105,7 +105,7 @@ void __fastcall sub_140610060(int* a1)
 	sub_14005EA50(v2, v21, (int*)(*(_QWORD*)(v2 + 16) - 32i64), (unsigned int*)(*(_QWORD*)(v2 + 16) - 16i64));
 	v22 = qword_140C65898;
 	*(_QWORD*)(v2 + 16) -= 48i64;
-	sub_1400EA3E0(*(_QWORD*)(v22 + 29504), "CombatLogPet", "T", v6, v24);
+	Apollo_LUAEvent(*(_QWORD*)(v22 + 29504), "CombatLogPet", "T", v6, v24);
 	sub_1400579E0(v2, v23, v6);
 }
 // 1406101E9: variable 'v18' is possibly undefined

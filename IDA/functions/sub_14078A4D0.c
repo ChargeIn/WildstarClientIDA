@@ -11,7 +11,7 @@ void __fastcall sub_14078A4D0(__int64 a1)
 	{
 		v2 = *(_QWORD*)(a1 + 24);
 		if (!*(_DWORD*)(v2 + 1360))
-			sub_1400EA3E0(
+			Apollo_LUAEvent(
 				*(_QWORD*)(v2 + 1424),
 				"FlippedCardMouseEnter",
 				byte_1409FA0D4,

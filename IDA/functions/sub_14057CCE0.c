@@ -31,12 +31,12 @@ __int64 __fastcall sub_14057CCE0(__int64 a1, __int64 a2)
 	v13 = v5;
 	v14 = 1;
 	v10 = v2;
-	sub_1400EA3E0(v8, "GuildInfluenceAndMoney", "Zimi", a1, v10, &v13, v12);
+	Apollo_LUAEvent(v8, "GuildInfluenceAndMoney", "Zimi", a1, v10, &v13, v12);
 	if (v7)
 	{
 		sub_1400A8020(*(_QWORD*)(qword_140C65898 + 29504) + 4128i64);
 		LODWORD(v11) = v7;
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildWarCoinsChanged", byte_1409EA5E4, a1, v11);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildWarCoinsChanged", byte_1409EA5E4, a1, v11);
 	}
 	return 0i64;
 }

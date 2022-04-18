@@ -22,12 +22,12 @@ __int64 __fastcall sub_1404369D0(__int64 a1)
 			if (v4)
 				*(_BYTE*)(v4 + 434) = v2;
 			v8 = *(unsigned __int8*)(a1 + 8);
-			sub_1400EA3E0(*(_QWORD*)(v3 + 29504), "PremiumTierChanged", "ii", *(unsigned int*)qword_140C658C8, v8);
+			Apollo_LUAEvent(*(_QWORD*)(v3 + 29504), "PremiumTierChanged", "ii", *(unsigned int*)qword_140C658C8, v8);
 			v5 = *(_QWORD*)(qword_140C65898 + 32736);
 			if (v5 && *(_QWORD*)(v5 + 24) && (unsigned int)sub_1400480B0(v5))
 			{
 				LODWORD(v9) = *(unsigned __int8*)(a1 + 8);
-				sub_1400EA3E0(*(_QWORD*)(v6 + 96), "PremiumTierChanged", byte_1409EFD3C, *(unsigned int*)qword_140C658C8, v9);
+				Apollo_LUAEvent(*(_QWORD*)(v6 + 96), "PremiumTierChanged", byte_1409EFD3C, *(unsigned int*)qword_140C658C8, v9);
 			}
 		}
 	}

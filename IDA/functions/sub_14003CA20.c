@@ -82,7 +82,7 @@ __int64 __fastcall sub_14003CA20(__int64 a1, int a2, __int64 a3, _QWORD* a4)
 					v15 = *(_QWORD*)(v15 + 176);
 				} while (v15);
 			}
-			sub_1400EA3E0(*(_QWORD*)(v15 + 72), "TrustedIPListReady", &unk_1409D01D7);
+			Apollo_LUAEvent(*(_QWORD*)(v15 + 72), "TrustedIPListReady", &unk_1409D01D7);
 		}
 	LABEL_25:
 		if (*a4)

@@ -115,7 +115,7 @@ void __fastcall sub_140401E40(__int64 a1, int* a2)
 				v52 = 0i64;
 			v53 = v74;
 			if (!(unsigned int)sub_1404015D0(v52, v74, v4))
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v4, 19);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v4, 19);
 			v55 = (__int64)v68;
 			*(_DWORD*)(*(_QWORD*)(v52 + 80) + 48i64) = 0;
 			v56 = v71;
@@ -142,7 +142,7 @@ void __fastcall sub_140401E40(__int64 a1, int* a2)
 				else
 					v6 = 0i64;
 				if (!(unsigned int)sub_140401510(v6, a2, v4))
-					sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v4, 19);
+					Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v4, 19);
 				v7 = *(_QWORD*)(v6 + 72);
 				*(_QWORD*)(v7 + 8) = *(_QWORD*)(v4 + 16);
 				v8 = **(unsigned int**)(v4 + 8);
@@ -319,7 +319,7 @@ void __fastcall sub_140401E40(__int64 a1, int* a2)
 				v9 = sub_140401410((__int64)v44);
 			v26 = v74;
 			if (!(unsigned int)sub_1404015D0(v9, v74, v4))
-				sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v4, 19);
+				Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatResult", "Hi", v4, 19);
 			*(_DWORD*)(*(_QWORD*)(v9 + 80) + 48i64) = 1;
 			**(_QWORD**)(v9 + 80) = v24;
 			*(_QWORD*)(*(_QWORD*)(v9 + 80) + 8i64) = v16;
@@ -328,7 +328,7 @@ void __fastcall sub_140401E40(__int64 a1, int* a2)
 			goto LABEL_45;
 		}
 	LABEL_44:
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ChatAccountTellFailed", "HS", a1, v24);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ChatAccountTellFailed", "HS", a1, v24);
 		v26 = v74;
 	LABEL_45:
 		if (v26)

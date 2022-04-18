@@ -32,7 +32,7 @@ void __fastcall sub_1404276F0(__int64 a1, __int64 a2, __int64 a3)
 	v14 = v9;
 	sub_1405808C0(a3, (__int64)&v13);
 	v12 = v9;
-	sub_1400EA3E0(a1, "GuildMemberChange", byte_1409EA3B4, a2, v12);
+	Apollo_LUAEvent(a1, "GuildMemberChange", byte_1409EA3B4, a2, v12);
 	sub_1400579E0(v3, v11, v9);
 }
 // 1404277C1: variable 'v11' is possibly undefined

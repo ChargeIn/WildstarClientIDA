@@ -59,7 +59,7 @@ __int64 __fastcall sub_140021FB0(__int64 a1, __int64 a2)
 			sub_14001CA90(v9, v11);
 			goto LABEL_15;
 		}
-		sub_1400EA3E0(*(_QWORD*)(a1 + 72), "CharacterCreateFailed", byte_1409D0A64);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 72), "CharacterCreateFailed", byte_1409D0A64);
 		v12 = 143525;
 		if (*(_DWORD*)(a2 + 12) == 6)
 			v12 = 143523;

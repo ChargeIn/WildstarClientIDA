@@ -130,7 +130,7 @@ __int64 __fastcall sub_1404BA660(__int64 a1, unsigned int* a2)
 			v29 = v4;
 		} while (v4 < *v3);
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingNeighborsLoaded", byte_1409D0F67);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingNeighborsLoaded", byte_1409D0F67);
 	return 0i64;
 }
 // 1404BA8A3: variable 'v25' is possibly undefined

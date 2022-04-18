@@ -66,7 +66,7 @@ __int64 __fastcall sub_1405FCB80(__int64 a1, unsigned int a2, unsigned int a3)
 				if (result)
 				{
 					LOBYTE(v12) = *(_DWORD*)(*(_QWORD*)(result + 8) + 300i64) < 4u;
-					return sub_1400EA3E0(v14, "QuestTrackedChanged", byte_1409E9364, result, a3, v12);
+					return Apollo_LUAEvent(v14, "QuestTrackedChanged", byte_1409E9364, result, a3, v12);
 				}
 			}
 		}

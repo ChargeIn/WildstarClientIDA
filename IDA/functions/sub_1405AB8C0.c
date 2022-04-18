@@ -137,7 +137,7 @@ void __fastcall sub_1405AB8C0(__int64 a1, __int64 a2, int a3)
 				sub_14077DC00(a1 + 440, *(_QWORD*)(a2 + 16));
 				v28 = sub_1404C9E20(v27, *(_DWORD*)(a1 + 188), *(_QWORD*)(a2 + 16));
 				if (v28)
-					sub_1400EA3E0(
+					Apollo_LUAEvent(
 						*(_QWORD*)(qword_140C65898 + 29504),
 						"HousingMyResidenceDecorChanged",
 						byte_1409EBF4C,

@@ -67,7 +67,7 @@ void __fastcall sub_1405ABDC0(__int64 a1, __int64 a2)
 		v12 = sub_1404C9E20(v4, *(_DWORD*)(a1 + 188), *(_QWORD*)(a2 + 16));
 		sub_1404C9C70(v13, v10, *(_DWORD*)(a1 + 188), v12);
 		sub_14077DB00(a1 + 440, *(_QWORD*)(a2 + 16), *(_DWORD*)(a2 + 76), *(_DWORD*)(a2 + 96));
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingMyResidenceDecorChanged", byte_1409EBF4C, 0i64);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingMyResidenceDecorChanged", byte_1409EBF4C, 0i64);
 	}
 }
 // 1405ABF15: variable 'v4' is possibly undefined

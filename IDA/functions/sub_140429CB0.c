@@ -27,9 +27,9 @@ __int64 __fastcall sub_140429CB0(__int64 a1, int a2, unsigned int a3, __int64 a4
 				{
 					v11 = v10 - 1;
 					if (!v11)
-						return sub_1400EA3E0(a1, "UI_LevelChanged", byte_1409EBBAC, a3, a5);
+						return Apollo_LUAEvent(a1, "UI_LevelChanged", byte_1409EBBAC, a3, a5);
 					if (v11 == 1)
-						return sub_1400EA3E0(a1, "UI_EffectiveLevelChanged", byte_1409EBD14, a3, a5);
+						return Apollo_LUAEvent(a1, "UI_EffectiveLevelChanged", byte_1409EBD14, a3, a5);
 					return result;
 				}
 				v12 = (int)v8[445];
@@ -50,7 +50,7 @@ __int64 __fastcall sub_140429CB0(__int64 a1, int a2, unsigned int a3, __int64 a4
 			v14 = "UI_HealthChanged";
 		}
 		v15 = v12;
-		return sub_1400EA3E0(a1, v14, v13, a3, v15);
+		return Apollo_LUAEvent(a1, v14, v13, a3, v15);
 	}
 	return result;
 }

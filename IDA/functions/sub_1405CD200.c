@@ -41,7 +41,7 @@ void __fastcall sub_1405CD200(__int64* a1, __int64 a2, __int64 a3, double a4)
 		sub_1405CE730(0x140000000i64, a2);
 		break;
 	case 2:
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "StoryPanelDialog_Hide", &unk_1409D1096);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "StoryPanelDialog_Hide", &unk_1409D1096);
 		break;
 	case 3:
 		sub_14062CD90((__m128**) * a1, a2);

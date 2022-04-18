@@ -23,7 +23,7 @@ __int64 __fastcall sub_1404B72B0(__int64 a1, unsigned int a2, unsigned int a3, i
 	}
 	if (!(unsigned int)sub_1404BA200(v9, a2, a3))
 	{
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingTheseResourcesRequired", byte_1409D0F87);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingTheseResourcesRequired", byte_1409D0F87);
 		return 0i64;
 	}
 	if (a2 && a3 && (v13 = sub_1404BC160(v9, a2)) != 0 && (LOBYTE(v10) = *(_DWORD*)(v13 + 4) == a3, v10))
@@ -46,7 +46,7 @@ __int64 __fastcall sub_1404B72B0(__int64 a1, unsigned int a2, unsigned int a3, i
 			return 0i64;
 		if (!v11 && !a5)
 		{
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingConfirmReplace", byte_1409EBFDC, a2, a3);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingConfirmReplace", byte_1409EBFDC, a2, a3);
 			return 0i64;
 		}
 	}

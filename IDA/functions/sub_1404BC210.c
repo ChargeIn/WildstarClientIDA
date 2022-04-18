@@ -88,7 +88,7 @@ __int64 __fastcall sub_1404BC210(__int64 a1, __int64 a2, __int64 a3, __int64 a4,
 				*(_QWORD*)(v12 + 232) = 0i64;
 			}
 			if (*(_DWORD*)(v12 + 240))
-				return sub_1400EA3E0(
+				return Apollo_LUAEvent(
 					*(_QWORD*)(qword_140C65898 + 29504),
 					"HousingNeighborUpdate",
 					byte_1409EBF9C,

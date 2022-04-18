@@ -90,7 +90,7 @@ void __fastcall sub_14042D030(__int64 a1, _QWORD* a2)
 			++v10;
 		} while (v10 < a2[1]);
 	}
-	sub_1400EA3E0(a1, "ScientistExperimentationResult", byte_1409ECF9C, (unsigned int)v11, v22);
+	Apollo_LUAEvent(a1, "ScientistExperimentationResult", byte_1409ECF9C, (unsigned int)v11, v22);
 	sub_1400579E0(v3, v21, v11);
 }
 // 14042D030: could not find valid save-restore pair for xmm6

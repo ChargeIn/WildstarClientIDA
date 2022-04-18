@@ -152,7 +152,7 @@ LABEL_44:
 			sub_140575DD0();
 			v28 = qword_140C65898;
 		}
-		sub_1400EA3E0(*(_QWORD*)(v28 + 29504), "PlayerPathRefresh", byte_1409D10FF);
+		Apollo_LUAEvent(*(_QWORD*)(v28 + 29504), "PlayerPathRefresh", byte_1409D10FF);
 	}
 	return a1;
 }

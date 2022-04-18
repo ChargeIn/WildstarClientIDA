@@ -37,7 +37,7 @@ __int64 __fastcall sub_1405E6690(__int64 a1, __int64 a2)
 					}
 				LABEL_11:
 					if (*(_DWORD*)(a2 + 16) != 3)
-						sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CraftingDiscoveryHotCold", "ii");
+						Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CraftingDiscoveryHotCold", "ii");
 				}
 			}
 			sub_140437A10((_QWORD*)qword_140C658D8, 0x1Cu, 0, 0i64, 0, 0, 1);

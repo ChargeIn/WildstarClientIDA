@@ -112,7 +112,7 @@ int* __fastcall sub_1403C6A90(__int64 a1, unsigned int* a2)
 		if (v7)
 			sub_14018B900((__int64)v7, 0);
 		v27 = (__int64)v29;
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "GenericFloater", "US", *(unsigned int*)(*(_QWORD*)(a1 + 120) + 8i64), v29);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "GenericFloater", "US", *(unsigned int*)(*(_QWORD*)(a1 + 120) + 8i64), v29);
 		if (v27)
 			sub_14018B900(v27, 0);
 		return 0i64;

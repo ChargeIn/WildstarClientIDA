@@ -12,7 +12,7 @@ __int64 __fastcall sub_1405826B0(__int64 a1, __int64 a2)
 		v3[128] = *(_DWORD*)(a2 + 16);
 		v3[129] = *(_DWORD*)(a2 + 24);
 		v3[130] = *(_DWORD*)(a2 + 28);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildPvp", byte_1409EA70C, v3);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildPvp", byte_1409EA70C, v3);
 	}
 	return 0i64;
 }

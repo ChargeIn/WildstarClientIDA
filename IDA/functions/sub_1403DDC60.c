@@ -88,7 +88,7 @@ __int64 __fastcall sub_1403DDC60(__int64 a1, unsigned int* a2)
 			if (v5 == v23 && (a2[1] & 1) != 0)
 				sub_140437A10((_QWORD*)qword_140C658D8, 0x18Eu, 0, 0i64, 0, 0, 1);
 		}
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "UnitPvpFlagsChanged", L"U", *a2);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "UnitPvpFlagsChanged", L"U", *a2);
 	}
 	return 0i64;
 }

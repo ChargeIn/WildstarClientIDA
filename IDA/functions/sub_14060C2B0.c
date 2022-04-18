@@ -223,7 +223,7 @@ void __fastcall sub_14060C2B0(int* a1)
 		sub_1400F06F0(v2, v59, L"eEffectType", v60);
 		v61 = qword_140C65898;
 		*(_QWORD*)(v2 + 16) -= 16i64;
-		sub_1400EA3E0(*(_QWORD*)(v61 + 29504), "CombatLogDamageShields", "T", v7, v63);
+		Apollo_LUAEvent(*(_QWORD*)(v61 + 29504), "CombatLogDamageShields", "T", v7, v63);
 		sub_1400579E0(v2, v62, v7);
 	}
 }

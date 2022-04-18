@@ -29,7 +29,7 @@ __int64 __fastcall sub_1403CB8E0(__int64 a1, unsigned int* a2)
 			{
 				*(_DWORD*)(v3 + 28) = v4;
 			}
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "UpdateSoldierBuild", L"#", *(_QWORD*)(v3 + 152));
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "UpdateSoldierBuild", L"#", *(_QWORD*)(v3 + 152));
 		}
 	}
 	return 0i64;

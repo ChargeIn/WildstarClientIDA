@@ -56,7 +56,7 @@ __int64 __fastcall sub_1404B4400(__int64 a1, int* a2)
 		v9[3] = a2[3];
 		*(_QWORD*)sub_140055BE0(v2, a2) = v9;
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "ZoneMapUpdateHexGroup", byte_1409E9D84, a2);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "ZoneMapUpdateHexGroup", byte_1409E9D84, a2);
 	return 0i64;
 }
 // 1409E9D84: using guessed type _BYTE byte_1409E9D84[56];

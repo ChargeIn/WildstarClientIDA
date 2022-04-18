@@ -11,7 +11,7 @@ void __fastcall sub_1407294F0(__int64 a1)
 		sub_1407898E0(*(_QWORD*)(a1 + 1368));
 		v2 = *(_QWORD*)(a1 + 1424);
 		*(_DWORD*)(a1 + 20) = 11;
-		sub_1400EA3E0(v2, "HideGachaUI", byte_1409D15F3);
+		Apollo_LUAEvent(v2, "HideGachaUI", byte_1409D15F3);
 		sub_14072B120(v3);
 	}
 }

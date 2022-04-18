@@ -39,7 +39,7 @@ void __fastcall sub_1404356B0(__int64 a1, __int64 a2, __int64 a3, int a4)
 	sub_1400F06F0(v6, v15, L"nCount", v16);
 	*(_QWORD*)(v6 + 16) -= 16i64;
 	v18 = a4;
-	sub_1400EA3E0(*(_QWORD*)(a1 + 96), "AccountEntitlementUpdate", byte_1409EFCEC, (unsigned int)v8, a3, v18);
+	Apollo_LUAEvent(*(_QWORD*)(a1 + 96), "AccountEntitlementUpdate", byte_1409EFCEC, (unsigned int)v8, a3, v18);
 	sub_1400579E0(v6, v17, v8);
 }
 // 140435757: variable 'v12' is possibly undefined

@@ -16,7 +16,7 @@ void __fastcall sub_140400730(__int64 a1, __int64 a2, __int64 a3, unsigned __int
 	{
 		v7 = *(_QWORD*)(qword_140C65898 + 29504);
 		if (v7)
-			sub_1400EA3E0(v7, "MessageFinished", byte_1409EB834, v8);
+			Apollo_LUAEvent(v7, "MessageFinished", byte_1409EB834, v8);
 	}
 	if (v10)
 	{

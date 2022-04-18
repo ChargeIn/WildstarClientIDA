@@ -7,7 +7,7 @@ __int64 __fastcall sub_14044CEA0(__int64 a1, unsigned int* a2)
 	__int64 result; // rax
 
 	if (qword_140C65898)
-		sub_1400EA3E0(*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64), "StoreError", byte_1409EFF74, *a2);
+		Apollo_LUAEvent(*(_QWORD*)(*(_QWORD*)(qword_140C65898 + 32736) + 96i64), "StoreError", byte_1409EFF74, *a2);
 	v3 = qword_140C66DA8;
 	result = qword_140C66DA8;
 	if (qword_140C66DA8)
@@ -27,7 +27,7 @@ __int64 __fastcall sub_14044CEA0(__int64 a1, unsigned int* a2)
 				v3 = *(_QWORD*)(v3 + 176);
 			} while (v3);
 		}
-		sub_1400EA3E0(*(_QWORD*)(v3 + 72), "StoreError", byte_1409F003C, *a2);
+		Apollo_LUAEvent(*(_QWORD*)(v3 + 72), "StoreError", byte_1409F003C, *a2);
 	}
 	return 0i64;
 }

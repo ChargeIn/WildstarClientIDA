@@ -57,7 +57,7 @@ void __fastcall sub_140610BB0(__int64 a1)
 			}
 		}
 	}
-	sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogLAS", byte_1409EB804, v8, v13, v14, v15, v16);
+	Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "CombatLogLAS", byte_1409EB804, v8, v13, v14, v15, v16);
 	sub_1400579E0((__int64)v2, v12, v8);
 }
 // 140610CDD: variable 'v12' is possibly undefined

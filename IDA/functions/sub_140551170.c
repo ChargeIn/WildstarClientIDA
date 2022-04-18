@@ -77,7 +77,7 @@ void __fastcall sub_140551170(__int64 a1, int a2, int a3)
 		{
 			v17 = *(_QWORD*)(qword_140C65898 + 29504);
 			if ((*(_DWORD*)(*(_QWORD*)(a1 + 8) + 12i64) & 0x80000) != 0)
-				sub_1400EA3E0(v17, "ContractFloater", byte_1409E9544, *(unsigned int*)(v16 + 8), v7, a2);
+				Apollo_LUAEvent(v17, "ContractFloater", byte_1409E9544, *(unsigned int*)(v16 + 8), v7, a2);
 			else
 				sub_140430B90(v17, *(_DWORD*)(v16 + 8), (__int64)v7, a2);
 		}

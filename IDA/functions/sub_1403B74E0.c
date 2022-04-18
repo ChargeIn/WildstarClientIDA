@@ -72,9 +72,9 @@ LABEL_13:
 	if (v19)
 		sub_1400A8020(v19 + 376);
 	if (!v5)
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "PlayerEquippedItemChanged", byte_1409E9FEC, v21, v10, v12);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "PlayerEquippedItemChanged", byte_1409E9FEC, v21, v10, v12);
 	if (!v9)
-		sub_1400EA3E0(*(_QWORD*)(a1 + 29504), "PlayerEquippedItemChanged", byte_1409E9FEC, v23, v11, v14);
+		Apollo_LUAEvent(*(_QWORD*)(a1 + 29504), "PlayerEquippedItemChanged", byte_1409E9FEC, v23, v11, v14);
 	if (!v10[8] || !v11[8])
 		*(_DWORD*)(a1 + 1368) = 1;
 	return 0i64;

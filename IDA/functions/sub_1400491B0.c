@@ -37,7 +37,7 @@ __int64 __fastcall sub_1400491B0(__int64 a1, __int64 a2)
 			{
 				LODWORD(v22) = *v5;
 				*v5 = 0;
-				sub_1400EA3E0(a2, "AnimationFinished", byte_1409D11AC, a1, v4, v22);
+				Apollo_LUAEvent(a2, "AnimationFinished", byte_1409D11AC, a1, v4, v22);
 			}
 			++v4;
 			v5 += 6;

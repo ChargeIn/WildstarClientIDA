@@ -21,7 +21,7 @@ void __fastcall sub_1403D1610(__int64 a1, int a2, int a3)
 	else
 	{
 		sub_1403D1440(v3, a2, a3);
-		sub_1400EA3E0(*(_QWORD*)(v3 + 29504), "CharacterEldanAugmentationsUpdated", &unk_1409D10E6);
+		Apollo_LUAEvent(*(_QWORD*)(v3 + 29504), "CharacterEldanAugmentationsUpdated", &unk_1409D10E6);
 	}
 }
 // 140C65898: using guessed type __int64 qword_140C65898;

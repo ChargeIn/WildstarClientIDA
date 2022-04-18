@@ -13,7 +13,7 @@ __int64 __fastcall sub_140582720(__int64 a1, __int64 a2)
 	{
 		sub_14048FC60(v3 + 576, (_DWORD*)(a2 + 16));
 		v6 = *(_DWORD*)(a2 + 16);
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "GuildPerkDeactivated", byte_1409EA7DC, v4, v6);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "GuildPerkDeactivated", byte_1409EA7DC, v4, v6);
 	}
 	return 0i64;
 }

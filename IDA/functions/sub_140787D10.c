@@ -614,7 +614,7 @@ void __fastcall sub_140787D10(_QWORD* a1)
 	{
 		v70 = *(_QWORD*)(qword_140C65898 + 29504);
 		v71 = (*(__int64(__fastcall**)(_QWORD*))(*a1 + 8i64))(a1);
-		sub_1400EA3E0(v70, "EpisodeStateChanged", byte_1409E95F4, v71, v2, v69);
+		Apollo_LUAEvent(v70, "EpisodeStateChanged", byte_1409E95F4, v71, v2, v69);
 	}
 	if (v81)
 	{

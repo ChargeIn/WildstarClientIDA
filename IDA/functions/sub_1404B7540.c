@@ -27,7 +27,7 @@ void __fastcall sub_1404B7540(__int64 a1, unsigned int a2)
 	}
 	else
 	{
-		sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingTheseResourcesRequired", byte_1409D0F87);
+		Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingTheseResourcesRequired", byte_1409D0F87);
 	}
 }
 // 1404B756E: variable 'v3' is possibly undefined

@@ -195,7 +195,7 @@ void __fastcall sub_14060B750(int* a1)
 					v38 = qword_140C65898;
 				}
 			}
-			sub_1400EA3E0(*(_QWORD*)(v38 + 29504), "CombatLogCCState", "T", v7, v48);
+			Apollo_LUAEvent(*(_QWORD*)(v38 + 29504), "CombatLogCCState", "T", v7, v48);
 			sub_1400579E0(v3, v47, v7);
 		}
 	}

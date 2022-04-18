@@ -48,7 +48,7 @@ __int64 __fastcall sub_140006FC0(__int64 a1)
 	LODWORD(v8) = sub_1400578C0(v5);
 	v12 = v8;
 	sub_140003C90(a1, (__int64)&v11);
-	sub_1400EA3E0(*(_QWORD*)(v2 + 72), "DailyLoginUpdate", byte_1409D0254, (unsigned int)v8, v11);
+	Apollo_LUAEvent(*(_QWORD*)(v2 + 72), "DailyLoginUpdate", byte_1409D0254, (unsigned int)v8, v11);
 	sub_1400579E0(v5, v10, v8);
 	return 0i64;
 }

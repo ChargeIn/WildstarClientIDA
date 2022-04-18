@@ -39,7 +39,7 @@ __int64 __fastcall sub_14045EF50(__int64 a1, __int64 a2, double a3, double a4)
 		sub_1405FEFC0(*(_QWORD*)(qword_140C65898 + 32144), *(_DWORD*)(a1 + 8));
 		v4 = qword_140C65898;
 	}
-	sub_1400EA3E0(*(_QWORD*)(v4 + 29504), "UnitDestroyed", L"U", *(unsigned int*)(a1 + 8));
+	Apollo_LUAEvent(*(_QWORD*)(v4 + 29504), "UnitDestroyed", L"U", *(unsigned int*)(a1 + 8));
 	return sub_1403D9590(qword_140C65898, a1, a3, a4);
 }
 // 1409EDDFC: using guessed type wchar_t aU_5[2];

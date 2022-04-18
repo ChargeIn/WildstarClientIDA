@@ -25,7 +25,7 @@ void __fastcall sub_1404B73E0(__int64 a1, unsigned int a2, unsigned int a3, int 
 		{
 			if (qword_140C7DFE0)
 				a4 = 4;
-			sub_1400EA3E0(*(_QWORD*)(qword_140C65898 + 29504), "HousingBuildStarted", byte_1409F082C, a2 + 1);
+			Apollo_LUAEvent(*(_QWORD*)(qword_140C65898 + 29504), "HousingBuildStarted", byte_1409F082C, a2 + 1);
 			sub_1407E4830((int*)&v15, 0i64, 0x88ui64);
 			v19 = 1;
 			v16 = v8;

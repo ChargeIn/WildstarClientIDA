@@ -128,7 +128,7 @@ void __fastcall sub_140430F80(__int64 a1, unsigned int a2, float* a3)
 	v31 = (__int64*)sub_1400580E0(v3, -3);
 	sub_14005EA50(v3, v31, (int*)(*(_QWORD*)(v3 + 16) - 32i64), (unsigned int*)(*(_QWORD*)(v3 + 16) - 16i64));
 	*(_QWORD*)(v3 + 16) -= 48i64;
-	sub_1400EA3E0(a1, "MapTrackedUnitUpdate", "iT", a2, v11);
+	Apollo_LUAEvent(a1, "MapTrackedUnitUpdate", "iT", a2, v11);
 	sub_1400579E0(v3, v32, v11);
 }
 // 1404310DD: variable 'v21' is possibly undefined
