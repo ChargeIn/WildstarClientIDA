@@ -1,5 +1,5 @@
 #include "../winhttp.h"
-#include "../winhttp.h"
+#include "Apollo_LUAEvent.c"
 
 //----- (00000001403B95C0) ----------------------------------------------------
 __int64 __fastcall sub_1403B95C0(__int64 a1, int* a2)

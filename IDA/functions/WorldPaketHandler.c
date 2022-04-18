@@ -47,6 +47,7 @@
 #include "sub_14049A860.c"
 #include "sub_1403CC530.c"
 #include "sub_1404A6560.c"
+#include "ScientistScanBotChanged.c"
 
 //----- (00000001403EC6A0 sub_1403EC6A0) ----------------------------------------------------
 __int64 __fastcall WorldPaketHandler(unsigned __int64 a1, unsigned int a2, unsigned int a3, unsigned int *a4) {
@@ -2316,7 +2317,7 @@ __int64 __fastcall WorldPaketHandler(unsigned __int64 a1, unsigned int a2, unsig
             LODWORD(v13) = sub_140618ED0(v42, (int *) v8);
             return (unsigned int) v13;
         case 0x669u:
-            LODWORD(v13) = sub_1406120B0(a1, a4);
+            LODWORD(v13) = ScientistScanBotChanged(a1, a4);
             return (unsigned int) v13;
         case 0x66Cu:
             if (!*(_QWORD *) (a1 + 120) || *(_DWORD *) (a1 + 26180) != 30)

@@ -22071,7 +22071,7 @@ add_executable(WildstarIDA
         IDA/functions/sub_1406117F0.c
         IDA/functions/sub_1406118A0.c
         IDA/functions/sub_1406119E0.c
-        IDA/functions/sub_1406120B0.c
+        IDA/functions/ScientistScanBotChanged.c
         IDA/functions/sub_1406122B0.c
         IDA/functions/sub_1406128B0.c
         IDA/functions/sub_1406132E0.c
