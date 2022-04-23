@@ -59,6 +59,7 @@
 - 1599 (0x0000063F): You left the adventure map (fyling text + countdown).
 - 1602 (0x00000642): "Yes" flying text.
 - 1660 (0x0000067C): Related to the path tracker.
+- 1641 (0x00000669): Scanbot result (Flag + cooldown).
 - 1671 (0x00000687): You have been kicked from the community and will return to your plot (Popup Window).
 - 1754 (0x000006DA): Related to the MarketplaceCommodity addon (Addon).
 - 1769 (0x000006E9): "Your ptr character has been successfully added to the queue..." (Debug message)
