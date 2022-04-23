@@ -53083,7 +53083,7 @@ __int64 (__fastcall *off_140B667E0[9])() =
 &sub_1403FBA10,
 &sub_14019C170
 }; // weak
-wchar_t *off_140B66828[8] =
+wchar_t *PathStateEnum[8] = // off_140B66828
 {
 L"PathSoldier",
 L"PathSettler",
@@ -53094,7 +53094,7 @@ L"PathSettlerInactive",
 L"PathScientistInactive",
 L"PathExplorerInactive"
 }; // weak
-wchar_t *off_140B66848[4] =
+wchar_t *PathIncativeEnum[4] = // off_140B66848
 {
 L"PathSoldierInactive",
 L"PathSettlerInactive",

@@ -50,7 +50,7 @@ LABEL_12:
 	v12 = *(int*)(qword_140C65970 + 8);
 	if (v11)
 	{
-		v13 = off_140B66828[v12];
+		v13 = PathStateEnum[v12];
 		if (v13)
 		{
 			v14 = *(_QWORD*)(*(_QWORD*)(qword_140C65898 + 29504) + 360i64);
@@ -59,7 +59,7 @@ LABEL_12:
 	}
 	else
 	{
-		v13 = off_140B66848[v12];
+		v13 = PathIncativeEnum[v12];
 		if (v13)
 		{
 			v14 = *(_QWORD*)(*(_QWORD*)(qword_140C65898 + 29504) + 360i64);
@@ -68,8 +68,8 @@ LABEL_12:
 	}
 	return v9;
 }
-// 140B66828: using guessed type wchar_t *off_140B66828[8];
-// 140B66848: using guessed type wchar_t *off_140B66848[4];
+// 140B66828: using guessed type wchar_t *PathStateEnum[8];
+// 140B66848: using guessed type wchar_t *PathIncativeEnum[4];
 // 140C65898: using guessed type __int64 qword_140C65898;
 // 140C65970: using guessed type __int64 qword_140C65970;
 // 140C65B70: using guessed type __int64 qword_140C65B70;

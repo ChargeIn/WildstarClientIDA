@@ -23,6 +23,7 @@ void __fastcall sub_1403F4900(__int64 a1, unsigned int a2, __int64 a3)
 
 	if (*(_QWORD*)(a1 + 31016) && qword_140C65808)
 	{
+        // qword_140C65808 =  DATA XREF: sub_14000B690:loc_14000BD6A↑r
 		if ((*(unsigned int(__fastcall**)(__int64, __int64, _QWORD, __int64))(*(_QWORD*)qword_140C65808 + 264i64))(
 			qword_140C65808,
 			a1 + 31072,
