@@ -1418,7 +1418,7 @@ __int64 __fastcall WorldPaketHandler(unsigned __int64 a1, unsigned int a2, unsig
             LODWORD(v13) = 0;
             return (unsigned int) v13;
         case 0x33Eu:
-            LODWORD(v13) = sub_1404B40B0((int *) a1, a4);
+            LODWORD(v13) = OpenCustomerSurveyDialog((int *) a1, a4);
             return (unsigned int) v13;
         case 0x34Eu:
             LODWORD(v13) = sub_1406424A0(a1, (__int64) a4);

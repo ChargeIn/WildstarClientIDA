@@ -1,7 +1,7 @@
 #include "../winhttp.h"
 
-//----- (00000001404B40B0) ----------------------------------------------------
-__int64 __fastcall sub_1404B40B0(int* a1, _DWORD* a2)
+//----- (00000001404B40B0  sub_1404B40B0) ----------------------------------------------------
+__int64 __fastcall OpenCustomerSurveyDialog(int* a1, _DWORD* a2)
 {
 	_QWORD* v2; // r10
 	char* v4; // r9

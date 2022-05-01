@@ -27,7 +27,6 @@
 - 557  (0x0000022D): Make the player window go black.
 - 558  (0x0000022E): Trigger cinematic view.
 - 562  (0x00000232): Cinematic view beginning confirm dialog (Popup window)
-- 830  (0x0000033E): Customer Survey quest dialog. (Popup Window).
 - 960  (0x000003C0): FriendList addon error (Addon).
 - 964  (0x000003C4): Invite related ("Invite canceled no such player).
 - 1053 (0x0000041D): Party invite.
@@ -59,7 +58,6 @@
 - 1599 (0x0000063F): You left the adventure map (fyling text + countdown).
 - 1602 (0x00000642): "Yes" flying text.
 - 1660 (0x0000067C): Related to the path tracker.
-- 1641 (0x00000669): Scanbot result (Flag + cooldown).
 - 1671 (0x00000687): You have been kicked from the community and will return to your plot (Popup Window).
 - 1754 (0x000006DA): Related to the MarketplaceCommodity addon (Addon).
 - 1769 (0x000006E9): "Your ptr character has been successfully added to the queue..." (Debug message)
@@ -78,6 +76,15 @@
 - 2252 (0x000008CC): Set the player character name to "Unknown"
 - 2310 (0x00000906): Set the player model invisible (stalker like mode)
 - 2311 (0x00000907): Set the player health box to red. 
+
+
+## Already worked on
+
+- ClientScientistScanBotDismiss = 0x00F0,
+- ClientScientistScanBotScan  = 0x015F,
+- ClientScientistScanBotDeploy = 0x0180,
+- ServerPathScientistScanbotResult = 0x669, ~~-Scanbot result (Flag + cooldown).~~
+- 830  (0x0000033E): Customer Survey quest dialog. (Popup Window).
 
 
 ## Known Codes
@@ -113,7 +120,6 @@
 - ServerDatacubeUpdate            = 0x00E1,
 - ServerDatacubeVolumeUpdate      = 0x00E2,
 - ServerCharacterDeleteResult     = 0x00E6,
-- ClientPathScientistScanBotDismiss= 0x00F0,
 - ServerInstanceSettings          = 0x00F1, // handler sends 0x00D5 and ClientPlayerMovementSpeedUpdate
 - ClientEnteredWorld              = 0x00F2,
 - ServerCharacterFlagsUpdated     = 0x00FE,
@@ -141,7 +147,6 @@
 - ClientEntityInteractChair       = 0x014E,
 - ClientRequestAmpReset           = 0x0151,
 - ClientItemUseLootBag            = 0x015E,
-- ClientPathScientistScanBotScan  = 0x015F,
 - ServerCharacterSelectFail       = 0x0162,
 - ClientSellItemToVendor          = 0x0166,
 - ClientMailSend                  = 0x0168,
@@ -156,7 +161,6 @@
 - ServerSpellUpdate               = 0x017B,
 - ClientItemSplit                 = 0x017D,
 - ServerItemStackCountUpdate      = 0x017F,
-- ClientPathScientistScanBotDeploy= 0x0180,
 - ClientItemMove                  = 0x0182,
 - ClientItemMoveFromSupplySatchel = 0x0184,
 - ClientEntitySelect              = 0x0185,
@@ -314,7 +318,6 @@
 - ServerAuthDenied                = 0x063D,
 - ServerOwnedCommodityOrders      = 0x064C,
 - ServerOwnedItemAuctions         = 0x064D,
-- ServerPathScientistScanbotResult = 0x669,
 - ServerPendingWorldRemovalCancel = 0x0688,
 - ServerPendingWorldRemoval       = 0x0689,
 - ClientRequestPlayed             = 0x0693,

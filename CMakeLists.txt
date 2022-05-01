@@ -4880,7 +4880,7 @@ add_executable(WildstarIDA
         IDA/functions/sub_1404B36E0.c
         IDA/functions/sub_1404B37E0.c
         IDA/functions/sub_1404B38E0.c
-        IDA/functions/sub_1404B40B0.c
+        IDA/functions/OpenCustomerSurveyDialog.c
         IDA/functions/sub_1404B41C0.c
         IDA/functions/sub_1404B42D0.c
         IDA/functions/sub_1404B49A0.c
